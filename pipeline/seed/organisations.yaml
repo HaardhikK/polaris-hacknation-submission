@@ -1,0 +1,56 @@
+# Patient organisations. Contact = the organisation's own pages, never a named person.
+# last_verified stays empty until a person has opened the page.
+- key: familiescn2a
+  name: FamilieSCN2A Foundation
+  lines: [scn2a_gain, scn2a_loss] # one organisation serves both directions; the build says so
+  url: https://www.scn2a.org
+  contact_page: https://www.scn2a.org/contact/
+  note: Runs the DRAGONFLY natural-history registry on NORD IAMRARE.
+
+- key: syngap_research_fund
+  name: SynGAP Research Fund
+  lines: [syngap1]
+  url: https://curesyngap1.org
+  contact_page: https://curesyngap1.org/contact/
+
+- key: bridge_the_gap_syngap
+  name: "Bridge the Gap: SYNGAP Education and Research Foundation"
+  lines: [syngap1]
+  url: https://bridgesyngap.org
+
+- key: scn8a_alliance
+  name: SCN8A Alliance
+  lines: [scn8a_dee]
+  url: https://scn8aalliance.org
+  note: Runs the International SCN8A Registry (scn8a.net; the site asks not to mine it, so it is linked only).
+
+- key: cute_syndrome_foundation
+  name: The Cute Syndrome Foundation
+  lines: [scn8a_dee]
+  url: https://thecutesyndrome.com
+
+- key: dravet_syndrome_foundation
+  name: Dravet Syndrome Foundation
+  lines: [dravet]
+  url: https://dravetfoundation.org
+
+- key: dravet_syndrome_european_federation
+  name: Dravet Syndrome European Federation
+  lines: [dravet]
+  url: https://dravet.eu
+  note: Runs the European Dravet patient registry.
+
+- key: stxbp1_foundation
+  name: STXBP1 Foundation
+  lines: [stxbp1]
+  url: https://www.stxbp1disorders.org
+
+- key: loulou_foundation
+  name: LouLou Foundation
+  lines: [cdkl5]
+  url: https://www.louloufoundation.org
+
+- key: international_foundation_for_cdkl5_research
+  name: International Foundation for CDKL5 Research
+  lines: [cdkl5]
+  url: https://cdkl5.com

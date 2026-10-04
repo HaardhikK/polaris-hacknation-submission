@@ -1,0 +1,2855 @@
+{
+ "$defs": {
+  "AcceptedClaim": {
+   "additionalProperties": false,
+   "description": "A validator-accepted claim as committed for the site: the row plus its id and run.",
+   "properties": {
+    "agent": {
+     "$ref": "#/$defs/Extractor"
+    },
+    "basis": {
+     "$ref": "#/$defs/Basis"
+    },
+    "claim_id": {
+     "maxLength": 160,
+     "minLength": 1,
+     "title": "Claim Id",
+     "type": "string"
+    },
+    "claim_level": {
+     "$ref": "#/$defs/ClaimLevel"
+    },
+    "direction": {
+     "$ref": "#/$defs/Direction"
+    },
+    "evidence_quote": {
+     "maxLength": 300,
+     "minLength": 20,
+     "title": "Evidence Quote",
+     "type": "string"
+    },
+    "extractor_run_id": {
+     "maxLength": 80,
+     "minLength": 1,
+     "title": "Extractor Run Id",
+     "type": "string"
+    },
+    "flags": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Flags",
+     "type": "array"
+    },
+    "gene": {
+     "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+     "title": "Gene",
+     "type": "string"
+    },
+    "model": {
+     "maxLength": 80,
+     "minLength": 1,
+     "title": "Model",
+     "type": "string"
+    },
+    "pmid": {
+     "pattern": "^[0-9]{1,9}$",
+     "title": "Pmid",
+     "type": "string"
+    },
+    "stance": {
+     "$ref": "#/$defs/Stance"
+    },
+    "variant": {
+     "anyOf": [
+      {
+       "maxLength": 40,
+       "minLength": 1,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Variant"
+    }
+   },
+   "required": [
+    "pmid",
+    "gene",
+    "claim_level",
+    "direction",
+    "stance",
+    "basis",
+    "evidence_quote",
+    "claim_id",
+    "extractor_run_id",
+    "agent",
+    "model"
+   ],
+   "title": "AcceptedClaim",
+   "type": "object"
+  },
+  "Alias": {
+   "additionalProperties": false,
+   "description": "One search term and where it leads.\n\nA term leads to exactly one of: a line, a direction step (one channel gene; the user\npicks gain or loss), a gene picker (an Orphanet entry covering several genes: the\npicker lists the seeded genes and always offers \"my child's gene isn't listed\"), or a\nmechanism. Gene names and IDs of direction-split genes always lead to the direction\nstep, never to a line. A variant alias names its gene and the PMID of the claim that\njustifies its line; the build emits it only when a code-checked functional-assay claim\nof that PMID, gene, variant and direction exists (no person signs claims for this\nsubmission). A variant whose assays disagree carries ``variant_direction: mixed`` and\nleads to the \"Sources disagree\" state, never to a line. A symptom term shared by\nseveral seeded genes lists them in ``genes`` and opens the gene picker, so a symptom\nnever routes a family to one direction line.",
+   "properties": {
+    "direction": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/Direction"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "direction_step": {
+     "default": false,
+     "title": "Direction Step",
+     "type": "boolean"
+    },
+    "gene": {
+     "anyOf": [
+      {
+       "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Gene"
+    },
+    "genes": {
+     "items": {
+      "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+      "type": "string"
+     },
+     "title": "Genes",
+     "type": "array"
+    },
+    "group_size": {
+     "anyOf": [
+      {
+       "minimum": 2,
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Group Size"
+    },
+    "hpo_id": {
+     "anyOf": [
+      {
+       "pattern": "^HP:[0-9]{7}$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Hpo Id"
+    },
+    "kind": {
+     "$ref": "#/$defs/AliasKind"
+    },
+    "line": {
+     "anyOf": [
+      {
+       "pattern": "^[a-z][a-z0-9_]*$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Line"
+    },
+    "mechanism": {
+     "anyOf": [
+      {
+       "pattern": "^[a-z][a-z_]*$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Mechanism"
+    },
+    "note": {
+     "anyOf": [
+      {
+       "maxLength": 200,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Note"
+    },
+    "orpha": {
+     "anyOf": [
+      {
+       "pattern": "^ORPHA:\\d+$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Orpha"
+    },
+    "pmid": {
+     "anyOf": [
+      {
+       "pattern": "^[0-9]{1,9}$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Pmid"
+    },
+    "term": {
+     "maxLength": 120,
+     "minLength": 1,
+     "title": "Term",
+     "type": "string"
+    },
+    "variant_direction": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/Direction"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    }
+   },
+   "required": [
+    "term",
+    "kind"
+   ],
+   "title": "Alias",
+   "type": "object"
+  },
+  "AliasKind": {
+   "enum": [
+    "disease",
+    "gene",
+    "variant",
+    "organisation",
+    "mechanism",
+    "id",
+    "group",
+    "symptom"
+   ],
+   "title": "AliasKind",
+   "type": "string"
+  },
+  "AssetNode": {
+   "additionalProperties": false,
+   "properties": {
+    "direction": {
+     "$ref": "#/$defs/Direction"
+    },
+    "direction_basis": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/DirectionBasis"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "id": {
+     "title": "Id",
+     "type": "string"
+    },
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "last_verified": {
+     "anyOf": [
+      {
+       "format": "date",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Last Verified"
+    },
+    "nct": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Nct"
+    },
+    "open_to_all": {
+     "title": "Open To All",
+     "type": "boolean"
+    },
+    "owner_gene": {
+     "title": "Owner Gene",
+     "type": "string"
+    },
+    "owner_line": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Owner Line"
+    },
+    "pmid": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Pmid"
+    },
+    "scope": {
+     "$ref": "#/$defs/Scope"
+    },
+    "source": {
+     "$ref": "#/$defs/SourceRef"
+    },
+    "station": {
+     "$ref": "#/$defs/Station"
+    },
+    "type": {
+     "$ref": "#/$defs/AssetType"
+    }
+   },
+   "required": [
+    "id",
+    "type",
+    "station",
+    "scope",
+    "label",
+    "owner_gene",
+    "owner_line",
+    "direction",
+    "direction_basis",
+    "open_to_all",
+    "source",
+    "last_verified",
+    "nct",
+    "pmid"
+   ],
+   "title": "AssetNode",
+   "type": "object"
+  },
+  "AssetType": {
+   "enum": [
+    "registry",
+    "natural_history",
+    "model",
+    "outcome_measure",
+    "trial",
+    "biobank",
+    "care_network",
+    "screening",
+    "drug"
+   ],
+   "title": "AssetType",
+   "type": "string"
+  },
+  "BannerParts": {
+   "additionalProperties": false,
+   "properties": {
+    "body": {
+     "title": "Body",
+     "type": "string"
+    },
+    "heading": {
+     "title": "Heading",
+     "type": "string"
+    }
+   },
+   "required": [
+    "heading",
+    "body"
+   ],
+   "title": "BannerParts",
+   "type": "object"
+  },
+  "Basis": {
+   "description": "Only ``FUNCTIONAL_ASSAY`` claims may confirm a line's direction (checked by code).",
+   "enum": [
+    "functional-assay",
+    "clinical-inference",
+    "review"
+   ],
+   "title": "Basis",
+   "type": "string"
+  },
+  "Card": {
+   "additionalProperties": false,
+   "description": "Everything the result page needs for one line (or for a \"gene_unknown\" card).",
+   "properties": {
+    "banner": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Banner"
+    },
+    "banner_parts": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/BannerParts"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "direction": {
+     "$ref": "#/$defs/Direction"
+    },
+    "line": {
+     "title": "Line",
+     "type": "string"
+    },
+    "named_in_same_study": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Named In Same Study",
+     "type": "array"
+    },
+    "stations": {
+     "additionalProperties": {
+      "$ref": "#/$defs/StationState"
+     },
+     "title": "Stations",
+     "type": "object"
+    },
+    "steps": {
+     "$ref": "#/$defs/Steps"
+    },
+    "top_cards": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Top Cards",
+     "type": "array"
+    },
+    "top_cards_typed": {
+     "items": {
+      "$ref": "#/$defs/TopCard"
+     },
+     "title": "Top Cards Typed",
+     "type": "array"
+    },
+    "transfers": {
+     "items": {
+      "$ref": "#/$defs/Transfer"
+     },
+     "title": "Transfers",
+     "type": "array"
+    }
+   },
+   "required": [
+    "line",
+    "direction",
+    "stations",
+    "steps",
+    "transfers",
+    "banner",
+    "banner_parts",
+    "named_in_same_study",
+    "top_cards",
+    "top_cards_typed"
+   ],
+   "title": "Card",
+   "type": "object"
+  },
+  "ClaimLevel": {
+   "enum": [
+    "variant",
+    "gene"
+   ],
+   "title": "ClaimLevel",
+   "type": "string"
+  },
+  "ClusterGroup": {
+   "additionalProperties": false,
+   "properties": {
+    "caption": {
+     "default": "Groups set by hand from cited lab studies.",
+     "title": "Caption",
+     "type": "string"
+    },
+    "key": {
+     "title": "Key",
+     "type": "string"
+    },
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "line_keys": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Line Keys",
+     "type": "array"
+    }
+   },
+   "required": [
+    "key",
+    "label",
+    "line_keys"
+   ],
+   "title": "ClusterGroup",
+   "type": "object"
+  },
+  "CoListingEdge": {
+   "additionalProperties": false,
+   "properties": {
+    "caveat": {
+     "title": "Caveat",
+     "type": "string"
+    },
+    "gene": {
+     "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+     "title": "Gene",
+     "type": "string"
+    },
+    "human_check": {
+     "title": "Human Check",
+     "type": "boolean"
+    },
+    "kind": {
+     "$ref": "#/$defs/StudyKind"
+    },
+    "line": {
+     "pattern": "^[a-z][a-z0-9_]*$",
+     "title": "Line",
+     "type": "string"
+    },
+    "matched_field": {
+     "$ref": "#/$defs/MatchedField"
+    },
+    "nct": {
+     "pattern": "^NCT[0-9]{8}$",
+     "title": "Nct",
+     "type": "string"
+    },
+    "retrieved": {
+     "format": "date",
+     "title": "Retrieved",
+     "type": "string"
+    },
+    "tier": {
+     "maximum": 3,
+     "minimum": 1,
+     "title": "Tier",
+     "type": "integer"
+    },
+    "window": {
+     "maxLength": 120,
+     "title": "Window",
+     "type": "string"
+    }
+   },
+   "required": [
+    "line",
+    "gene",
+    "nct",
+    "matched_field",
+    "window",
+    "tier",
+    "human_check",
+    "kind",
+    "retrieved",
+    "caveat"
+   ],
+   "title": "CoListingEdge",
+   "type": "object"
+  },
+  "Conflict": {
+   "additionalProperties": false,
+   "description": "Two sources that disagree about a direction or mechanism. Both are shown.",
+   "properties": {
+    "gene": {
+     "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+     "title": "Gene",
+     "type": "string"
+    },
+    "id": {
+     "pattern": "^[a-z][a-z0-9_]*$",
+     "title": "Id",
+     "type": "string"
+    },
+    "line": {
+     "anyOf": [
+      {
+       "pattern": "^[a-z][a-z0-9_]*$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Line"
+    },
+    "note": {
+     "anyOf": [
+      {
+       "maxLength": 300,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Note"
+    },
+    "sides": {
+     "items": {
+      "$ref": "#/$defs/ConflictSide"
+     },
+     "minItems": 2,
+     "title": "Sides",
+     "type": "array"
+    },
+    "variant": {
+     "anyOf": [
+      {
+       "maxLength": 40,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Variant"
+    }
+   },
+   "required": [
+    "id",
+    "gene",
+    "sides"
+   ],
+   "title": "Conflict",
+   "type": "object"
+  },
+  "ConflictSide": {
+   "additionalProperties": false,
+   "properties": {
+    "says": {
+     "maxLength": 200,
+     "minLength": 1,
+     "title": "Says",
+     "type": "string"
+    },
+    "source": {
+     "$ref": "#/$defs/Source"
+    }
+   },
+   "required": [
+    "says",
+    "source"
+   ],
+   "title": "ConflictSide",
+   "type": "object"
+  },
+  "Counts": {
+   "additionalProperties": false,
+   "properties": {
+    "aliases": {
+     "title": "Aliases",
+     "type": "integer"
+    },
+    "assets": {
+     "title": "Assets",
+     "type": "integer"
+    },
+    "claims": {
+     "title": "Claims",
+     "type": "integer"
+    },
+    "co_listings": {
+     "title": "Co Listings",
+     "type": "integer"
+    },
+    "conflicts": {
+     "title": "Conflicts",
+     "type": "integer"
+    },
+    "edges": {
+     "title": "Edges",
+     "type": "integer"
+    },
+    "genes": {
+     "title": "Genes",
+     "type": "integer"
+    },
+    "lines": {
+     "title": "Lines",
+     "type": "integer"
+    },
+    "organisations": {
+     "title": "Organisations",
+     "type": "integer"
+    },
+    "papers": {
+     "title": "Papers",
+     "type": "integer"
+    },
+    "studies": {
+     "title": "Studies",
+     "type": "integer"
+    },
+    "texts_codex": {
+     "title": "Texts Codex",
+     "type": "integer"
+    },
+    "texts_template": {
+     "title": "Texts Template",
+     "type": "integer"
+    },
+    "transfers": {
+     "title": "Transfers",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "lines",
+    "genes",
+    "organisations",
+    "studies",
+    "assets",
+    "papers",
+    "claims",
+    "conflicts",
+    "aliases",
+    "co_listings",
+    "transfers",
+    "edges",
+    "texts_codex",
+    "texts_template"
+   ],
+   "title": "Counts",
+   "type": "object"
+  },
+  "Coverage": {
+   "additionalProperties": false,
+   "description": "\"What we searched and when\" for one line: every fetched paper that names the gene.",
+   "properties": {
+    "esearch_term": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Esearch Term"
+    },
+    "papers_extracted": {
+     "title": "Papers Extracted",
+     "type": "integer"
+    },
+    "papers_mentioning_gene": {
+     "title": "Papers Mentioning Gene",
+     "type": "integer"
+    },
+    "pmids_searched": {
+     "items": {
+      "pattern": "^[0-9]{1,9}$",
+      "type": "string"
+     },
+     "title": "Pmids Searched",
+     "type": "array"
+    },
+    "retrieved": {
+     "format": "date",
+     "title": "Retrieved",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pmids_searched",
+    "papers_mentioning_gene",
+    "papers_extracted",
+    "esearch_term",
+    "retrieved"
+   ],
+   "title": "Coverage",
+   "type": "object"
+  },
+  "DataSource": {
+   "additionalProperties": false,
+   "properties": {
+    "key": {
+     "title": "Key",
+     "type": "string"
+    },
+    "licence": {
+     "title": "Licence",
+     "type": "string"
+    },
+    "name": {
+     "title": "Name",
+     "type": "string"
+    },
+    "release": {
+     "title": "Release",
+     "type": "string"
+    },
+    "retrieved": {
+     "format": "date",
+     "title": "Retrieved",
+     "type": "string"
+    },
+    "url": {
+     "title": "Url",
+     "type": "string"
+    }
+   },
+   "required": [
+    "key",
+    "name",
+    "release",
+    "retrieved",
+    "url",
+    "licence"
+   ],
+   "title": "DataSource",
+   "type": "object"
+  },
+  "Direction": {
+   "description": "Effect of a variant on its gene product. The only direction enum in the repo.",
+   "enum": [
+    "gain",
+    "loss",
+    "mixed",
+    "unknown",
+    "not_applicable"
+   ],
+   "title": "Direction",
+   "type": "string"
+  },
+  "DirectionBasis": {
+   "description": "How an asset's direction was established.",
+   "enum": [
+    "stated_in_record",
+    "onset_proxy",
+    "functional_assay"
+   ],
+   "title": "DirectionBasis",
+   "type": "string"
+  },
+  "DirectionEvidence": {
+   "additionalProperties": false,
+   "description": "The code-checked functional-assay claim that confirms a channel line's hand label.",
+   "properties": {
+    "claim_id": {
+     "title": "Claim Id",
+     "type": "string"
+    },
+    "level": {
+     "const": "checked by code",
+     "default": "checked by code",
+     "title": "Level",
+     "type": "string"
+    },
+    "pmid": {
+     "pattern": "^[0-9]{1,9}$",
+     "title": "Pmid",
+     "type": "string"
+    },
+    "quote": {
+     "title": "Quote",
+     "type": "string"
+    },
+    "variant": {
+     "title": "Variant",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pmid",
+    "variant",
+    "quote",
+    "claim_id"
+   ],
+   "title": "DirectionEvidence",
+   "type": "object"
+  },
+  "Extractor": {
+   "description": "Models allowed to propose claims. Humans sign; they never appear here.",
+   "enum": [
+    "codex",
+    "gpt-oss-20b"
+   ],
+   "title": "Extractor",
+   "type": "string"
+  },
+  "FundingRow": {
+   "additionalProperties": false,
+   "description": "An NIH RePORTER project naming the gene: funding evidence, Level 2 (titles may name\nmedicines). Matched by gene name in the title only, never by direction: ``direction_checked``\nis always false and ``caption`` says so beside every row.",
+   "properties": {
+    "appl_id": {
+     "title": "Appl Id",
+     "type": "integer"
+    },
+    "caption": {
+     "default": "Matched by the gene name in the project title only; whether the project concerns a gain or a loss of function is not checked, so a project may concern the other form of this gene.",
+     "title": "Caption",
+     "type": "string"
+    },
+    "direction_checked": {
+     "const": false,
+     "default": false,
+     "title": "Direction Checked",
+     "type": "boolean"
+    },
+    "end_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "End Date"
+    },
+    "fiscal_year": {
+     "title": "Fiscal Year",
+     "type": "integer"
+    },
+    "gene": {
+     "title": "Gene",
+     "type": "string"
+    },
+    "organisation": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Organisation"
+    },
+    "project_num": {
+     "title": "Project Num",
+     "type": "string"
+    },
+    "start_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Start Date"
+    },
+    "title": {
+     "title": "Title",
+     "type": "string"
+    },
+    "url": {
+     "title": "Url",
+     "type": "string"
+    }
+   },
+   "required": [
+    "gene",
+    "appl_id",
+    "project_num",
+    "title",
+    "organisation",
+    "fiscal_year",
+    "start_date",
+    "end_date",
+    "url"
+   ],
+   "title": "FundingRow",
+   "type": "object"
+  },
+  "GraphEdge": {
+   "additionalProperties": false,
+   "properties": {
+    "asset_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Asset Id"
+    },
+    "claim_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Claim Id"
+    },
+    "kind": {
+     "title": "Kind",
+     "type": "string"
+    },
+    "nct": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Nct"
+    },
+    "pmid": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Pmid"
+    },
+    "retrieved": {
+     "anyOf": [
+      {
+       "format": "date",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Retrieved"
+    },
+    "source_id": {
+     "title": "Source Id",
+     "type": "string"
+    },
+    "source_url": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Source Url"
+    },
+    "target_id": {
+     "title": "Target Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "source_id",
+    "target_id",
+    "kind"
+   ],
+   "title": "GraphEdge",
+   "type": "object"
+  },
+  "HowItGrows": {
+   "additionalProperties": false,
+   "description": "About-page counts from the downloaded files, with the fixed scope sentences.",
+   "properties": {
+    "burden_of_care": {
+     "default": "What the map does for families today: the free shared resources any rare-disease group can join are listed on every result page and here, with their registration record where one exists.",
+     "title": "Burden Of Care",
+     "type": "string"
+    },
+    "free_resources": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "Free Resources",
+     "type": "array"
+    },
+    "genes_covered": {
+     "title": "Genes Covered",
+     "type": "integer"
+    },
+    "lines_covered": {
+     "title": "Lines Covered",
+     "type": "integer"
+    },
+    "orphanet_direction_labels": {
+     "additionalProperties": true,
+     "title": "Orphanet Direction Labels",
+     "type": "object"
+    },
+    "orphanet_entries": {
+     "title": "Orphanet Entries",
+     "type": "integer"
+    },
+    "orphanet_entries_with_a_gene": {
+     "title": "Orphanet Entries With A Gene",
+     "type": "integer"
+    },
+    "out_of_scope": {
+     "default": "Investors, funders and requests for applications that signal money are out of scope for this map; it shows what communities already built and what the rule lets them borrow.",
+     "title": "Out Of Scope",
+     "type": "string"
+    },
+    "retrieved": {
+     "additionalProperties": {
+      "type": "string"
+     },
+     "title": "Retrieved",
+     "type": "object"
+    },
+    "studies_fetched": {
+     "title": "Studies Fetched",
+     "type": "integer"
+    },
+    "studies_naming_two_or_more_seeded_genes": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "Studies Naming Two Or More Seeded Genes",
+     "type": "array"
+    }
+   },
+   "required": [
+    "orphanet_entries",
+    "orphanet_entries_with_a_gene",
+    "orphanet_direction_labels",
+    "studies_fetched",
+    "studies_naming_two_or_more_seeded_genes",
+    "lines_covered",
+    "genes_covered",
+    "free_resources",
+    "retrieved"
+   ],
+   "title": "HowItGrows",
+   "type": "object"
+  },
+  "HpoAnnotation": {
+   "additionalProperties": false,
+   "description": "A hand-curated symptom term for a line that has no official HPO profile.\n\nThe cited abstract must name the symptom; ``seed_check`` compares the label with hp.obo.",
+   "properties": {
+    "annotation": {
+     "const": "Polaris annotation using HPO terms (not an official HPO annotation)",
+     "default": "Polaris annotation using HPO terms (not an official HPO annotation)",
+     "title": "Annotation",
+     "type": "string"
+    },
+    "id": {
+     "pattern": "^HP:[0-9]{7}$",
+     "title": "Id",
+     "type": "string"
+    },
+    "label": {
+     "maxLength": 120,
+     "minLength": 1,
+     "title": "Label",
+     "type": "string"
+    },
+    "pmid": {
+     "pattern": "^[0-9]{1,9}$",
+     "title": "Pmid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id",
+    "label",
+    "pmid"
+   ],
+   "title": "HpoAnnotation",
+   "type": "object"
+  },
+  "Intervention": {
+   "additionalProperties": false,
+   "properties": {
+    "name": {
+     "maxLength": 300,
+     "title": "Name",
+     "type": "string"
+    },
+    "type": {
+     "maxLength": 300,
+     "title": "Type",
+     "type": "string"
+    }
+   },
+   "required": [
+    "type",
+    "name"
+   ],
+   "title": "Intervention",
+   "type": "object"
+  },
+  "LineNode": {
+   "additionalProperties": false,
+   "properties": {
+    "cluster_group": {
+     "title": "Cluster Group",
+     "type": "string"
+    },
+    "coverage": {
+     "$ref": "#/$defs/Coverage"
+    },
+    "direction": {
+     "$ref": "#/$defs/Direction"
+    },
+    "direction_evidence": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/DirectionEvidence"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "direction_known": {
+     "$ref": "#/$defs/Direction"
+    },
+    "direction_step": {
+     "title": "Direction Step",
+     "type": "boolean"
+    },
+    "gene": {
+     "title": "Gene",
+     "type": "string"
+    },
+    "gloss": {
+     "title": "Gloss",
+     "type": "string"
+    },
+    "hpo_terms": {
+     "items": {
+      "$ref": "#/$defs/HpoAnnotation"
+     },
+     "title": "Hpo Terms",
+     "type": "array"
+    },
+    "key": {
+     "title": "Key",
+     "type": "string"
+    },
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "mechanism": {
+     "title": "Mechanism",
+     "type": "string"
+    },
+    "mechanism_family": {
+     "$ref": "#/$defs/MechanismFamily"
+    },
+    "mechanism_label": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Mechanism Label"
+    },
+    "organisations": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Organisations",
+     "type": "array"
+    },
+    "sources": {
+     "items": {
+      "$ref": "#/$defs/SourceRef"
+     },
+     "title": "Sources",
+     "type": "array"
+    },
+    "xrefs": {
+     "additionalProperties": {
+      "type": "string"
+     },
+     "title": "Xrefs",
+     "type": "object"
+    }
+   },
+   "required": [
+    "key",
+    "gene",
+    "mechanism",
+    "mechanism_family",
+    "direction",
+    "direction_known",
+    "direction_evidence",
+    "label",
+    "gloss",
+    "mechanism_label",
+    "xrefs",
+    "sources",
+    "hpo_terms",
+    "organisations",
+    "cluster_group",
+    "coverage",
+    "direction_step"
+   ],
+   "title": "LineNode",
+   "type": "object"
+  },
+  "MatchedField": {
+   "enum": [
+    "conditions",
+    "keywords",
+    "eligibility_inclusion"
+   ],
+   "title": "MatchedField",
+   "type": "string"
+  },
+  "MechanismFamily": {
+   "description": "Direction logic runs only for ``ION_CHANNEL`` lines.",
+   "enum": [
+    "ion_channel",
+    "non_channel"
+   ],
+   "title": "MechanismFamily",
+   "type": "string"
+  },
+  "MechanismStudy": {
+   "additionalProperties": false,
+   "properties": {
+    "caveat": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Caveat"
+    },
+    "kind": {
+     "title": "Kind",
+     "type": "string"
+    },
+    "lines": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Lines",
+     "type": "array"
+    },
+    "name": {
+     "title": "Name",
+     "type": "string"
+    },
+    "nct": {
+     "title": "Nct",
+     "type": "string"
+    },
+    "overall_status": {
+     "title": "Overall Status",
+     "type": "string"
+    },
+    "state": {
+     "title": "State",
+     "type": "string"
+    },
+    "why_stopped": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Why Stopped"
+    }
+   },
+   "required": [
+    "nct",
+    "name",
+    "kind",
+    "overall_status",
+    "state",
+    "caveat",
+    "why_stopped",
+    "lines"
+   ],
+   "title": "MechanismStudy",
+   "type": "object"
+  },
+  "MechanismView": {
+   "additionalProperties": false,
+   "description": "One mechanism x direction cluster for researchers and scouts: who is in it, what they\nhold, and the institutions running studies for two or more of its lines. Contact = the\norganisations' own pages and the study records, never a named person.",
+   "properties": {
+    "funding_projects": {
+     "title": "Funding Projects",
+     "type": "integer"
+    },
+    "genes": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Genes",
+     "type": "array"
+    },
+    "institutions": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "Institutions",
+     "type": "array"
+    },
+    "key": {
+     "title": "Key",
+     "type": "string"
+    },
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "lines": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Lines",
+     "type": "array"
+    },
+    "models": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "Models",
+     "type": "array"
+    },
+    "organisations": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "Organisations",
+     "type": "array"
+    },
+    "outcome_measures": {
+     "items": {
+      "additionalProperties": true,
+      "type": "object"
+     },
+     "title": "Outcome Measures",
+     "type": "array"
+    },
+    "shared_assets": {
+     "title": "Shared Assets",
+     "type": "integer"
+    },
+    "studies": {
+     "additionalProperties": {
+      "items": {
+       "$ref": "#/$defs/MechanismStudy"
+      },
+      "type": "array"
+     },
+     "title": "Studies",
+     "type": "object"
+    }
+   },
+   "required": [
+    "key",
+    "label",
+    "lines",
+    "genes",
+    "organisations",
+    "studies",
+    "models",
+    "outcome_measures",
+    "institutions",
+    "shared_assets",
+    "funding_projects"
+   ],
+   "title": "MechanismView",
+   "type": "object"
+  },
+  "Meta": {
+   "additionalProperties": false,
+   "description": "``medication_warning``, ``footer`` and every ``transfers.*.banner`` are rendered verbatim\nby the site; ``papers[].title`` and ``claims[].evidence_quote`` never appear at Level 0.",
+   "properties": {
+    "about_notice": {
+     "title": "About Notice",
+     "type": "string"
+    },
+    "badge": {
+     "default": "Found by AI, checked by code",
+     "title": "Badge",
+     "type": "string"
+    },
+    "built": {
+     "format": "date",
+     "title": "Built",
+     "type": "string"
+    },
+    "cluster_groups": {
+     "items": {
+      "$ref": "#/$defs/ClusterGroup"
+     },
+     "title": "Cluster Groups",
+     "type": "array"
+    },
+    "consistency_check": {
+     "additionalProperties": true,
+     "title": "Consistency Check",
+     "type": "object"
+    },
+    "counts": {
+     "$ref": "#/$defs/Counts"
+    },
+    "esearch_term": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Esearch Term"
+    },
+    "footer": {
+     "title": "Footer",
+     "type": "string"
+    },
+    "generator": {
+     "default": "polaris pipeline",
+     "title": "Generator",
+     "type": "string"
+    },
+    "how_it_grows": {
+     "$ref": "#/$defs/HowItGrows"
+    },
+    "hpo_annotation_label": {
+     "default": "Polaris annotation using HPO terms (not an official HPO annotation)",
+     "title": "Hpo Annotation Label",
+     "type": "string"
+    },
+    "medication_warning": {
+     "default": "Not medical advice. Never change or stop a medication without your child's neurologist.",
+     "title": "Medication Warning",
+     "type": "string"
+    },
+    "pre_computed": {
+     "format": "date",
+     "title": "Pre Computed",
+     "type": "string"
+    },
+    "schema_version": {
+     "default": 1,
+     "title": "Schema Version",
+     "type": "integer"
+    },
+    "source": {
+     "const": "real",
+     "default": "real",
+     "title": "Source",
+     "type": "string"
+    },
+    "sources": {
+     "items": {
+      "$ref": "#/$defs/DataSource"
+     },
+     "title": "Sources",
+     "type": "array"
+    },
+    "steps_total": {
+     "default": 7,
+     "title": "Steps Total",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "built",
+    "pre_computed",
+    "counts",
+    "sources",
+    "esearch_term",
+    "cluster_groups",
+    "footer",
+    "about_notice",
+    "consistency_check",
+    "how_it_grows"
+   ],
+   "title": "Meta",
+   "type": "object"
+  },
+  "OrganisationNode": {
+   "additionalProperties": false,
+   "properties": {
+    "contact_page": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Contact Page"
+    },
+    "key": {
+     "title": "Key",
+     "type": "string"
+    },
+    "last_verified": {
+     "anyOf": [
+      {
+       "format": "date",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Last Verified"
+    },
+    "lines": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Lines",
+     "type": "array"
+    },
+    "name": {
+     "title": "Name",
+     "type": "string"
+    },
+    "url": {
+     "title": "Url",
+     "type": "string"
+    }
+   },
+   "required": [
+    "key",
+    "name",
+    "lines",
+    "url",
+    "contact_page",
+    "last_verified"
+   ],
+   "title": "OrganisationNode",
+   "type": "object"
+  },
+  "Paper": {
+   "additionalProperties": false,
+   "description": "A paper node: the PubMed strip-list fields only (never the abstract or authors).",
+   "properties": {
+    "doi": {
+     "anyOf": [
+      {
+       "maxLength": 100,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Doi"
+    },
+    "genes_mentioned": {
+     "items": {
+      "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+      "type": "string"
+     },
+     "title": "Genes Mentioned",
+     "type": "array"
+    },
+    "journal": {
+     "anyOf": [
+      {
+       "maxLength": 300,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Journal"
+    },
+    "pmid": {
+     "pattern": "^[0-9]{1,9}$",
+     "title": "Pmid",
+     "type": "string"
+    },
+    "retrieved": {
+     "format": "date",
+     "title": "Retrieved",
+     "type": "string"
+    },
+    "title": {
+     "maxLength": 300,
+     "title": "Title",
+     "type": "string"
+    },
+    "year": {
+     "anyOf": [
+      {
+       "maximum": 2100,
+       "minimum": 1900,
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Year"
+    }
+   },
+   "required": [
+    "pmid",
+    "title",
+    "retrieved"
+   ],
+   "title": "Paper",
+   "type": "object"
+  },
+  "ResearcherFields": {
+   "additionalProperties": false,
+   "description": "Record fields that carry drug names by design: Level 2 (\"For researchers\") only.",
+   "properties": {
+    "brief_title": {
+     "title": "Brief Title",
+     "type": "string"
+    },
+    "interventions": {
+     "items": {
+      "$ref": "#/$defs/Intervention"
+     },
+     "title": "Interventions",
+     "type": "array"
+    },
+    "keywords": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Keywords",
+     "type": "array"
+    },
+    "outcome_measures": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Outcome Measures",
+     "type": "array"
+    }
+   },
+   "required": [
+    "brief_title",
+    "keywords",
+    "interventions",
+    "outcome_measures"
+   ],
+   "title": "ResearcherFields",
+   "type": "object"
+  },
+  "Scope": {
+   "description": "``GENE`` assets serve every line of a gene and are never a borrow between them.",
+   "enum": [
+    "gene",
+    "line"
+   ],
+   "title": "Scope",
+   "type": "string"
+  },
+  "Source": {
+   "additionalProperties": false,
+   "description": "Where a fact came from and when we looked.\n\n``retrieved`` is None for a page the pipeline has not fetched and a person has not\nopened yet; the site then says \"not yet verified\".",
+   "properties": {
+    "label": {
+     "maxLength": 200,
+     "minLength": 1,
+     "title": "Label",
+     "type": "string"
+    },
+    "retrieved": {
+     "anyOf": [
+      {
+       "format": "date",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Retrieved"
+    },
+    "url": {
+     "format": "uri",
+     "maxLength": 2083,
+     "minLength": 1,
+     "title": "Url",
+     "type": "string"
+    }
+   },
+   "required": [
+    "label",
+    "url"
+   ],
+   "title": "Source",
+   "type": "object"
+  },
+  "SourceRef": {
+   "additionalProperties": false,
+   "properties": {
+    "label": {
+     "title": "Label",
+     "type": "string"
+    },
+    "retrieved": {
+     "anyOf": [
+      {
+       "format": "date",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Retrieved"
+    },
+    "url": {
+     "title": "Url",
+     "type": "string"
+    }
+   },
+   "required": [
+    "label",
+    "url",
+    "retrieved"
+   ],
+   "title": "SourceRef",
+   "type": "object"
+  },
+  "Stance": {
+   "enum": [
+    "supports",
+    "contradicts",
+    "unclear"
+   ],
+   "title": "Stance",
+   "type": "string"
+  },
+  "Station": {
+   "description": "The seven things a community needs before a treatment is possible.",
+   "enum": [
+    "diagnosis",
+    "registry",
+    "natural_history",
+    "mechanism",
+    "model",
+    "outcome_measure",
+    "trial"
+   ],
+   "title": "Station",
+   "type": "string"
+  },
+  "StationState": {
+   "additionalProperties": false,
+   "properties": {
+    "halted": {
+     "anyOf": [
+      {
+       "enum": [
+        "stopped",
+        "paused"
+       ],
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Halted"
+    },
+    "state": {
+     "enum": [
+      "have",
+      "missing",
+      "unknown"
+     ],
+     "title": "State",
+     "type": "string"
+    },
+    "why": {
+     "title": "Why",
+     "type": "string"
+    }
+   },
+   "required": [
+    "state",
+    "why"
+   ],
+   "title": "StationState",
+   "type": "object"
+  },
+  "Steps": {
+   "additionalProperties": false,
+   "properties": {
+    "borrowable": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Borrowable",
+     "type": "array"
+    },
+    "held": {
+     "title": "Held",
+     "type": "integer"
+    },
+    "missing": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Missing",
+     "type": "array"
+    },
+    "mode": {
+     "const": "steps",
+     "default": "steps",
+     "title": "Mode",
+     "type": "string"
+    },
+    "sentence": {
+     "title": "Sentence",
+     "type": "string"
+    },
+    "total": {
+     "title": "Total",
+     "type": "integer"
+    },
+    "unknown": {
+     "title": "Unknown",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "total",
+    "held",
+    "unknown",
+    "missing",
+    "borrowable",
+    "sentence"
+   ],
+   "title": "Steps",
+   "type": "object"
+  },
+  "StudyKind": {
+   "enum": [
+    "registry",
+    "eligible_gene_list",
+    "natural_history",
+    "trial",
+    "biorepository"
+   ],
+   "title": "StudyKind",
+   "type": "string"
+  },
+  "StudyNode": {
+   "additionalProperties": false,
+   "description": "The seed row (display name, kind, genes) merged with the stripped record. The display\ntitle is the seed ``name``; ``researcher`` holds the fields the family path never shows.",
+   "properties": {
+    "conditions": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Conditions",
+     "type": "array"
+    },
+    "genes_named": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Genes Named",
+     "type": "array"
+    },
+    "human_check": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Human Check",
+     "type": "array"
+    },
+    "kind": {
+     "$ref": "#/$defs/StudyKind"
+    },
+    "last_update_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Last Update Date"
+    },
+    "last_verified": {
+     "anyOf": [
+      {
+       "format": "date",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Last Verified"
+    },
+    "lead_sponsor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Lead Sponsor"
+    },
+    "maximum_age": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Maximum Age"
+    },
+    "minimum_age": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Minimum Age"
+    },
+    "name": {
+     "title": "Name",
+     "type": "string"
+    },
+    "nct": {
+     "title": "Nct",
+     "type": "string"
+    },
+    "overall_status": {
+     "title": "Overall Status",
+     "type": "string"
+    },
+    "researcher": {
+     "$ref": "#/$defs/ResearcherFields"
+    },
+    "retrieved": {
+     "format": "date",
+     "title": "Retrieved",
+     "type": "string"
+    },
+    "source": {
+     "$ref": "#/$defs/SourceRef"
+    },
+    "start_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Start Date"
+    },
+    "std_ages": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Std Ages",
+     "type": "array"
+    },
+    "stopped": {
+     "title": "Stopped",
+     "type": "boolean"
+    },
+    "study_population": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Study Population"
+    },
+    "why_stopped": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Why Stopped"
+    }
+   },
+   "required": [
+    "nct",
+    "name",
+    "kind",
+    "genes_named",
+    "source",
+    "last_verified",
+    "overall_status",
+    "stopped",
+    "start_date",
+    "last_update_date",
+    "why_stopped",
+    "conditions",
+    "minimum_age",
+    "maximum_age",
+    "std_ages",
+    "study_population",
+    "lead_sponsor",
+    "retrieved",
+    "human_check",
+    "researcher"
+   ],
+   "title": "StudyNode",
+   "type": "object"
+  },
+  "Text": {
+   "additionalProperties": false,
+   "properties": {
+    "addressee": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Addressee"
+    },
+    "card_key": {
+     "title": "Card Key",
+     "type": "string"
+    },
+    "check_first": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Check First",
+     "type": "array"
+    },
+    "citations": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Citations",
+     "type": "array"
+    },
+    "proposal": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Proposal"
+    },
+    "provenance": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/TextProvenance"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "provenance_line": {
+     "title": "Provenance Line",
+     "type": "string"
+    },
+    "source": {
+     "enum": [
+      "codex",
+      "template"
+     ],
+     "title": "Source",
+     "type": "string"
+    },
+    "text": {
+     "title": "Text",
+     "type": "string"
+    }
+   },
+   "required": [
+    "card_key",
+    "text",
+    "proposal",
+    "check_first",
+    "citations",
+    "addressee",
+    "source",
+    "provenance",
+    "provenance_line"
+   ],
+   "title": "Text",
+   "type": "object"
+  },
+  "TextProvenance": {
+   "additionalProperties": false,
+   "properties": {
+    "agent": {
+     "$ref": "#/$defs/Extractor"
+    },
+    "checker": {
+     "title": "Checker",
+     "type": "string"
+    },
+    "extractor_run_id": {
+     "maxLength": 80,
+     "minLength": 1,
+     "title": "Extractor Run Id",
+     "type": "string"
+    },
+    "input_manifest_sha256": {
+     "pattern": "^[0-9a-f]{64}$",
+     "title": "Input Manifest Sha256",
+     "type": "string"
+    },
+    "model": {
+     "maxLength": 80,
+     "minLength": 1,
+     "title": "Model",
+     "type": "string"
+    },
+    "output_sha256": {
+     "pattern": "^[0-9a-f]{64}$",
+     "title": "Output Sha256",
+     "type": "string"
+    },
+    "prompt_sha256": {
+     "pattern": "^[0-9a-f]{64}$",
+     "title": "Prompt Sha256",
+     "type": "string"
+    },
+    "run_at": {
+     "format": "date-time",
+     "title": "Run At",
+     "type": "string"
+    },
+    "step": {
+     "pattern": "^[a-z][a-z0-9_]*$",
+     "title": "Step",
+     "type": "string"
+    },
+    "tool_version": {
+     "maxLength": 40,
+     "minLength": 1,
+     "title": "Tool Version",
+     "type": "string"
+    }
+   },
+   "required": [
+    "agent",
+    "model",
+    "tool_version",
+    "run_at",
+    "prompt_sha256",
+    "input_manifest_sha256",
+    "extractor_run_id",
+    "step",
+    "output_sha256",
+    "checker"
+   ],
+   "title": "TextProvenance",
+   "type": "object"
+  },
+  "TopCard": {
+   "additionalProperties": false,
+   "properties": {
+    "asset_id": {
+     "title": "Asset Id",
+     "type": "string"
+    },
+    "card_type": {
+     "enum": [
+      "borrow",
+      "already_open"
+     ],
+     "title": "Card Type",
+     "type": "string"
+    }
+   },
+   "required": [
+    "asset_id",
+    "card_type"
+   ],
+   "title": "TopCard",
+   "type": "object"
+  },
+  "Transfer": {
+   "additionalProperties": false,
+   "description": "One asset judged for one target line, with the reason in facts.",
+   "properties": {
+    "asset_id": {
+     "pattern": "^[a-z][a-z0-9_]*$",
+     "title": "Asset Id",
+     "type": "string"
+    },
+    "asset_type": {
+     "$ref": "#/$defs/AssetType"
+    },
+    "banner": {
+     "anyOf": [
+      {
+       "maxLength": 400,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Banner"
+    },
+    "basis_note": {
+     "anyOf": [
+      {
+       "maxLength": 200,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Basis Note"
+    },
+    "blocked": {
+     "default": false,
+     "title": "Blocked",
+     "type": "boolean"
+    },
+    "check_first": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Check First",
+     "type": "array"
+    },
+    "cited_pmid": {
+     "anyOf": [
+      {
+       "pattern": "^[0-9]{1,9}$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cited Pmid"
+    },
+    "co_owner_genes": {
+     "items": {
+      "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+      "type": "string"
+     },
+     "title": "Co Owner Genes",
+     "type": "array"
+    },
+    "crosses_direction": {
+     "title": "Crosses Direction",
+     "type": "boolean"
+    },
+    "crosses_gene": {
+     "title": "Crosses Gene",
+     "type": "boolean"
+    },
+    "direction_basis": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/DirectionBasis"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "evidence_claim_ids": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Evidence Claim Ids",
+     "type": "array"
+    },
+    "evidence_level": {
+     "maxLength": 40,
+     "title": "Evidence Level",
+     "type": "string"
+    },
+    "fills_missing_station": {
+     "title": "Fills Missing Station",
+     "type": "boolean"
+    },
+    "last_update_date": {
+     "anyOf": [
+      {
+       "maxLength": 10,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Last Update Date"
+    },
+    "nct": {
+     "anyOf": [
+      {
+       "pattern": "^NCT[0-9]{8}$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Nct"
+    },
+    "open_to_all": {
+     "default": false,
+     "title": "Open To All",
+     "type": "boolean"
+    },
+    "owner_gene": {
+     "pattern": "^[A-Z][A-Z0-9-]{1,14}$",
+     "title": "Owner Gene",
+     "type": "string"
+    },
+    "owner_line": {
+     "anyOf": [
+      {
+       "pattern": "^[a-z][a-z0-9_]*$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Owner Line"
+    },
+    "owner_org": {
+     "anyOf": [
+      {
+       "maxLength": 160,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Owner Org"
+    },
+    "rank": {
+     "minimum": 1,
+     "title": "Rank",
+     "type": "integer"
+    },
+    "reason": {
+     "maxLength": 400,
+     "title": "Reason",
+     "type": "string"
+    },
+    "source_pmid": {
+     "anyOf": [
+      {
+       "pattern": "^[0-9]{1,9}$",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Source Pmid"
+    },
+    "start_date": {
+     "anyOf": [
+      {
+       "maxLength": 10,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Start Date"
+    },
+    "station": {
+     "$ref": "#/$defs/Station"
+    },
+    "status": {
+     "$ref": "#/$defs/TransferStatus"
+    },
+    "std_ages": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Std Ages",
+     "type": "array"
+    },
+    "study_population": {
+     "anyOf": [
+      {
+       "maxLength": 300,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Study Population"
+    },
+    "study_status": {
+     "anyOf": [
+      {
+       "maxLength": 40,
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Study Status"
+    },
+    "target": {
+     "pattern": "^[a-z][a-z0-9_]*$",
+     "title": "Target",
+     "type": "string"
+    },
+    "what_differs": {
+     "items": {
+      "type": "string"
+     },
+     "title": "What Differs",
+     "type": "array"
+    }
+   },
+   "required": [
+    "target",
+    "asset_id",
+    "asset_type",
+    "station",
+    "owner_gene",
+    "owner_line",
+    "status",
+    "crosses_gene",
+    "crosses_direction",
+    "fills_missing_station",
+    "evidence_level",
+    "reason",
+    "rank"
+   ],
+   "title": "Transfer",
+   "type": "object"
+  },
+  "TransferStatus": {
+   "enum": [
+    "viable",
+    "needs_expert_check",
+    "not_shared",
+    "already_open"
+   ],
+   "title": "TransferStatus",
+   "type": "string"
+  },
+  "TriedBefore": {
+   "additionalProperties": false,
+   "description": "A stopped or paused study naming the line: Level 2 only, the sponsor's reason verbatim.\n``state`` is \"paused\" for a SUSPENDED record (the registry says it may resume), else\n\"stopped\"; the fixed sentence about stopped studies applies to both.",
+   "properties": {
+    "last_update_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Last Update Date"
+    },
+    "name": {
+     "title": "Name",
+     "type": "string"
+    },
+    "nct": {
+     "title": "Nct",
+     "type": "string"
+    },
+    "overall_status": {
+     "title": "Overall Status",
+     "type": "string"
+    },
+    "state": {
+     "title": "State",
+     "type": "string"
+    },
+    "why_stopped": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "title": "Why Stopped"
+    }
+   },
+   "required": [
+    "nct",
+    "name",
+    "overall_status",
+    "state",
+    "why_stopped",
+    "last_update_date"
+   ],
+   "title": "TriedBefore",
+   "type": "object"
+  }
+ },
+ "additionalProperties": false,
+ "properties": {
+  "aliases": {
+   "items": {
+    "$ref": "#/$defs/Alias"
+   },
+   "title": "Aliases",
+   "type": "array"
+  },
+  "assets": {
+   "items": {
+    "$ref": "#/$defs/AssetNode"
+   },
+   "title": "Assets",
+   "type": "array"
+  },
+  "claims": {
+   "items": {
+    "$ref": "#/$defs/AcceptedClaim"
+   },
+   "title": "Claims",
+   "type": "array"
+  },
+  "co_listings": {
+   "items": {
+    "$ref": "#/$defs/CoListingEdge"
+   },
+   "title": "Co Listings",
+   "type": "array"
+  },
+  "conflicts": {
+   "items": {
+    "$ref": "#/$defs/Conflict"
+   },
+   "title": "Conflicts",
+   "type": "array"
+  },
+  "edges": {
+   "items": {
+    "$ref": "#/$defs/GraphEdge"
+   },
+   "title": "Edges",
+   "type": "array"
+  },
+  "funding": {
+   "items": {
+    "$ref": "#/$defs/FundingRow"
+   },
+   "title": "Funding",
+   "type": "array"
+  },
+  "lines": {
+   "items": {
+    "$ref": "#/$defs/LineNode"
+   },
+   "title": "Lines",
+   "type": "array"
+  },
+  "mechanism_view": {
+   "items": {
+    "$ref": "#/$defs/MechanismView"
+   },
+   "title": "Mechanism View",
+   "type": "array"
+  },
+  "meta": {
+   "$ref": "#/$defs/Meta"
+  },
+  "organisations": {
+   "items": {
+    "$ref": "#/$defs/OrganisationNode"
+   },
+   "title": "Organisations",
+   "type": "array"
+  },
+  "papers": {
+   "items": {
+    "$ref": "#/$defs/Paper"
+   },
+   "title": "Papers",
+   "type": "array"
+  },
+  "studies": {
+   "items": {
+    "$ref": "#/$defs/StudyNode"
+   },
+   "title": "Studies",
+   "type": "array"
+  },
+  "texts": {
+   "additionalProperties": {
+    "$ref": "#/$defs/Text"
+   },
+   "title": "Texts",
+   "type": "object"
+  },
+  "transfers": {
+   "additionalProperties": {
+    "$ref": "#/$defs/Card"
+   },
+   "title": "Transfers",
+   "type": "object"
+  },
+  "tried_before": {
+   "additionalProperties": {
+    "items": {
+     "$ref": "#/$defs/TriedBefore"
+    },
+    "type": "array"
+   },
+   "title": "Tried Before",
+   "type": "object"
+  }
+ },
+ "required": [
+  "meta",
+  "lines",
+  "organisations",
+  "studies",
+  "assets",
+  "papers",
+  "claims",
+  "conflicts",
+  "aliases",
+  "co_listings",
+  "transfers",
+  "texts",
+  "edges",
+  "tried_before",
+  "mechanism_view",
+  "funding"
+ ],
+ "title": "GraphFile",
+ "type": "object"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Polaris explain output",
+  "description": "What the explanation model returns for one batch of cards. Strict: every property required, nothing extra. Every text is post-checked by pipeline/explain.py before it is committed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["texts"],
+  "properties": {
+    "texts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["card_key", "text", "proposal"],
+        "properties": {
+          "card_key": {
+            "type": "string",
+            "description": "The card_key from the input, copied exactly.",
+            "pattern": "^[a-z][a-z0-9_]*:[a-z][a-z0-9_]*$"
+          },
+          "text": {
+            "type": "string",
+            "description": "One or two plain sentences for a parent, at most 400 characters.",
+            "minLength": 20,
+            "maxLength": 400
+          },
+          "proposal": {
+            "type": ["string", "null"],
+            "description": "A two-way message for a borrow card, at most 400 characters; null otherwise.",
+            "maxLength": 400
+          }
+        }
+      }
+    }
+  }
+}

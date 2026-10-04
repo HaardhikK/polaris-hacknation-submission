@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation>
+      <PMID Version="1">34287911</PMID>
+      <Article>
+        <Journal>
+          <Title>Brain</Title>
+          <JournalIssue><PubDate><Year>2021</Year></PubDate></JournalIssue>
+        </Journal>
+        <ArticleTitle>SCN2A  <i>R853Q</i> study title</ArticleTitle>
+        <Abstract>
+          <AbstractText Label="BACKGROUND">First   part with <sup>inline</sup> markup.</AbstractText>
+          <AbstractText Label="RESULTS">Heterologously expressed R853Q channels exhibit an overall loss‑of‑function.</AbstractText>
+        </Abstract>
+        <PublicationTypeList>
+          <PublicationType>Journal Article</PublicationType>
+        </PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34287911</ArticleId>
+        <ArticleId IdType="doi">10.1000/x</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>

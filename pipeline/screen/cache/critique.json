@@ -1,0 +1,524 @@
+{
+ "lines": {
+  "scn2a_gain": {
+   "items": {
+    "CHEMBL1068": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "37152433",
+       "text": "The functional analysis title does not state whether the SCN2A variant has gain of function."
+      },
+      {
+       "kind": "other",
+       "pmid": "37152433",
+       "text": "The functional analysis title describes seizures refractory to OXCARBAZEPINE, leaving the proposed link between blockade and reduced excitability unsupported."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [
+      "Sodium channel blockade by OXCARBAZEPINE could counter excess channel activity in SCN2A gain of function."
+     ],
+     "why": [
+      {
+       "pmid": "37152433",
+       "text": "Functional analysis of an SCN2A variant in an OXCARBAZEPINE-associated report provides a gene-specific basis for examining variant-dependent blockade."
+      }
+     ]
+    },
+    "CHEMBL108": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "40540154",
+       "text": "The organoid title does not identify the SCN2A variant as gain of function."
+      },
+      {
+       "kind": "model_system_or_species",
+       "pmid": "40540154",
+       "text": "The organoid findings come from a model system whose responses may differ from those of mature neuronal networks."
+      }
+     ],
+     "next_test": "patient_derived_neuron_electrophysiology",
+     "unchecked_reasoning": [
+      "Sodium channel blockade by CARBAMAZEPINE could counter excess channel activity in SCN2A gain of function."
+     ],
+     "why": [
+      {
+       "pmid": "40540154",
+       "text": "SCN2A variant organoid hyperexcitability and differential compound responses provide a cellular rationale for examining channel blockade."
+      }
+     ]
+    },
+    "CHEMBL1294": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "40808385",
+       "text": "The sodium channel review title does not state an SCN2A variant direction."
+      },
+      {
+       "kind": "not_a_drug_test",
+       "pmid": "29455050",
+       "text": "The gene-panel and genotype-phenotype title describes genetic characterization without identifying a QUINIDINE experiment."
+      }
+     ],
+     "next_test": "literature_review_first",
+     "unchecked_reasoning": [
+      "Sodium channel blockade by QUINIDINE could counter excess channel activity in SCN2A gain of function."
+     ],
+     "why": [
+      {
+       "pmid": "40808385",
+       "text": "The review of voltage-gated sodium channel physiology provides family-level context for investigating how blockade changes channel activity."
+      }
+     ]
+    },
+    "CHEMBL16": {
+     "doubts": [
+      {
+       "kind": "different_variant_direction",
+       "pmid": "42774767",
+       "text": "Mixed gain and loss of function may not represent the channel behavior of a gain-only SCN2A variant."
+      },
+      {
+       "kind": "other",
+       "pmid": "38544375",
+       "text": "The neuronal network title does not specify the direction or magnitude of the response to PHENYTOIN."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "42774767",
+       "text": "The gain component of the mixed-function SCN2A variant provides a rationale for examining PHENYTOIN blockade, without establishing its effect."
+      },
+      {
+       "pmid": "38544375",
+       "text": "Variant-specific SCN2A neuronal network phenotypes and drug sensitivity provide a rationale for testing how blockade changes network activity."
+      }
+     ]
+    },
+    "CHEMBL220492": {
+     "doubts": [
+      {
+       "kind": "different_variant_direction",
+       "pmid": "42774767",
+       "text": "The characterized SCN2A variant combines gain and loss of function, limiting extrapolation to gain-only variants."
+      },
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "10768292",
+       "text": "The TOPIRAMATE mechanism overview title does not identify SCN2A or a variant direction."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [
+      "Sodium channel blockade by TOPIRAMATE could counter excess channel activity in SCN2A gain of function."
+     ],
+     "why": [
+      {
+       "pmid": "42774767",
+       "text": "The pharmacological characterization of an SCN2A variant with a gain component provides a rationale for examining variant-dependent channel inhibition."
+      }
+     ]
+    },
+    "CHEMBL3989949": {
+     "doubts": [
+      {
+       "kind": "model_system_or_species",
+       "pmid": "31063770",
+       "text": "The CENOBAMATE channel study uses rat hippocampal neurons, limiting direct extrapolation to human SCN2A variants."
+      },
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "31063770",
+       "text": "The CENOBAMATE channel study title does not identify an SCN2A variant or its functional direction."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [
+      "Sodium channel inhibition by CENOBAMATE could counter excess channel activity in SCN2A gain of function."
+     ],
+     "why": [
+      {
+       "pmid": "31063770",
+       "text": "The study of CENOBAMATE effects on neuronal voltage-gated sodium channels provides a channel-family basis for examining this inhibition."
+      }
+     ]
+    },
+    "CHEMBL58323": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "30361185",
+       "text": "The SCN2A-related seizure title does not state the functional direction of the variants."
+      },
+      {
+       "kind": "different_gene_of_family",
+       "pmid": "29466837",
+       "text": "The SCN3A mutation paper concerns another sodium channel gene."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "17940193",
+       "text": "LACOSAMIDE enhances slow inactivation of voltage-gated sodium channels, providing a mechanism to examine against excess channel activity."
+      },
+      {
+       "pmid": "30361185",
+       "text": "The report linking LACOSAMIDE with SCN2A-related seizures provides gene-specific context for investigating this gating mechanism."
+      }
+     ]
+    },
+    "CHEMBL741": {
+     "doubts": [
+      {
+       "kind": "different_variant_direction",
+       "pmid": "42774767",
+       "text": "The SCN2A variant has mixed gain and loss of function, which limits extrapolation to gain-only variants."
+      },
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "23239147",
+       "text": "The slow-inactivation title does not specify an SCN2A variant or its functional direction."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "42774767",
+       "text": "The gain component of the mixed-function SCN2A variant provides a rationale for examining LAMOTRIGINE blockade, without establishing its effect."
+      },
+      {
+       "pmid": "23239147",
+       "text": "The comparison of sodium channel blockers on slow inactivation identifies a gating process relevant to examining excess channel activity."
+      }
+     ]
+    },
+    "CHEMBL750": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "34556045",
+       "text": "The coding-polymorphism title does not identify SCN2A gain-of-function variants."
+      },
+      {
+       "kind": "other",
+       "pmid": "15511691",
+       "text": "The ZONISAMIDE mechanism overview title does not establish its effect on the specified SCN2A variants."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [
+      "Sodium channel blockade by ZONISAMIDE could counter excess channel activity in SCN2A gain of function."
+     ],
+     "why": [
+      {
+       "pmid": "34556045",
+       "text": "The study relating sodium channel coding polymorphisms to blocker responses provides a rationale for examining variant-dependent pharmacology."
+      }
+     ]
+    },
+    "CHEMBL79": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "19088384",
+       "text": "The voltage-sensor coupling title does not identify an SCN2A gain-of-function variant."
+      },
+      {
+       "kind": "other",
+       "pmid": "20585544",
+       "text": "The inactivated-state study title does not establish the specific state preference or effect of LIDOCAINE on SCN2A."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "19088384",
+       "text": "Disruption of coupling between sodium channel voltage sensors identifies a gating mechanism that could matter for excess channel activity."
+      },
+      {
+       "pmid": "20585544",
+       "text": "The study of inhibitor preference for inactivated channel states provides a rationale for examining state-dependent blockade in SCN2A gain of function."
+      }
+     ]
+    }
+   },
+   "items_sha256": "914180854ac8be8e625e595d4e772628bae9fc9fc6bd31e5e4837311ca518298",
+   "provenance": {
+    "agent": "codex",
+    "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+    "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+    "model": "gpt-6-astra",
+    "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+    "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+    "run_at": "2026-10-04T11:11:38Z",
+    "step": "critique_candidates",
+    "tool_version": "0.160.0"
+   },
+   "report": {
+    "items_checked": 10,
+    "kept": 34,
+    "moved": 6,
+    "proposed": 40
+   }
+  },
+  "scn8a_dee": {
+   "items": {
+    "CHEMBL1068": {
+     "doubts": [
+      {
+       "kind": "different_gene_of_family",
+       "pmid": "36287100",
+       "text": "The gain-of-function mutation paper concerns SCN1A rather than SCN8A."
+      },
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "42179731",
+       "text": "The SCN8A case report title does not state whether the variant increases channel activity."
+      }
+     ],
+     "next_test": "literature_review_first",
+     "unchecked_reasoning": [
+      "OXCARBAZEPINE's listed blocking action could oppose excess SCN8A activity, but no supplied title establishes this directional effect."
+     ],
+     "why": [
+      {
+       "pmid": "36287100",
+       "text": "The SCN1A gain-of-function title supplies a family-level analogy for investigating sodium channel blockade, although it does not establish an SCN8A mechanism."
+      }
+     ]
+    },
+    "CHEMBL108": {
+     "doubts": [
+      {
+       "kind": "other",
+       "pmid": "42357809",
+       "text": "The SCN8A variant title does not establish a CARBAMAZEPINE effect on channel function."
+      },
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "40743388",
+       "text": "The CARBAMAZEPINE thalamic reticular nucleus title does not identify SCN8A variants or their direction."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "40808385",
+       "text": "The sodium channel physiology title provides family-level context for investigating blockade of an overactive SCN8A channel."
+      }
+     ]
+    },
+    "CHEMBL1294": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "40808385",
+       "text": "The sodium channel physiology title does not identify SCN8A gain-of-function variants."
+      }
+     ],
+     "next_test": "literature_review_first",
+     "unchecked_reasoning": [
+      "QUINIDINE's listed blocking action could oppose an overactive SCN8A channel, but no supplied title establishes this effect."
+     ],
+     "why": []
+    },
+    "CHEMBL16": {
+     "doubts": [
+      {
+       "kind": "other",
+       "pmid": "42800573",
+       "text": "The sodium channel blocker title does not identify PHENYTOIN or establish its effect on a particular variant."
+      },
+      {
+       "kind": "other",
+       "pmid": "35902765",
+       "text": "The divergent sensitivity named in the title limits extrapolation across SCN8A gain-of-function variants."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "35902765",
+       "text": "SCN8A mutations with a gain-of-function phenotype show divergent drug sensitivity, making variant-specific modulation a relevant experimental question."
+      }
+     ]
+    },
+    "CHEMBL220492": {
+     "doubts": [
+      {
+       "kind": "other",
+       "pmid": "35902765",
+       "text": "The SCN8A mutation title does not identify a TOPIRAMATE-specific effect."
+      },
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "10768292",
+       "text": "The TOPIRAMATE overview title does not identify SCN8A variants or their functional direction."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "35902765",
+       "text": "SCN8A mutations with a gain-of-function phenotype show divergent drug sensitivity, supporting variant-specific investigation of TOPIRAMATE."
+      },
+      {
+       "pmid": "10768292",
+       "text": "The TOPIRAMATE preclinical overview addresses its mechanism of action, providing context for examining its listed blockade against excess channel activity."
+      }
+     ]
+    },
+    "CHEMBL3989949": {
+     "doubts": [
+      {
+       "kind": "model_system_or_species",
+       "pmid": "31063770",
+       "text": "The sodium channel study concerns rat hippocampal neurons, limiting transfer to human SCN8A variants."
+      },
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "39812613",
+       "text": "The SCN8A report title does not state the variant direction."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "31063770",
+       "text": "The CENOBAMATE sodium channel study provides a direct channel-level basis for investigating its listed inhibition against excess SCN8A activity."
+      },
+      {
+       "pmid": "39812613",
+       "text": "The CENOBAMATE report explicitly concerns SCN8A encephalopathy, providing gene-specific context for the inhibition hypothesis."
+      }
+     ]
+    },
+    "CHEMBL58323": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "17940193",
+       "text": "The slow inactivation title does not identify SCN8A variants or their direction."
+      },
+      {
+       "kind": "not_a_drug_test",
+       "pmid": "35234610",
+       "text": "The Scn8a mouse title names a different compound, so its reported result does not establish a LACOSAMIDE effect."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "17940193",
+       "text": "LACOSAMIDE enhances slow inactivation of voltage-gated sodium channels, suggesting a mechanism to examine against excess SCN8A activity."
+      },
+      {
+       "pmid": "35234610",
+       "text": "The Scn8a gain-of-function mouse title links sodium channel inhibition with seizure prevention, supporting the general blocking hypothesis."
+      }
+     ]
+    },
+    "CHEMBL741": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "23239147",
+       "text": "The slow inactivation study title does not identify SCN8A gain-of-function variants or report a LAMOTRIGINE-specific result."
+      },
+      {
+       "kind": "not_a_drug_test",
+       "pmid": "38802994",
+       "text": "The SCN8A consensus title describes consensus rather than a channel experiment with LAMOTRIGINE."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "23239147",
+       "text": "The comparative sodium channel study identifies slow inactivation as a mechanism worth examining when testing LAMOTRIGINE against excess channel activity."
+      }
+     ]
+    },
+    "CHEMBL744": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "32968789",
+       "text": "The neuron study title names current changes without stating whether the variants increase channel activity."
+      },
+      {
+       "kind": "model_system_or_species",
+       "pmid": "28193882",
+       "text": "The SCN8A hyperexcitability study concerns a mouse model, limiting transfer to human neurons."
+      }
+     ],
+     "next_test": "patient_derived_neuron_electrophysiology",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "9262334",
+       "text": "RILUZOLE shows differential action on sodium channel classes, providing a channel-level rationale for testing modulation of excess SCN8A activity."
+      }
+     ]
+    },
+    "CHEMBL79": {
+     "doubts": [
+      {
+       "kind": "no_direction_in_source",
+       "pmid": "19088384",
+       "text": "The voltage-sensor coupling title does not identify SCN8A gain-of-function variants."
+      },
+      {
+       "kind": "other",
+       "pmid": "20585544",
+       "text": "The inactivated-state preference title does not identify a LIDOCAINE-specific result."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [],
+     "why": [
+      {
+       "pmid": "20585544",
+       "text": "The channel inhibitor study identifies inactivated-state preference as a mechanistic question for testing blockade of overactive SCN8A channels."
+      }
+     ]
+    }
+   },
+   "items_sha256": "6a1bb78d68370c50d96a2ca92eccc20e9e0f4784c17c3f815e936f18e9168a71",
+   "provenance": {
+    "agent": "codex",
+    "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+    "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+    "model": "gpt-6-astra",
+    "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+    "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+    "run_at": "2026-10-04T11:12:37Z",
+    "step": "critique_candidates",
+    "tool_version": "0.160.0"
+   },
+   "report": {
+    "items_checked": 10,
+    "kept": 31,
+    "moved": 2,
+    "proposed": 40,
+    "rejected": 7,
+    "rejected_unknown_capitalised_token": 7
+   }
+  }
+ }
+}

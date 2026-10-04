@@ -1,0 +1,41 @@
+DATA NOTICES
+
+The MIT licence in LICENSE covers the code in this repository. The data the
+pipeline fetches and the small, allow-listed caches it commits come from public
+sources under their own terms. Polaris is a research-planning tool, not medical
+advice. The committed dataset keeps only identifiers, labels, dates, status
+fields and one-sentence quotes; abstracts, author lists, contact details and
+eligibility text are never committed (see the README, "How the dataset is
+made").
+
+Human Phenotype Ontology (HPO) - hpo.jax.org; Gargano et al., NAR 2024.
+  Used for symptom terms and similarity. Polaris annotations are marked as such
+  and are not part of HPO.
+Orphadata: free access data from Orphanet (c) INSERM 1999, orphadata.com,
+  version <date of the committed download>. Used for gene-disease links and
+  the three direction labels in the slice.
+Monarch Initiative - monarchinitiative.org (semsim API); Disorder Mechanisms KB,
+  github.com/monarch-initiative/dismech (BSD-3, pre-alpha). Used for phenotype
+  similarity and as a cross-check of mechanism claims.
+ClinicalTrials.gov (U.S. National Library of Medicine) - data retrieved through
+  the v2 API. Listing does not imply NLM endorsement or our evaluation of a study.
+PubMed / NCBI E-utilities (NLM) - citations and one-sentence excerpts only;
+  abstracts are (c) their publishers and are not redistributed here.
+PubTator3 / LitVar2 (NCBI) - variant normalisation; Wei et al., NAR 2024.
+Gene2Phenotype (EMBL-EBI) - inferred mechanism labels, cited by entry ID.
+HGNC, MONDO, UniProt, ClinGen - identifiers and cross-checks (CC0 / CC BY 4.0).
+Open Targets Platform (CC0 1.0), including ChEMBL (EMBL-EBI) - drug and
+  mechanism data for the researcher screen (release and retrieval date in
+  pipeline/screen/cache/drug_pool.json); no ChEMBL document records. The
+  "approved medicines" total counts ChEMBL max-phase-4 molecule ids (ChEMBL
+  molecule endpoint, CC BY-SA 3.0, ids only) whose Open Targets stage is
+  APPROVAL, collapsed to ChEMBL parent molecules (salts count once; esters are
+  separate molecules); their preferred and trade names are kept (lower-cased,
+  drug_pool.json -> approved_names) only so the post-check can reject any
+  model sentence that names a medicine other than the card's own.
+IMSR / JAX / MMRRC / RIKEN BRC - model stock identifiers only; availability must
+  be confirmed with the repository.
+
+Patient-organisation websites are linked, never copied. scn8a.net asks not to
+be mined and is linked only. Release dates and retrieval dates are recorded in
+the dataset itself (graph.json -> meta).

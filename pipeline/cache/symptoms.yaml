@@ -1,0 +1,1080 @@
+# Written by make caches from data/raw/hpo/ (HPO phenotype.hpoa + hp.obo). Per seeded
+# gene: the HPO terms most often annotated to its diseases, each listed for every seeded
+# gene that carries it. Official HPO annotations of the gene's diseases, not of one
+# direction line; the site says so.
+symptoms:
+- hpo_id: HP:0003808
+  label: Abnormal muscle tone
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000463
+  label: Anteverted nares
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002104
+  label: Apnea
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010819
+  label: Atonic seizure
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000729
+  label: Autistic behavior
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002069
+  label: Bilateral tonic-clonic seizure
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001272
+  label: Cerebellar atrophy
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001266
+  label: Choreoathetosis
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000750
+  label: Delayed speech and language development
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002376
+  label: Developmental regression
+  gene: CDKL5
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001332
+  label: Dystonia
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0200134
+  label: Epileptic encephalopathy
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002131
+  label: Episodic ataxia
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001508
+  label: Failure to thrive
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002373
+  label: Febrile seizure (within the age range of 3 months to 6 years)
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011968
+  label: Feeding difficulties
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007359
+  label: Focal-onset seizure
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001288
+  label: Gait disturbance
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002123
+  label: Generalized myoclonic seizure
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002121
+  label: Generalized non-motor (absence) seizure
+  gene: CDKL5
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001263
+  label: Global developmental delay
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001252
+  label: Hypotonia
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002521
+  label: Hypsarrhythmia
+  gene: CDKL5
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002540
+  label: Inability to walk
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0012469
+  label: Infantile spasms
+  gene: CDKL5
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001249
+  label: Intellectual disability
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000252
+  label: Microcephaly
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001336
+  label: Myoclonus
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000817
+  label: Reduced eye contact
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002650
+  label: Scoliosis
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001250
+  label: Seizure
+  gene: CDKL5
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001337
+  label: Tremor
+  gene: CDKL5
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001999
+  label: Abnormal facial shape
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001344
+  label: Absent speech
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000463
+  label: Anteverted nares
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001251
+  label: Ataxia
+  gene: SCN1A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010819
+  label: Atonic seizure
+  gene: SCN1A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007018
+  label: Attention deficit hyperactivity disorder
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000708
+  label: Atypical behavior
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000717
+  label: Autism
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000729
+  label: Autistic behavior
+  gene: SCN1A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002069
+  label: Bilateral tonic-clonic seizure
+  gene: SCN1A
+  diseases: 6
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007334
+  label: Bilateral tonic-clonic seizure with focal onset
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0012444
+  label: Brain atrophy
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001272
+  label: Cerebellar atrophy
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002059
+  label: Cerebral atrophy
+  gene: SCN1A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001266
+  label: Choreoathetosis
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0100543
+  label: Cognitive impairment
+  gene: SCN1A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000750
+  label: Delayed speech and language development
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002376
+  label: Developmental regression
+  gene: SCN1A
+  diseases: 6
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001260
+  label: Dysarthria
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001332
+  label: Dystonia
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0200134
+  label: Epileptic encephalopathy
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011097
+  label: Epileptic spasm
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001508
+  label: Failure to thrive
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002373
+  label: Febrile seizure (within the age range of 3 months to 6 years)
+  gene: SCN1A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011968
+  label: Feeding difficulties
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0006813
+  label: Focal hemiclonic seizure
+  gene: SCN1A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002384
+  label: Focal impaired awareness seizure
+  gene: SCN1A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007359
+  label: Focal-onset seizure
+  gene: SCN1A
+  diseases: 6
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001288
+  label: Gait disturbance
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002123
+  label: Generalized myoclonic seizure
+  gene: SCN1A
+  diseases: 6
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002121
+  label: Generalized non-motor (absence) seizure
+  gene: SCN1A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001263
+  label: Global developmental delay
+  gene: SCN1A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001252
+  label: Hypotonia
+  gene: SCN1A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002521
+  label: Hypsarrhythmia
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002540
+  label: Inability to walk
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001249
+  label: Intellectual disability
+  gene: SCN1A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000252
+  label: Microcephaly
+  gene: SCN1A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001336
+  label: Myoclonus
+  gene: SCN1A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002650
+  label: Scoliosis
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001250
+  label: Seizure
+  gene: SCN1A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010864
+  label: Severe intellectual disability
+  gene: SCN1A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002133
+  label: Status epilepticus
+  gene: SCN1A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001337
+  label: Tremor
+  gene: SCN1A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000463
+  label: Anteverted nares
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002104
+  label: Apnea
+  gene: SCN2A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001251
+  label: Ataxia
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010819
+  label: Atonic seizure
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000708
+  label: Atypical behavior
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000717
+  label: Autism
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000729
+  label: Autistic behavior
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002069
+  label: Bilateral tonic-clonic seizure
+  gene: SCN2A
+  diseases: 9
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007334
+  label: Bilateral tonic-clonic seizure with focal onset
+  gene: SCN2A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001272
+  label: Cerebellar atrophy
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002059
+  label: Cerebral atrophy
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001266
+  label: Choreoathetosis
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0100543
+  label: Cognitive impairment
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000750
+  label: Delayed speech and language development
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002376
+  label: Developmental regression
+  gene: SCN2A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001260
+  label: Dysarthria
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001332
+  label: Dystonia
+  gene: SCN2A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0200134
+  label: Epileptic encephalopathy
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011097
+  label: Epileptic spasm
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002131
+  label: Episodic ataxia
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001508
+  label: Failure to thrive
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002373
+  label: Febrile seizure (within the age range of 3 months to 6 years)
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011968
+  label: Feeding difficulties
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0006813
+  label: Focal hemiclonic seizure
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002384
+  label: Focal impaired awareness seizure
+  gene: SCN2A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007359
+  label: Focal-onset seizure
+  gene: SCN2A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002123
+  label: Generalized myoclonic seizure
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002121
+  label: Generalized non-motor (absence) seizure
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001263
+  label: Global developmental delay
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001252
+  label: Hypotonia
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002521
+  label: Hypsarrhythmia
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002540
+  label: Inability to walk
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0012469
+  label: Infantile spasms
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001249
+  label: Intellectual disability
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000252
+  label: Microcephaly
+  gene: SCN2A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001336
+  label: Myoclonus
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002650
+  label: Scoliosis
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001250
+  label: Seizure
+  gene: SCN2A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010864
+  label: Severe intellectual disability
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002510
+  label: Spastic tetraplegia
+  gene: SCN2A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002133
+  label: Status epilepticus
+  gene: SCN2A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001337
+  label: Tremor
+  gene: SCN2A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002104
+  label: Apnea
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001251
+  label: Ataxia
+  gene: SCN8A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007018
+  label: Attention deficit hyperactivity disorder
+  gene: SCN8A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000708
+  label: Atypical behavior
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000717
+  label: Autism
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000729
+  label: Autistic behavior
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002069
+  label: Bilateral tonic-clonic seizure
+  gene: SCN8A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007334
+  label: Bilateral tonic-clonic seizure with focal onset
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0012444
+  label: Brain atrophy
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001272
+  label: Cerebellar atrophy
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002059
+  label: Cerebral atrophy
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001266
+  label: Choreoathetosis
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000750
+  label: Delayed speech and language development
+  gene: SCN8A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002376
+  label: Developmental regression
+  gene: SCN8A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001260
+  label: Dysarthria
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001332
+  label: Dystonia
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0200134
+  label: Epileptic encephalopathy
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011097
+  label: Epileptic spasm
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001508
+  label: Failure to thrive
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002373
+  label: Febrile seizure (within the age range of 3 months to 6 years)
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011968
+  label: Feeding difficulties
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0006813
+  label: Focal hemiclonic seizure
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002384
+  label: Focal impaired awareness seizure
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007359
+  label: Focal-onset seizure
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001288
+  label: Gait disturbance
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002123
+  label: Generalized myoclonic seizure
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002121
+  label: Generalized non-motor (absence) seizure
+  gene: SCN8A
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001263
+  label: Global developmental delay
+  gene: SCN8A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001252
+  label: Hypotonia
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002521
+  label: Hypsarrhythmia
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001249
+  label: Intellectual disability
+  gene: SCN8A
+  diseases: 5
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000252
+  label: Microcephaly
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001336
+  label: Myoclonus
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001250
+  label: Seizure
+  gene: SCN8A
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010864
+  label: Severe intellectual disability
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002133
+  label: Status epilepticus
+  gene: SCN8A
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001337
+  label: Tremor
+  gene: SCN8A
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010720
+  label: Abnormal hair pattern
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001344
+  label: Absent speech
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001251
+  label: Ataxia
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010819
+  label: Atonic seizure
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000708
+  label: Atypical behavior
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000729
+  label: Autistic behavior
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002069
+  label: Bilateral tonic-clonic seizure
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007334
+  label: Bilateral tonic-clonic seizure with focal onset
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002059
+  label: Cerebral atrophy
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001266
+  label: Choreoathetosis
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002188
+  label: Delayed CNS myelination
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000750
+  label: Delayed speech and language development
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002376
+  label: Developmental regression
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001332
+  label: Dystonia
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0200134
+  label: Epileptic encephalopathy
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011097
+  label: Epileptic spasm
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002384
+  label: Focal impaired awareness seizure
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002123
+  label: Generalized myoclonic seizure
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001263
+  label: Global developmental delay
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001252
+  label: Hypotonia
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002521
+  label: Hypsarrhythmia
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002540
+  label: Inability to walk
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0012469
+  label: Infantile spasms
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001249
+  label: Intellectual disability
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000252
+  label: Microcephaly
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001250
+  label: Seizure
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010864
+  label: Severe intellectual disability
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002510
+  label: Spastic tetraplegia
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002133
+  label: Status epilepticus
+  gene: STXBP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001337
+  label: Tremor
+  gene: STXBP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001999
+  label: Abnormal facial shape
+  gene: SYNGAP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001344
+  label: Absent speech
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000463
+  label: Anteverted nares
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001251
+  label: Ataxia
+  gene: SYNGAP1
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010819
+  label: Atonic seizure
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007018
+  label: Attention deficit hyperactivity disorder
+  gene: SYNGAP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000708
+  label: Atypical behavior
+  gene: SYNGAP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000717
+  label: Autism
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000729
+  label: Autistic behavior
+  gene: SYNGAP1
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002069
+  label: Bilateral tonic-clonic seizure
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0012444
+  label: Brain atrophy
+  gene: SYNGAP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002059
+  label: Cerebral atrophy
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000750
+  label: Delayed speech and language development
+  gene: SYNGAP1
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002376
+  label: Developmental regression
+  gene: SYNGAP1
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0200134
+  label: Epileptic encephalopathy
+  gene: SYNGAP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001508
+  label: Failure to thrive
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0011968
+  label: Feeding difficulties
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0007359
+  label: Focal-onset seizure
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001288
+  label: Gait disturbance
+  gene: SYNGAP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002123
+  label: Generalized myoclonic seizure
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002121
+  label: Generalized non-motor (absence) seizure
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001263
+  label: Global developmental delay
+  gene: SYNGAP1
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001252
+  label: Hypotonia
+  gene: SYNGAP1
+  diseases: 3
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002521
+  label: Hypsarrhythmia
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001249
+  label: Intellectual disability
+  gene: SYNGAP1
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0000252
+  label: Microcephaly
+  gene: SYNGAP1
+  diseases: 4
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001336
+  label: Myoclonus
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001250
+  label: Seizure
+  gene: SYNGAP1
+  diseases: 2
+  retrieved: '2026-10-04'
+- hpo_id: HP:0010864
+  label: Severe intellectual disability
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0002133
+  label: Status epilepticus
+  gene: SYNGAP1
+  diseases: 1
+  retrieved: '2026-10-04'
+- hpo_id: HP:0001337
+  label: Tremor
+  gene: SYNGAP1
+  diseases: 3
+  retrieved: '2026-10-04'

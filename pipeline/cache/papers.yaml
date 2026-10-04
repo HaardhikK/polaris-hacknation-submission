@@ -1,0 +1,586 @@
+# Written by make caches from work/<PMID>.json (PubMed efetch, NLM). Strip-list fields
+# only: PMID, title, journal, year, DOI. Abstracts are never committed.
+papers:
+- pmid: '11166117'
+  title: A gain-of-function mutation in the sodium channel gene Scn2a results in seizures
+    and behavioral abnormalities.
+  journal: Neuroscience
+  year: 2001
+  doi: 10.1016/s0306-4522(00)00479-6
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '12086636'
+  title: Molecular basis of an inherited epilepsy.
+  journal: Neuron
+  year: 2002
+  doi: 10.1016/s0896-6273(02)00714-6
+  genes_mentioned:
+  - SCN2A
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '14672992'
+  title: Epilepsy-associated dysfunction in the voltage-gated neuronal sodium channel
+    SCN1A.
+  journal: 'The Journal of neuroscience : the official journal of the Society for
+    Neuroscience'
+  year: 2003
+  doi: 10.1523/JNEUROSCI.23-36-11289.2003
+  genes_mentioned:
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '16330482'
+  title: CDKL5/Stk9 kinase inactivation is associated with neuronal developmental
+    disorders.
+  journal: Human molecular genetics
+  year: 2005
+  doi: 10.1093/hmg/ddi391
+  genes_mentioned:
+  - CDKL5
+  retrieved: '2026-10-04'
+- pmid: '20550552'
+  title: 'Partial epilepsy with antecedent febrile seizures and seizure aggravation
+    by antiepileptic drugs: associated with loss of function of Na(v) 1.1.'
+  journal: Epilepsia
+  year: 2010
+  doi: 10.1111/j.1528-1167.2010.02645.x
+  genes_mentioned:
+  - SCN2A
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '20956790'
+  title: SCN2A mutation associated with neonatal epilepsy, late-onset episodic ataxia,
+    myoclonus, and pain.
+  journal: Neurology
+  year: 2010
+  doi: 10.1212/WNL.0b013e3181f8812e
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '22365152'
+  title: De novo pathogenic SCN8A mutation identified by whole-genome sequencing of
+    a family quartet affected by infantile epileptic encephalopathy and SUDEP.
+  journal: American journal of human genetics
+  year: 2012
+  doi: 10.1016/j.ajhg.2012.01.006
+  genes_mentioned:
+  - SCN8A
+  retrieved: '2026-10-04'
+- pmid: '22677033'
+  title: Compromised function in the Na(v)1.2 Dravet syndrome mutation R1312T.
+  journal: Neurobiology of disease
+  year: 2012
+  doi: 10.1016/j.nbd.2012.05.017
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '23758435'
+  title: An SCN2A mutation in a family with infantile seizures from Madagascar reveals
+    an increased subthreshold Na(+) current.
+  journal: Epilepsia
+  year: 2013
+  doi: 10.1111/epi.12241
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '24657915'
+  title: Physiological and genetic analysis of multiple sodium channel variants in
+    a model of genetic absence epilepsy.
+  journal: Neurobiology of disease
+  year: 2014
+  doi: 10.1016/j.nbd.2014.03.007
+  genes_mentioned:
+  - SCN2A
+  - SCN8A
+  retrieved: '2026-10-04'
+- pmid: '24990319'
+  title: Electrophysiological Differences between the Same Pore Region Mutation in
+    SCN1A and SCN3A.
+  journal: Molecular neurobiology
+  year: 2015
+  doi: 10.1007/s12035-014-8802-x
+  genes_mentioned:
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '26645390'
+  title: Mutations in the sodium channel gene SCN2A cause neonatal epilepsy with late-onset
+    episodic ataxia.
+  journal: Journal of neurology
+  year: 2016
+  doi: 10.1007/s00415-015-7984-0
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '27956748'
+  title: Association of rare missense variants in the second intracellular loop of
+    NaV1.7 sodium channels with familial autism.
+  journal: Molecular psychiatry
+  year: 2018
+  doi: 10.1038/mp.2016.222
+  genes_mentioned:
+  - SCN2A
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '28139826'
+  title: Neonatal nonepileptic myoclonus is a prominent clinical feature of KCNQ2
+    gain-of-function variants R201C and R201H.
+  journal: Epilepsia
+  year: 2017
+  doi: 10.1111/epi.13676
+  genes_mentioned:
+  - KCNQ2
+  retrieved: '2026-10-04'
+- pmid: '28235671'
+  title: SCN3A deficiency associated with increased seizure susceptibility.
+  journal: Neurobiology of disease
+  year: 2017
+  doi: 10.1016/j.nbd.2017.02.006
+  genes_mentioned:
+  - SCN2A
+  - SCN8A
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '28256214'
+  title: Opposing Effects on NaV1.2 Function Underlie Differences Between SCN2A Variants
+    Observed in Individuals With Autism Spectrum Disorder or Infantile Seizures.
+  journal: Biological psychiatry
+  year: 2017
+  doi: 10.1016/j.biopsych.2017.01.009
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '28379373'
+  title: Genetic and phenotypic heterogeneity suggest therapeutic implications in
+    SCN2A-related disorders.
+  journal: 'Brain : a journal of neurology'
+  year: 2017
+  doi: 10.1093/brain/awx054
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '29466837'
+  title: Mutations in SCN3A cause early infantile epileptic encephalopathy.
+  journal: Annals of neurology
+  year: 2018
+  doi: 10.1002/ana.25188
+  genes_mentioned:
+  - SCN2A
+  - SCN8A
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '30478917'
+  title: Homomeric Kv7.2 current suppression is a common feature in KCNQ2 epileptic
+    encephalopathy.
+  journal: Epilepsia
+  year: 2019
+  doi: 10.1111/epi.14609
+  genes_mentioned:
+  - KCNQ2
+  retrieved: '2026-10-04'
+- pmid: '30698461'
+  title: Overexpression of NEUROG2 and NEUROG1 in human embryonic stem cells produces
+    a network of excitatory and inhibitory neurons.
+  journal: 'FASEB journal : official publication of the Federation of American Societies
+    for Experimental Biology'
+  year: 2019
+  doi: 10.1096/fj.201801110RR
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '30779207'
+  title: SCN1A gain of function in early infantile encephalopathy.
+  journal: Annals of neurology
+  year: 2019
+  doi: 10.1002/ana.25438
+  genes_mentioned:
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '30813884'
+  title: Further corroboration of distinct functional features in SCN2A variants causing
+    intellectual disability or epileptic phenotypes.
+  journal: Molecular medicine (Cambridge, Mass.)
+  year: 2019
+  doi: 10.1186/s10020-019-0073-6
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '31558572'
+  title: Resurgent and Gating Pore Currents Induced by De Novo SCN2A Epilepsy Mutations.
+  journal: eNeuro
+  year: 2019
+  doi: 10.1523/ENEURO.0141-19.2019
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '31715021'
+  title: Distinct functional alterations in SCN8A epilepsy mutant channels.
+  journal: The Journal of physiology
+  year: 2020
+  doi: 10.1113/JP278952
+  genes_mentioned:
+  - SCN8A
+  retrieved: '2026-10-04'
+- pmid: '32400968'
+  title: 'Electrophysiological features: The next precise step for SCN2A developmental
+    epileptic encephalopathy.'
+  journal: Molecular genetics & genomic medicine
+  year: 2020
+  doi: 10.1002/mgg3.1250
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '32750235'
+  title: Functional and pharmacological evaluation of a novel SCN2A variant linked
+    to early-onset epilepsy.
+  journal: Annals of clinical and translational neurology
+  year: 2020
+  doi: 10.1002/acn3.51105
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '33308442'
+  title: Multi-parametric analysis of 57 SYNGAP1 variants reveal impacts on GTPase
+    signaling, localization, and protein stability.
+  journal: American journal of human genetics
+  year: 2021
+  doi: 10.1016/j.ajhg.2020.11.011
+  genes_mentioned:
+  - SYNGAP1
+  retrieved: '2026-10-04'
+- pmid: '34093402'
+  title: Differential Functional Changes of Nav1.2 Channel Causing SCN2A-Related Epilepsy
+    and Status Epilepticus During Slow Sleep.
+  journal: Frontiers in neurology
+  year: 2021
+  doi: 10.3389/fneur.2021.653517
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '34156984'
+  title: Scn2a severe hypomorphic mutation decreases excitatory synaptic input and
+    causes autism-associated behaviors.
+  journal: JCI insight
+  year: 2021
+  doi: 10.1172/jci.insight.150698
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '34287911'
+  title: Enhanced slow inactivation contributes to dysfunction of a recurrent SCN2A
+    mutation associated with developmental and epileptic encephalopathy.
+  journal: The Journal of physiology
+  year: 2021
+  doi: 10.1113/JP281834
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '34431999'
+  title: Genotype-phenotype correlations in SCN8A-related disorders reveal prognostic
+    and therapeutic implications.
+  journal: 'Brain : a journal of neurology'
+  year: 2022
+  doi: 10.1093/brain/awab321
+  genes_mentioned:
+  - SCN8A
+  retrieved: '2026-10-04'
+- pmid: '34847423'
+  title: 'A SCN8A variant associated with severe early onset epilepsy and developmental
+    delay: Loss- or gain-of-function?'
+  journal: Epilepsy research
+  year: 2021
+  doi: 10.1016/j.eplepsyres.2021.106824
+  genes_mentioned:
+  - SCN8A
+  retrieved: '2026-10-04'
+- pmid: '34850743'
+  title: Antisense oligonucleotide therapy reduces seizures and extends life span
+    in an SCN2A gain-of-function epilepsy model.
+  journal: The Journal of clinical investigation
+  year: 2021
+  doi: 10.1172/JCI152079
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '35037686'
+  title: Gene variant effects across sodium channelopathies predict function and guide
+    precision therapy.
+  journal: 'Brain : a journal of neurology'
+  year: 2022
+  doi: 10.1093/brain/awac006
+  genes_mentioned: []
+  retrieved: '2026-10-04'
+- pmid: '35280940'
+  title: 'Not Just Loss-of-Function Variations: Identification of a Hypermorphic Variant
+    in a Patient With a CDKL5 Missense Substitution.'
+  journal: Neurology. Genetics
+  year: 2022
+  doi: 10.1212/NXG.0000000000000666
+  genes_mentioned:
+  - CDKL5
+  retrieved: '2026-10-04'
+- pmid: '35417276'
+  title: 'SCN2A-related epilepsy of infancy with migrating focal seizures: report
+    of a variant with apparent gain- and loss-of-function effects.'
+  journal: Journal of neurophysiology
+  year: 2022
+  doi: 10.1152/jn.00309.2021
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '35422141'
+  title: Initial Validation and Reliability of the CDKL5 Deficiency Disorder Hand
+    Function Scale (CDD-Hand).
+  journal: Journal of child neurology
+  year: 2022
+  doi: 10.1177/08830738221091044
+  genes_mentioned:
+  - CDKL5
+  retrieved: '2026-10-04'
+- pmid: '35637276'
+  title: Functional correlates of clinical phenotype and severity in recurrent SCN2A
+    variants.
+  journal: Communications biology
+  year: 2022
+  doi: 10.1038/s42003-022-03454-1
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '36027690'
+  title: '"Virtual patch clamp analysis" for predicting the functional significance
+    of pathogenic variants in sodium channels.'
+  journal: Epilepsy research
+  year: 2022
+  doi: 10.1016/j.eplepsyres.2022.107002
+  genes_mentioned:
+  - SCN2A
+  - SCN8A
+  - SCN1A
+  retrieved: '2026-10-04'
+- pmid: '36029553'
+  title: 'Modulating effects of FGF12 variants on NaV1.2 and NaV1.6 being associated
+    with developmental and epileptic encephalopathy and Autism spectrum disorder:
+    A case series.'
+  journal: EBioMedicine
+  year: 2022
+  doi: 10.1016/j.ebiom.2022.104234
+  genes_mentioned:
+  - SCN2A
+  - SCN8A
+  retrieved: '2026-10-04'
+- pmid: '36625631'
+  title: A disease concept model for STXBP1-related disorders.
+  journal: Epilepsia open
+  year: 2023
+  doi: 10.1002/epi4.12688
+  genes_mentioned:
+  - STXBP1
+  retrieved: '2026-10-04'
+- pmid: '36865317'
+  title: Epilepsy-associated SCN2A (Na V 1.2) Variants Exhibit Diverse and Complex
+    Functional Properties.
+  journal: 'bioRxiv : the preprint server for biology'
+  year: 2023
+  doi: 10.1101/2023.02.23.529757
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '37010102'
+  title: Pathogenic SCN2A variants cause early-stage dysfunction in patient-derived
+    neurons.
+  journal: Human molecular genetics
+  year: 2023
+  doi: 10.1093/hmg/ddad048
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '37152433'
+  title: Functional analysis of a novel de novo SCN2A variant in a patient with seizures
+    refractory to oxcarbazepine.
+  journal: Frontiers in molecular neuroscience
+  year: 2023
+  doi: 10.3389/fnmol.2023.1159649
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '37578743'
+  title: Epilepsy-associated SCN2A (NaV1.2) variants exhibit diverse and complex functional
+    properties.
+  journal: The Journal of general physiology
+  year: 2023
+  doi: 10.1085/jgp.202313375
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '37751639'
+  title: The development, content and response process validation of a caregiver-reported
+    severity measure for CDKL5 deficiency disorder.
+  journal: Epilepsy research
+  year: 2023
+  doi: 10.1016/j.eplepsyres.2023.107231
+  genes_mentioned:
+  - CDKL5
+  retrieved: '2026-10-04'
+- pmid: '38148154'
+  title: Distinctive In Vitro Phenotypes in iPSC-Derived Neurons From Patients With
+    Gain- and Loss-of-Function SCN2A Developmental and Epileptic Encephalopathy.
+  journal: 'The Journal of neuroscience : the official journal of the Society for
+    Neuroscience'
+  year: 2024
+  doi: 10.1523/JNEUROSCI.0692-23.2023
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '38490366'
+  title: Reduced Protein Stability of 11 Pathogenic Missense STXBP1/MUNC18-1 Variants
+    and Improved Disease Prediction.
+  journal: Biological psychiatry
+  year: 2024
+  doi: 10.1016/j.biopsych.2024.03.007
+  genes_mentioned:
+  - STXBP1
+  retrieved: '2026-10-04'
+- pmid: '38544375'
+  title: Variant-specific in vitro neuronal network phenotypes and drug sensitivity
+    in SCN2A developmental and epileptic encephalopathy.
+  journal: Journal of neurochemistry
+  year: 2024
+  doi: 10.1111/jnc.16103
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '38651838'
+  title: Expanded clinical phenotype spectrum correlates with variant function in
+    SCN2A-related disorders.
+  journal: 'Brain : a journal of neurology'
+  year: 2024
+  doi: 10.1093/brain/awae125
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '38911512'
+  title: Patient-advocate-led global coalition adapting fit-for-purpose outcomes measures
+    to assure meaningful inclusion of DEEs in clinical trials.
+  journal: Therapeutic advances in rare disease
+  year: 2024
+  doi: 10.1177/26330040241249762
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '38939966'
+  title: Nav1.2 channel mutations preventing fast inactivation lead to SCN2A encephalopathy.
+  journal: 'Brain : a journal of neurology'
+  year: 2025
+  doi: 10.1093/brain/awae213
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '38963064'
+  title: 'Modification of a parent-report sleep scale for individuals with CDKL5 deficiency
+    disorder: a psychometric study.'
+  journal: 'Journal of clinical sleep medicine : JCSM : official publication of the
+    American Academy of Sleep Medicine'
+  year: 2024
+  doi: 10.5664/jcsm.11244
+  genes_mentioned:
+  - CDKL5
+  retrieved: '2026-10-04'
+- pmid: '39707911'
+  title: Rare dysfunctional SCN2A variants are associated with malformation of cortical
+    development.
+  journal: Epilepsia
+  year: 2025
+  doi: 10.1111/epi.18234
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '39887012'
+  title: 'Vineland-3 Growth Scale Values: Psychometric Properties for Clinical Trial
+    Readiness in SCN2A.'
+  journal: Journal of child and adolescent psychopharmacology
+  year: 2025
+  doi: 10.1089/cap.2024.0107
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '40336930'
+  title: 'Gross Motor Function in Individuals With SCN2A-Related Disorders: The Clinical
+    Trial Readiness Study.'
+  journal: Neurology. Clinical practice
+  year: 2025
+  doi: 10.1212/CPJ.0000000000200479
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '40540154'
+  title: Human Cortical Organoids with a Novel SCN2A Variant Exhibit Hyperexcitability
+    and Differential Responses to Anti-Seizure Compounds.
+  journal: Neuroscience bulletin
+  year: 2025
+  doi: 10.1007/s12264-025-01429-w
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '41493289'
+  title: A Novel KCNQ2 Gain-of-Function Variant I134N Causes Severe Developmental
+    and Epileptic Encephalopathy.
+  journal: American journal of medical genetics. Part A
+  year: 2026
+  doi: 10.1002/ajmga.70044
+  genes_mentioned:
+  - KCNQ2
+  retrieved: '2026-10-04'
+- pmid: '41630925'
+  title: Functional Characterization of a De Novo SCN2A Mixed Variant Linked to Early
+    Infantile Developmental and Epileptic Encephalopathy.
+  journal: Neurology. Genetics
+  year: 2026
+  doi: 10.1212/NXG.0000000000200344
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '41642117'
+  title: Mechanisms of SCN2A loss of function do not predict presence or phenotype
+    of epilepsy.
+  journal: Epilepsia
+  year: 2026
+  doi: 10.1002/epi.70100
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '41986745'
+  title: Loss of schizophrenia risk gene XPO7 disrupts neuronal excitability and network
+    regularity via altered Na+ channel dynamics in human neurons.
+  journal: Molecular psychiatry
+  year: 2026
+  doi: 10.1038/s41380-026-03587-3
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '42311236'
+  title: Functional Analyses in Patient-Derived Neurons Establish Pathogenicity for
+    STXBP1 Splice Variant c.429+5G>A.
+  journal: Human mutation
+  year: 2026
+  doi: 10.1155/humu/1448702
+  genes_mentioned:
+  - STXBP1
+  retrieved: '2026-10-04'
+- pmid: '42745013'
+  title: Lvguidingan inhibits Nav1.2 and epilepsy-associated SCN2A gain-of-function
+    variants.
+  journal: Acta pharmacologica Sinica
+  year: 2026
+  doi: 10.1038/s41401-026-01931-5
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'
+- pmid: '42774767'
+  title: Functional and pharmacological characterization of the SCN2A variant p.C258R
+    with mixed gain and loss of function causing developmental and epileptic encephalopathy
+    type 11.
+  journal: Epilepsy & behavior reports
+  year: 2026
+  doi: 10.1016/j.ebr.2026.100897
+  genes_mentioned:
+  - SCN2A
+  retrieved: '2026-10-04'

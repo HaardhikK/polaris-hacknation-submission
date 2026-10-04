@@ -1,0 +1,53 @@
+{
+ "lines": [
+  {
+   "direction": "gain",
+   "direction_evidence": {
+    "level": "checked by code",
+    "pmid": "31558572",
+    "variant": "p.Arg1882Gln"
+   },
+   "gene": "SCN2A",
+   "gloss": "fixture gloss",
+   "key": "scn2a_gain",
+   "label": "SCN2A gain of function",
+   "mechanism": "sodium_channel",
+   "mechanism_family": "ion_channel"
+  },
+  {
+   "direction": "loss",
+   "direction_evidence": {
+    "level": "checked by code",
+    "pmid": "34287911",
+    "variant": "p.Arg853Gln"
+   },
+   "gene": "SCN2A",
+   "gloss": "fixture gloss",
+   "key": "scn2a_loss",
+   "label": "SCN2A loss of function",
+   "mechanism": "sodium_channel",
+   "mechanism_family": "ion_channel"
+  },
+  {
+   "direction": "gain",
+   "gene": "SCN8A",
+   "gloss": "fixture gloss",
+   "key": "scn8a_dee",
+   "label": "SCN8A developmental and epileptic encephalopathy",
+   "mechanism": "sodium_channel",
+   "mechanism_family": "ion_channel"
+  },
+  {
+   "direction": "not_applicable",
+   "gene": "SYNGAP1",
+   "gloss": "x",
+   "key": "syngap1",
+   "label": "SYNGAP1",
+   "mechanism": "ras_gap",
+   "mechanism_family": "non_channel"
+  }
+ ],
+ "meta": {
+  "source": "mock"
+ }
+}

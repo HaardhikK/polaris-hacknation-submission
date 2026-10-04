@@ -1,0 +1,59 @@
+{
+ "genes": [
+  "SCN2A"
+ ],
+ "pairs": {
+  "CHEMBL1|SCN2A": {
+   "pmids": [
+    "222",
+    "333"
+   ],
+   "pubmed_count": 3,
+   "studies": [
+    {
+     "last_update": "2021-03-02",
+     "nct": "NCT00000001",
+     "start_date": "2019-01",
+     "status": "TERMINATED",
+     "why_stopped": "Sponsor decision",
+     "why_stopped_withheld": false
+    }
+   ]
+  },
+  "CHEMBL2|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL3|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL7|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL8|SCN2A": {
+   "pmids": [
+    "444"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  }
+ },
+ "pmids_per_pair": 5,
+ "pubmed_query_form": "\"DRUG NAME\"[tiab] AND \"GENE\"[tiab]",
+ "retrieved": "2026-10-04",
+ "sources": [
+  "PubMed (NLM) E-utilities",
+  "ClinicalTrials.gov API v2"
+ ],
+ "titles": {
+  "111": "Sodium channel blockade by Blockadine in heterologous cells",
+  "222": "Blockadine and SCN2A gain-of-function variants",
+  "333": "Nav1.2 currents under Blockadine",
+  "444": "Ablocker effects on SCN2A"
+ }
+}

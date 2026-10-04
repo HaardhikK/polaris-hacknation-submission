@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Polaris Codex dry run",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "word_count"],
+        "properties": {
+          "id": { "type": "string" },
+          "word_count": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

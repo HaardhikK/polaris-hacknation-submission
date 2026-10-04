@@ -1,0 +1,773 @@
+# Written by make caches: the claims validate.py accepted, with their run provenance.
+# Badge on the site: 'Found by AI — checked by code'. Quotes are one sentence each.
+claims:
+- pmid: '34287911'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg853Gln
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Heterologously expressed R853Q channels exhibit an overall loss-of-function
+    as a result of multiple defects in time- and voltage-dependent channel properties.
+  claim_id: 34287911:SCN2A:p.Arg853Gln:loss:13296aa1
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '34287911'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg853Gln
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: A previously unrecognized enhancement of slow inactivation is conferred
+    by the R853Q mutation and is a major driver of loss-of-function.
+  claim_id: 34287911:SCN2A:p.Arg853Gln:loss:7b7ede8c
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '31558572'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg853Gln
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: In this model system, the R853Q mutation primarily produced loss-of-function
+    effects, including reduced transient current amplitude and density, hyperpolarization
+    of the voltage dependence of inactivation, and decreased persistent current.
+  claim_id: 31558572:SCN2A:p.Arg853Gln:loss:a76cab9e
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '20956790'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Ala263Val
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: The patient carries a de novo missense mutation (p.Ala263Val) in
+    SCN2A, which leads to a pronounced gain-of-function, in particular an increased
+    persistent Na(+) current.
+  claim_id: 20956790:SCN2A:p.Ala263Val:gain:61fc8193
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '32400968'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Ala1773Thr
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: In contrast, c.4972C>T (p.P1658S) and c.5317G>A (p.A1773T) led to
+    loss of function (LOF) changes, showing reduced current density and enhanced fast
+    inactivation.
+  claim_id: 32400968:SCN2A:p.Ala1773Thr:loss:1fe4c2f3
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '38939966'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Asn1662Asp
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: The N1662D mutation almost completely prevented fast inactivation
+    without affecting activation.
+  claim_id: 38939966:SCN2A:p.Asn1662Asp:gain:13b72674
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '22365152'
+  gene: SCN8A
+  claim_level: variant
+  variant: p.Asn1768Asp
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Current-clamp analysis in hippocampal neurons transfected with p.Asn1768Asp
+    channels revealed increased spontaneous firing, paroxysmal-depolarizing-shift-like
+    complexes, and an increased firing frequency, consistent with a dominant gain-of-function
+    phenotype in the heterozygous proband.
+  claim_id: 22365152:SCN8A:p.Asn1768Asp:gain:abf5912d
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '31715021'
+  gene: SCN8A
+  claim_level: variant
+  variant: p.Arg850Gln
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: We characterize a new epilepsy-related SCN8A mutation, R850Q, in
+    the human SCN8A channel and present gain-of-function properties of the mutant
+    channel.
+  claim_id: 31715021:SCN8A:p.Arg850Gln:gain:73a85adb
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '31715021'
+  gene: SCN8A
+  claim_level: gene
+  variant: null
+  direction: gain
+  stance: supports
+  basis: review
+  evidence_quote: It is well accepted that gain-of-function mutations in SCN8A underlie
+    the disorder, although the remarkable heterogeneity of its clinical presentation
+    and poor treatment response demand a better understanding of the disease mechanisms.
+  claim_id: 31715021:SCN8A:SCN8A:gain:854f1cae
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '34847423'
+  gene: SCN8A
+  claim_level: gene
+  variant: null
+  direction: gain
+  stance: supports
+  basis: review
+  evidence_quote: Missense variants in SCN8A which increase the channel activity can
+    cause a severe developmental and epileptic encephalopathy (DEE).
+  claim_id: 34847423:SCN8A:SCN8A:gain:d0d6d3b4
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '34847423'
+  gene: SCN8A
+  claim_level: variant
+  variant: p.Arg223Gly
+  direction: gain
+  stance: contradicts
+  basis: functional-assay
+  evidence_quote: We conclude that SCN8A p.(Arg223Gly) leads to a net GOF resulting
+    in neuronal hyperexcitability and a higher firing rate, fitting with the central
+    role of GOF mechanisms in DEE.
+  claim_id: 34847423:SCN8A:p.Arg223Gly:gain:53d2c6d3
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '24990319'
+  gene: SCN1A
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: review
+  evidence_quote: Electrophysiological characterization has revealed that most SCN1A
+    mutations in the pore region result in complete loss of function.
+  claim_id: 24990319:SCN1A:SCN1A:loss:a0463d91
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '24990319'
+  gene: SCN3A
+  claim_level: variant
+  variant: p.Asn302Ser
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Functional analysis demonstrated that SCN1A-N301S had no measurable
+    sodium current, indicating a complete loss of function, while SCN3A-N302S slightly
+    reduced channel activity.
+  claim_id: 24990319:SCN3A:p.Asn302Ser:loss:0e00f229
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '14672992'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Arg1657Cys
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: One previously reported GEFS+ mutation (I1656M) and an additional
+    novel allele (R1657C), both affecting residues in a voltage-sensing S4 segment,
+    exhibited a similar depolarizing shift in the voltage dependence of activation.
+  claim_id: 14672992:SCN1A:p.Arg1657Cys:loss:306dd048
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '14672992'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Arg1657Cys
+  direction: mixed
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Additionally, R1657C showed a 50% reduction in current density and
+    accelerated recovery from slow inactivation.
+  claim_id: 14672992:SCN1A:p.Arg1657Cys:mixed:af75a865
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '14672992'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Ala1685Val
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: In contrast, two other GEFS+ mutations (A1685V and V1353L) and L986F,
+    an SMEI-associated allele, exhibited complete loss of function.
+  claim_id: 14672992:SCN1A:p.Ala1685Val:loss:b8157679
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '14672992'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Val1353Leu
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: In contrast, two other GEFS+ mutations (A1685V and V1353L) and L986F,
+    an SMEI-associated allele, exhibited complete loss of function.
+  claim_id: 14672992:SCN1A:p.Val1353Leu:loss:4479daa6
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '14672992'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Leu986Phe
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: In contrast, two other GEFS+ mutations (A1685V and V1353L) and L986F,
+    an SMEI-associated allele, exhibited complete loss of function.
+  claim_id: 14672992:SCN1A:p.Leu986Phe:loss:fea1b56b
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '14672992'
+  gene: SCN1A
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: In conclusion, our data provide evidence for a wide spectrum of
+    sodium channel dysfunction in familial epilepsy and demonstrate that both GEFS+
+    and SMEI can be associated with nonfunctional SCN1A alleles.
+  claim_id: 14672992:SCN1A:SCN1A:loss:4aef29b7
+  extractor_run_id: 20261004T024559Z-extract_claims-37257
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '42311236'
+  gene: STXBP1
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Patient-derived neurons had normal morphology in vitro, but > 40%
+    reduced MUNC18-1/STXBP1 protein and mRNA levels, comparable with two established
+    loss-of-function variants (Asp262Val and Arg235*).
+  claim_id: 42311236:STXBP1:STXBP1:loss:b3717ea9
+  extractor_run_id: 20261004T024738Z-extract_claims-37471
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '42311236'
+  gene: STXBP1
+  claim_level: variant
+  variant: p.Asp262Val
+  direction: loss
+  stance: supports
+  basis: review
+  evidence_quote: Patient-derived neurons had normal morphology in vitro, but > 40%
+    reduced MUNC18-1/STXBP1 protein and mRNA levels, comparable with two established
+    loss-of-function variants (Asp262Val and Arg235*).
+  claim_id: 42311236:STXBP1:p.Asp262Val:loss:bfc57a03
+  extractor_run_id: 20261004T024738Z-extract_claims-37471
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '42311236'
+  gene: STXBP1
+  claim_level: variant
+  variant: p.Arg235Ter
+  direction: loss
+  stance: supports
+  basis: review
+  evidence_quote: Patient-derived neurons had normal morphology in vitro, but > 40%
+    reduced MUNC18-1/STXBP1 protein and mRNA levels, comparable with two established
+    loss-of-function variants (Asp262Val and Arg235*).
+  claim_id: 42311236:STXBP1:p.Arg235Ter:loss:5fc73ff7
+  extractor_run_id: 20261004T024738Z-extract_claims-37471
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '38490366'
+  gene: STXBP1
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: These data establish intrinsic protein instability as the generalizable,
+    primary cause for STXBP1-related disorders and show that protein-specific ortholog
+    and 3-dimensional information improve disease prediction.
+  claim_id: 38490366:STXBP1:STXBP1:loss:73583766
+  extractor_run_id: 20261004T024738Z-extract_claims-37471
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '35280940'
+  gene: CDKL5
+  claim_level: variant
+  variant: p.Thr958Arg
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: The molecular investigation revealed that the p.(Thr958Arg) substitution
+    leads to a significant increase in the autophosphorylation of both the TEY motif
+    and residue Tyr171 of CDKL5, as well as in the phosphorylation of the target protein
+    MAP1S, indicating an hyperactivation of CDKL5.
+  claim_id: 35280940:CDKL5:p.Thr958Arg:gain:7a0c2478
+  extractor_run_id: 20261004T024738Z-extract_claims-37471
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '33308442'
+  gene: SYNGAP1
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Interestingly, our assays reveal that a larger proportion of variants
+    located within the disordered domain of unknown function (DUF) comprising the
+    C-terminal half of SYNGAP1 exhibited higher LoF, compared to variants within the
+    better studied catalytic domain.
+  claim_id: 33308442:SYNGAP1:SYNGAP1:loss:3d57c452
+  extractor_run_id: 20261004T024738Z-extract_claims-37471
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '37578743'
+  gene: SCN2A
+  claim_level: gene
+  variant: null
+  direction: gain
+  stance: supports
+  basis: review
+  evidence_quote: Previous work to determine the functional consequences of SCN2A
+    variants yielded a paradigm in which predominantly gain-of-function variants cause
+    neonatal-onset epilepsy, whereas loss-of-function variants are associated with
+    ASD and ID.
+  claim_id: 37578743:SCN2A:SCN2A:gain:def88a88
+  extractor_run_id: 20261004T024738Z-extract_claims-37471
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '39707911'
+  gene: SCN2A
+  claim_level: gene
+  variant: null
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: The neonatal isoforms of all SCN2A variants studied exhibit gain
+    of function (GoF) with a large depolarized shift in steady-state inactivation,
+    creating a markedly enhanced window current common across all four variants tested.
+  claim_id: 39707911:SCN2A:SCN2A:gain:17f8c892
+  extractor_run_id: 20261004T024822Z-extract_claims-37614
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '34156984'
+  gene: SCN2A
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: review
+  evidence_quote: Most ASD-associated mutations in SCN2A are loss-of-function mutations,
+    but studies examining how such mutations affect neuronal function and whether
+    Scn2a mutant mice display ASD endophenotypes have been inconsistent.
+  claim_id: 34156984:SCN2A:SCN2A:loss:be621b4d
+  extractor_run_id: 20261004T024822Z-extract_claims-37614
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'hedged wording in the quote: check the stance before signing'
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '41642117'
+  gene: SCN2A
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Of the 15 electrophysiologically characterized SCN2A variants, 11
+    caused total Nav1.2 LoF, three caused partial LoF, and one showed mixed LoF and
+    gain-of-function (GoF) effects.
+  claim_id: 41642117:SCN2A:SCN2A:loss:c76ff328
+  extractor_run_id: 20261004T024822Z-extract_claims-37614
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '26645390'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Ala263Val
+  direction: gain
+  stance: supports
+  basis: review
+  evidence_quote: The third new proband carries the same de novo SCN2A gain-of-function
+    mutation as our first published case (p.Ala263Val).
+  claim_id: 26645390:SCN2A:p.Ala263Val:gain:72a0f369
+  extractor_run_id: 20261004T024822Z-extract_claims-37614
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '28235671'
+  gene: SCN3A
+  claim_level: variant
+  variant: p.Leu247Pro
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Furthermore, cell surface biotinylation demonstrated a reduction
+    in the amount of SCN3A-L247P at the cell surface, suggesting the SCN3A-L247P variant
+    is a trafficking-deficient mutant.
+  claim_id: 28235671:SCN3A:p.Leu247Pro:loss:7bfbf5d6
+  extractor_run_id: 20261004T024822Z-extract_claims-37614
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'hedged wording in the quote: check the stance before signing'
+- pmid: '34093402'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Lys1933Met
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: 'Results: The unpublished V911A and published K1933M variants detected
+    in patients with DEE exhibited a profound gain-of-functional (GOF) change.'
+  claim_id: 34093402:SCN2A:p.Lys1933Met:gain:aa87ea38
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '34093402'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Ser863Phe
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Another published BFIS variant S863F significantly reduced current
+    density as a loss-of-functional (LOF) change.
+  claim_id: 34093402:SCN2A:p.Ser863Phe:loss:53801a1a
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '34850743'
+  gene: SCN2A
+  claim_level: gene
+  variant: null
+  direction: gain
+  stance: supports
+  basis: review
+  evidence_quote: Biophysical gain of function in SCN2A is seen in some patients with
+    early seizure onset developmental and epileptic encephalopathy (DEE).
+  claim_id: 34850743:SCN2A:SCN2A:gain:39cbbef0
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '32750235'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Met1879Thr
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: The M1879T variant caused disturbances in channel inactivation including
+    substantially depolarized voltage dependence of inactivation, slower time course
+    of inactivation, and enhanced resurgent current that collectively represent a
+    gain-of-function.
+  claim_id: 32750235:SCN2A:p.Met1879Thr:gain:f622e2b8
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '27956748'
+  gene: SCN9A
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Although the involvement of the SCN1A and SCN2A genes encoding NaV1.1
+    and NaV1.2 channels in de novo ASD has previously been demonstrated, our study
+    indicates the involvement of inherited SCN9A variants and partial loss-of-function
+    of NaV1.7 channels in the etiology of rare familial ASD.
+  claim_id: 27956748:SCN9A:SCN9A:loss:d504dfc8
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '38544375'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg1882Gln
+  direction: gain
+  stance: supports
+  basis: review
+  evidence_quote: To this end, primary cortical cultures were generated from two knock-in
+    mouse lines carrying variants corresponding to human GoF SCN2A p.R1882Q and LoF
+    p.R853Q DEE variant.
+  claim_id: 38544375:SCN2A:p.Arg1882Gln:gain:3b1f4a78
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '38544375'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg853Gln
+  direction: loss
+  stance: supports
+  basis: review
+  evidence_quote: To this end, primary cortical cultures were generated from two knock-in
+    mouse lines carrying variants corresponding to human GoF SCN2A p.R1882Q and LoF
+    p.R853Q DEE variant.
+  claim_id: 38544375:SCN2A:p.Arg853Gln:loss:f600bec2
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '38544375'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg1882Gln
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: The SCN2A p.R1882Q neuronal cultures showed significantly greater
+    mean firing and burst firing.
+  claim_id: 38544375:SCN2A:p.Arg1882Gln:gain:4f7f9a7e
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '38544375'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg853Gln
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: In contrast, the SCN2A p.R853Q cultures showed lower mean firing
+    rate, and burst firing events were less frequent.
+  claim_id: 38544375:SCN2A:p.Arg853Gln:loss:b3e5ec17
+  extractor_run_id: 20261004T024909Z-extract_claims-37850
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '37152433'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Lys156Asn
+  direction: loss
+  stance: unclear
+  basis: functional-assay
+  evidence_quote: In comparison with wildtype, electrophysiology revealed that SCN2A-K156N
+    variant in transfected cells demonstrated reduced sodium current density, delayed
+    activation and accelerated inactivation process of Na+ channel, all of which suggested
+    a loss-of-function (LOF) of Nav1.2 channel.
+  claim_id: 37152433:SCN2A:p.Lys156Asn:loss:5428277c
+  extractor_run_id: 20261004T025014Z-extract_claims-38088
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'hedged wording in the quote: check the stance before signing'
+- pmid: '36865317'
+  gene: SCN2A
+  claim_level: gene
+  variant: null
+  direction: gain
+  stance: supports
+  basis: review
+  evidence_quote: Previous work to determine the functional consequences of SCN2A
+    variants yielded a paradigm in which predominantly gain-of-function (GoF) variants
+    cause epilepsy whereas loss-of-function (LoF) variants are associated with ASD
+    and ID.
+  claim_id: 36865317:SCN2A:SCN2A:gain:ebc88276
+  extractor_run_id: 20261004T025014Z-extract_claims-38088
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '42745013'
+  gene: SCN2A
+  claim_level: gene
+  variant: null
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Importantly, LV also inhibited two epilepsy-associated SCN2A gain-of-function
+    variants.
+  claim_id: 42745013:SCN2A:SCN2A:gain:6c6ac494
+  extractor_run_id: 20261004T025014Z-extract_claims-38088
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '38148154'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg1882Gln
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: We established and assessed patient induced pluripotent stem cell
+    (iPSC) - derived neuronal models for two recurrent SCN2A DEE variants with GoF
+    R1882Q and LoF R853Q associated with early- and late-onset DEE, respectively.
+  claim_id: 38148154:SCN2A:p.Arg1882Gln:gain:bb63af06
+  extractor_run_id: 20261004T025014Z-extract_claims-38088
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '38148154'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Arg853Gln
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: We established and assessed patient induced pluripotent stem cell
+    (iPSC) - derived neuronal models for two recurrent SCN2A DEE variants with GoF
+    R1882Q and LoF R853Q associated with early- and late-onset DEE, respectively.
+  claim_id: 38148154:SCN2A:p.Arg853Gln:loss:31ae3991
+  extractor_run_id: 20261004T025014Z-extract_claims-38088
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '20550552'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Arg946His
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Two heterozygous de novo mutations of SCN1A (R946H and F1765L) were
+    detected, which were proven to cause loss of function of Na(v) 1.1.
+  claim_id: 20550552:SCN1A:p.Arg946His:loss:385901a1
+  extractor_run_id: 20261004T025054Z-extract_claims-38275
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '20550552'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Phe1765Leu
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Two heterozygous de novo mutations of SCN1A (R946H and F1765L) were
+    detected, which were proven to cause loss of function of Na(v) 1.1.
+  claim_id: 20550552:SCN1A:p.Phe1765Leu:loss:3f7911b9
+  extractor_run_id: 20261004T025054Z-extract_claims-38275
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '20550552'
+  gene: SCN1A
+  claim_level: gene
+  variant: null
+  direction: loss
+  stance: unclear
+  basis: clinical-inference
+  evidence_quote: Isolated milder PEFS+ may associate with SCN1A mutations and loss
+    of function of Na(v) 1.1, which may be the basis of seizure aggravation by sodium
+    channel-blocking AEDs.
+  claim_id: 20550552:SCN1A:SCN1A:loss:eeeaabb8
+  extractor_run_id: 20261004T025054Z-extract_claims-38275
+  agent: codex
+  model: gpt-6-astra
+  flags:
+  - 'hedged wording in the quote: check the stance before signing'
+  - 'gene-level direction for a direction-split gene: never sets a line direction'
+- pmid: '42774767'
+  gene: SCN2A
+  claim_level: variant
+  variant: p.Cys258Arg
+  direction: mixed
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Depending on the specific functional readout after transient expression
+    in HEK293T cells, mutation C258R of NaV1.2 channels resulted in a mixed LoF and
+    GoF phenotype.
+  claim_id: 42774767:SCN2A:p.Cys258Arg:mixed:ddd72342
+  extractor_run_id: 20261004T025054Z-extract_claims-38275
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '30779207'
+  gene: SCN1A
+  claim_level: variant
+  variant: p.Thr226Met
+  direction: gain
+  stance: supports
+  basis: functional-assay
+  evidence_quote: From a biophysical perspective, the T226M mutation produces gain
+    of function.
+  claim_id: 30779207:SCN1A:p.Thr226Met:gain:1a576ed4
+  extractor_run_id: 20261004T064918Z-extract_claims-96767
+  agent: codex
+  model: gpt-6-astra
+  flags: []
+- pmid: '30478917'
+  gene: KCNQ2
+  claim_level: variant
+  variant: p.Leu243Phe
+  direction: loss
+  stance: supports
+  basis: functional-assay
+  evidence_quote: Negligible or no current was recorded in cells expressing homomeric
+    E130K, W270R, or G281R de novo mutants, and it was reduced by more than 90% for
+    the L243F maternally inherited mutant.
+  claim_id: 30478917:KCNQ2:p.Leu243Phe:loss:93595bb9
+  extractor_run_id: 20261004T064918Z-extract_claims-96767
+  agent: codex
+  model: gpt-6-astra
+  flags: []

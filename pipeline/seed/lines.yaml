@@ -1,0 +1,189 @@
+# Disease lines: one gene in one mechanism direction. Hand-curated; every row sourced.
+# Direction here is the hand label; the engine acts on it only once a code-checked functional-assay
+# claim agrees with it. Sources: the cited papers and databases in each row.
+# xrefs: orpha_group marks an Orphanet entry that covers several genes (never a line identifier).
+- key: scn2a_gain
+  gene: SCN2A
+  mechanism: sodium_channel
+  mechanism_family: ion_channel
+  direction: gain
+  label: SCN2A gain of function
+  gloss: gain of function — the channel works too strongly
+  xrefs:
+    hgnc: HGNC:10588
+    omim: OMIM:613721
+    mondo: MONDO:0013388
+    orpha_group: ORPHA:1934
+  organisations: [familiescn2a]
+  sources:
+    - label: Orphanet ORPHA:1934 (21 genes), SCN2A link labelled gain of function (database label)
+      url: https://www.orpha.net/en/disease/detail/1934
+      retrieved: 2026-10-04
+    - label: PMID 31558572, R1882Q functional assay
+      url: https://pubmed.ncbi.nlm.nih.gov/31558572/
+      retrieved: 2026-10-04
+    - label: PMID 20956790, A263V functional assay
+      url: https://pubmed.ncbi.nlm.nih.gov/20956790/
+      retrieved: 2026-10-04
+    - label: PMID 38544375, R1882Q and R853Q functional assays (the code-checked R1882Q claim)
+      url: https://pubmed.ncbi.nlm.nih.gov/38544375/
+      retrieved: 2026-10-04
+
+- key: scn2a_loss
+  gene: SCN2A
+  mechanism: sodium_channel
+  mechanism_family: ion_channel
+  direction: loss
+  label: SCN2A loss of function
+  gloss: loss of function — the channel works too weakly
+  xrefs:
+    hgnc: HGNC:10588
+    mondo: MONDO:1060245 # umbrella term, never a primary key
+    orpha_group: ORPHA:178469
+    g2p: G2P00033
+  organisations: [familiescn2a]
+  sources:
+    - label: Gene2Phenotype G2P00033, loss of function (inferred)
+      url: https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00033
+      retrieved: 2026-10-04
+    - label: PMID 34287911, R853Q functional assay
+      url: https://pubmed.ncbi.nlm.nih.gov/34287911/
+      retrieved: 2026-10-04
+  # No official HPO profile exists for this form. Each term is named in the cited abstract:
+  # Wolff 2017 (PMID 28379373) for seizures, intellectual disability, autism and West syndrome
+  # (p.Arg853Gln); the R853Q assay paper (PMID 34287911) for later-onset epileptic encephalopathy.
+  hpo_terms:
+    - { id: "HP:0001250", label: Seizure, pmid: "28379373" }
+    - { id: "HP:0001249", label: Intellectual disability, pmid: "28379373" }
+    - { id: "HP:0000717", label: Autism, pmid: "28379373" }
+    - { id: "HP:0012469", label: Infantile spasms, pmid: "28379373" }
+    - { id: "HP:0200134", label: Epileptic encephalopathy, pmid: "34287911" }
+
+- key: syngap1
+  gene: SYNGAP1
+  mechanism: ras_gap
+  mechanism_family: non_channel
+  direction: not_applicable
+  label: SYNGAP1-related disorder
+  gloss: a synapse-signalling gene; gain or loss of function is not used for this gene here
+  mechanism_label: loss of protein function — database label (Gene2Phenotype G2P01343); PMID 33308442 reports a loss-of-function to wild-type range
+  xrefs:
+    hgnc: HGNC:11497
+    omim: OMIM:612621
+    orpha: ORPHA:544254
+    mondo: MONDO:0012960
+    g2p: G2P01343
+  organisations: [syngap_research_fund, bridge_the_gap_syngap]
+  sources:
+    - label: Gene2Phenotype G2P01343, loss of function (database label)
+      url: https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01343
+      retrieved: 2026-10-04
+    - label: PMID 33308442, 57 variants, loss-of-function to wild-type range
+      url: https://pubmed.ncbi.nlm.nih.gov/33308442/
+      retrieved: 2026-10-04
+
+- key: scn8a_dee
+  gene: SCN8A
+  mechanism: sodium_channel
+  mechanism_family: ion_channel
+  direction: gain
+  label: SCN8A developmental and epileptic encephalopathy (gain of function)
+  gloss: gain of function — the channel works too strongly
+  xrefs:
+    hgnc: HGNC:10596
+    omim: OMIM:614558
+    mondo: MONDO:0013801
+    orpha_group: ORPHA:442835
+    g2p: G2P01608
+  organisations: [scn8a_alliance, cute_syndrome_foundation]
+  sources:
+    - label: Orphanet ORPHA:442835 (53 genes), SCN8A link labelled gain of function (database label)
+      url: https://www.orpha.net/en/disease/detail/442835
+      retrieved: 2026-10-04
+    - label: PMID 22365152, N1768D functional assay
+      url: https://pubmed.ncbi.nlm.nih.gov/22365152/
+      retrieved: 2026-10-04
+    - label: PMID 31715021, R850Q functional assay
+      url: https://pubmed.ncbi.nlm.nih.gov/31715021/
+      retrieved: 2026-10-04
+
+- key: dravet
+  gene: SCN1A
+  mechanism: sodium_channel
+  mechanism_family: ion_channel
+  direction: loss
+  label: Dravet syndrome (SCN1A loss of function)
+  gloss: loss of function — the channel works too weakly
+  xrefs:
+    hgnc: HGNC:10585
+    omim: OMIM:607208
+    mondo: MONDO:0100135
+    orpha_group: ORPHA:33069
+    g2p: G2P00251
+  organisations: [dravet_syndrome_foundation, dravet_syndrome_european_federation]
+  # SCN1A loss of function also covers GEFS+ (milder): only a variant a source below names as
+  # Dravet / SMEI (L986F) gets an alias to this line; PMID 20550552's R946H and F1765L are PEFS+
+  # variants (partial epilepsy with febrile seizures plus), kept as loss-of-function support only.
+  variant_aliases_from_sources_only: true
+  sources:
+    - label: Gene2Phenotype G2P00251, loss of function (inferred)
+      url: https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00251
+      retrieved: 2026-10-04
+    - label: PMID 14672992, L986F (SMEI-associated) functional assay
+      url: https://pubmed.ncbi.nlm.nih.gov/14672992/
+      retrieved: 2026-10-04
+    - label: PMID 20550552, loss-of-function functional assays of PEFS+ variants (loss support only)
+      url: https://pubmed.ncbi.nlm.nih.gov/20550552/
+      retrieved: 2026-10-04
+
+- key: stxbp1
+  gene: STXBP1
+  mechanism: synaptic_protein
+  mechanism_family: non_channel
+  direction: not_applicable
+  label: STXBP1-related disorder
+  gloss: a synapse-protein gene; gain or loss of function is not used for this gene here
+  mechanism_label: loss of protein function — database label (Gene2Phenotype G2P01128), not lab-checked; PMID 38490366 reports protein instability for missense variants
+  xrefs:
+    hgnc: HGNC:11444
+    omim: OMIM:612164
+    orpha: ORPHA:599373
+    mondo: MONDO:0012812
+    g2p: G2P01128
+  organisations: [stxbp1_foundation]
+  sources:
+    - label: Gene2Phenotype G2P01128, loss of function (database label)
+      url: https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01128
+      retrieved: 2026-10-04
+    - label: PMID 38490366, missense variants, protein instability
+      url: https://pubmed.ncbi.nlm.nih.gov/38490366/
+      retrieved: 2026-10-04
+    - label: PMID 42311236, D262V and R235* cited as controls
+      url: https://pubmed.ncbi.nlm.nih.gov/42311236/
+      retrieved: 2026-10-04
+
+- key: cdkl5
+  gene: CDKL5
+  mechanism: kinase
+  mechanism_family: non_channel
+  direction: not_applicable
+  label: CDKL5 deficiency disorder
+  gloss: a kinase gene; gain or loss of function is not used for this gene here
+  mechanism_label: loss of kinase activity — database label (Gene2Phenotype G2P01596) and PMID 16330482; one variant (T958R) is reported as a hyperactive kinase (PMID 35280940), recorded as a conflict
+  xrefs:
+    hgnc: HGNC:11411
+    omim: OMIM:300672
+    orpha: ORPHA:505652
+    mondo: MONDO:0010396
+    g2p: G2P01596
+  organisations: [loulou_foundation, international_foundation_for_cdkl5_research]
+  sources:
+    - label: Gene2Phenotype G2P01596, loss of function (database label)
+      url: https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01596
+      retrieved: 2026-10-04
+    - label: PMID 16330482, disease variants reduce kinase activity
+      url: https://pubmed.ncbi.nlm.nih.gov/16330482/
+      retrieved: 2026-10-04
+    - label: PMID 35280940, T958R hyperactive kinase
+      url: https://pubmed.ncbi.nlm.nih.gov/35280940/
+      retrieved: 2026-10-04

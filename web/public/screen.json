@@ -1,0 +1,1748 @@
+{
+ "lines": [
+  {
+   "cards": [
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "40540154",
+        "text": "The organoid title does not identify the SCN2A variant as gain of function."
+       },
+       {
+        "kind": "model_system_or_species",
+        "pmid": "40540154",
+        "text": "The organoid findings come from a model system whose responses may differ from those of mature neuronal networks."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "patient_derived_neuron_electrophysiology",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "Sodium channel blockade by CARBAMAZEPINE could counter excess channel activity in SCN2A gain of function."
+      ],
+      "why": [
+       {
+        "pmid": "40540154",
+        "text": "SCN2A variant organoid hyperexcitability and differential compound responses provide a cellular rationale for examining channel blockade."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL108",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958"
+      ],
+      "pmids": [
+       "42017391",
+       "41875007",
+       "40808385",
+       "40540154",
+       "36571905"
+      ],
+      "pubmed_count": 23,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "CARBAMAZEPINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "different_variant_direction",
+        "pmid": "42774767",
+        "text": "Mixed gain and loss of function may not represent the channel behavior of a gain-only SCN2A variant."
+       },
+       {
+        "kind": "other",
+        "pmid": "38544375",
+        "text": "The neuronal network title does not specify the direction or magnitude of the response to PHENYTOIN."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "42774767",
+        "text": "The gain component of the mixed-function SCN2A variant provides a rationale for examining PHENYTOIN blockade, without establishing its effect."
+       },
+       {
+        "pmid": "38544375",
+        "text": "Variant-specific SCN2A neuronal network phenotypes and drug sensitivity provide a rationale for testing how blockade changes network activity."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL16",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958"
+      ],
+      "pmids": [
+       "42774767",
+       "41875007",
+       "40808385",
+       "40198980",
+       "38544375"
+      ],
+      "pubmed_count": 21,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "PHENYTOIN",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "37152433",
+        "text": "The functional analysis title does not state whether the SCN2A variant has gain of function."
+       },
+       {
+        "kind": "other",
+        "pmid": "37152433",
+        "text": "The functional analysis title describes seizures refractory to OXCARBAZEPINE, leaving the proposed link between blockade and reduced excitability unsupported."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "Sodium channel blockade by OXCARBAZEPINE could counter excess channel activity in SCN2A gain of function."
+      ],
+      "why": [
+       {
+        "pmid": "37152433",
+        "text": "Functional analysis of an SCN2A variant in an OXCARBAZEPINE-associated report provides a gene-specific basis for examining variant-dependent blockade."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL1068",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958"
+      ],
+      "pmids": [
+       "41875007",
+       "41617776",
+       "40236662",
+       "38358607",
+       "37152433"
+      ],
+      "pubmed_count": 16,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "OXCARBAZEPINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "different_variant_direction",
+        "pmid": "42774767",
+        "text": "The SCN2A variant has mixed gain and loss of function, which limits extrapolation to gain-only variants."
+       },
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "23239147",
+        "text": "The slow-inactivation title does not specify an SCN2A variant or its functional direction."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "42774767",
+        "text": "The gain component of the mixed-function SCN2A variant provides a rationale for examining LAMOTRIGINE blockade, without establishing its effect."
+       },
+       {
+        "pmid": "23239147",
+        "text": "The comparison of sodium channel blockers on slow inactivation identifies a gating process relevant to examining excess channel activity."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL741",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958",
+       "23239147"
+      ],
+      "pmids": [
+       "42774767",
+       "40808385",
+       "36709037",
+       "36571905",
+       "34612084"
+      ],
+      "pubmed_count": 8,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "LAMOTRIGINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "different_variant_direction",
+        "pmid": "42774767",
+        "text": "The characterized SCN2A variant combines gain and loss of function, limiting extrapolation to gain-only variants."
+       },
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "10768292",
+        "text": "The TOPIRAMATE mechanism overview title does not identify SCN2A or a variant direction."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "Sodium channel blockade by TOPIRAMATE could counter excess channel activity in SCN2A gain of function."
+      ],
+      "why": [
+       {
+        "pmid": "42774767",
+        "text": "The pharmacological characterization of an SCN2A variant with a gain component provides a rationale for examining variant-dependent channel inhibition."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL220492",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "10768292"
+      ],
+      "pmids": [
+       "42774767",
+       "40462216",
+       "37628333",
+       "36571905",
+       "34556045"
+      ],
+      "pubmed_count": 7,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "TOPIRAMATE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "30361185",
+        "text": "The SCN2A-related seizure title does not state the functional direction of the variants."
+       },
+       {
+        "kind": "different_gene_of_family",
+        "pmid": "29466837",
+        "text": "The SCN3A mutation paper concerns another sodium channel gene."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "17940193",
+        "text": "LACOSAMIDE enhances slow inactivation of voltage-gated sodium channels, providing a mechanism to examine against excess channel activity."
+       },
+       {
+        "pmid": "30361185",
+        "text": "The report linking LACOSAMIDE with SCN2A-related seizures provides gene-specific context for investigating this gating mechanism."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL58323",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "17940193"
+      ],
+      "pmids": [
+       "42316283",
+       "34556045",
+       "30361185",
+       "29466837"
+      ],
+      "pubmed_count": 4,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "LACOSAMIDE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "19088384",
+        "text": "The voltage-sensor coupling title does not identify an SCN2A gain-of-function variant."
+       },
+       {
+        "kind": "other",
+        "pmid": "20585544",
+        "text": "The inactivated-state study title does not establish the specific state preference or effect of LIDOCAINE on SCN2A."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "19088384",
+        "text": "Disruption of coupling between sodium channel voltage sensors identifies a gating mechanism that could matter for excess channel activity."
+       },
+       {
+        "pmid": "20585544",
+        "text": "The study of inhibitor preference for inactivated channel states provides a rationale for examining state-dependent blockade in SCN2A gain of function."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL79",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "19088384",
+       "20585544"
+      ],
+      "pmids": [
+       "40808385",
+       "27867041",
+       "21833183"
+      ],
+      "pubmed_count": 3,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "LIDOCAINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "40808385",
+        "text": "The sodium channel review title does not state an SCN2A variant direction."
+       },
+       {
+        "kind": "not_a_drug_test",
+        "pmid": "29455050",
+        "text": "The gene-panel and genotype-phenotype title describes genetic characterization without identifying a QUINIDINE experiment."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "literature_review_first",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "Sodium channel blockade by QUINIDINE could counter excess channel activity in SCN2A gain of function."
+      ],
+      "why": [
+       {
+        "pmid": "40808385",
+        "text": "The review of voltage-gated sodium channel physiology provides family-level context for investigating how blockade changes channel activity."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL1294",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [],
+      "pmids": [
+       "42485940",
+       "40808385",
+       "29455050"
+      ],
+      "pubmed_count": 3,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "QUINIDINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "34556045",
+        "text": "The coding-polymorphism title does not identify SCN2A gain-of-function variants."
+       },
+       {
+        "kind": "other",
+        "pmid": "15511691",
+        "text": "The ZONISAMIDE mechanism overview title does not establish its effect on the specified SCN2A variants."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "Sodium channel blockade by ZONISAMIDE could counter excess channel activity in SCN2A gain of function."
+      ],
+      "why": [
+       {
+        "pmid": "34556045",
+        "text": "The study relating sodium channel coding polymorphisms to blocker responses provides a rationale for examining variant-dependent pharmacology."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL750",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15511691"
+      ],
+      "pmids": [
+       "35733834",
+       "34556045"
+      ],
+      "pubmed_count": 2,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "ZONISAMIDE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "INHIBITOR",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "model_system_or_species",
+        "pmid": "31063770",
+        "text": "The CENOBAMATE channel study uses rat hippocampal neurons, limiting direct extrapolation to human SCN2A variants."
+       },
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "31063770",
+        "text": "The CENOBAMATE channel study title does not identify an SCN2A variant or its functional direction."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111041Z-critique_candidates-60822",
+       "input_manifest_sha256": "fbf76867244251e8ef445525fde58dfebfdf9373c6c81ca8ef5ec6e3b9cc99e2",
+       "model": "gpt-6-astra",
+       "output_sha256": "1b184d92e54a965af696697eb40823d3fd525ecdb8b65a708ea1af42dfdb73d7",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:11:38Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "Sodium channel inhibition by CENOBAMATE could counter excess channel activity in SCN2A gain of function."
+      ],
+      "why": [
+       {
+        "pmid": "31063770",
+        "text": "The study of CENOBAMATE effects on neuronal voltage-gated sodium channels provides a channel-family basis for examining this inhibition."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL3989949",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "31063770"
+      ],
+      "pmids": [
+       "42651828"
+      ],
+      "pubmed_count": 1,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "CENOBAMATE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    }
+   ],
+   "cards_not_shown": 41,
+   "cards_not_shown_by_state": {
+    "already_studied": 3,
+    "no_paper_found": 8,
+    "paper_found": 30
+   },
+   "cards_not_shown_reason": "Cards are capped at 10 per line in the fixed order; the 41 not shown passed the same filter and come later in that order, so they have the same number of papers pairing them with the gene or fewer (ties are broken by name).",
+   "direction": "gain",
+   "direction_evidence": {
+    "level": "checked by code",
+    "pmid": "20956790",
+    "variant": "p.Ala263Val"
+   },
+   "funnel": {
+    "approved": 2868,
+    "direction_pass": 51,
+    "family": 51,
+    "on_line_gene": 44,
+    "with_mechanism_reference_only": 30,
+    "with_pair_paper": 13,
+    "without_paper": 8
+   },
+   "gene": "SCN2A",
+   "gloss": "gain of function: the channel is too active",
+   "key": "scn2a_gain",
+   "label": "SCN2A gain of function",
+   "new_candidates": 38,
+   "new_candidates_on_line_gene": 33,
+   "refusal_reason": null,
+   "removed_by_reason": {
+    "action_unclear": 0,
+    "outside_the_channel_family": 2817,
+    "wrong_direction": 0
+   },
+   "sanity_check": {
+    "already_tried_total": 13,
+    "applicable": true,
+    "surfaced": 13
+   },
+   "status": "screened"
+  },
+  {
+   "cards": [],
+   "cards_not_shown": 0,
+   "cards_not_shown_by_state": {
+    "already_studied": 0,
+    "no_paper_found": 0,
+    "paper_found": 0
+   },
+   "cards_not_shown_reason": null,
+   "direction": "loss",
+   "direction_evidence": {
+    "level": "checked by code",
+    "pmid": "34287911",
+    "variant": "p.Arg853Gln"
+   },
+   "funnel": {
+    "approved": 2868,
+    "direction_pass": 0,
+    "family": 51,
+    "on_line_gene": 0,
+    "with_mechanism_reference_only": 0,
+    "with_pair_paper": 0,
+    "without_paper": 0
+   },
+   "gene": "SCN2A",
+   "gloss": "loss of function: the channel is not active enough",
+   "key": "scn2a_loss",
+   "label": "SCN2A loss of function",
+   "new_candidates": 0,
+   "new_candidates_on_line_gene": 0,
+   "refusal_reason": null,
+   "removed_by_reason": {
+    "action_unclear": 0,
+    "outside_the_channel_family": 2817,
+    "wrong_direction": 51
+   },
+   "sanity_check": {
+    "already_tried_total": 13,
+    "applicable": false,
+    "surfaced": 0
+   },
+   "status": "screened"
+  },
+  {
+   "cards": [
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "other",
+        "pmid": "42800573",
+        "text": "The sodium channel blocker title does not identify PHENYTOIN or establish its effect on a particular variant."
+       },
+       {
+        "kind": "other",
+        "pmid": "35902765",
+        "text": "The divergent sensitivity named in the title limits extrapolation across SCN8A gain-of-function variants."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "35902765",
+        "text": "SCN8A mutations with a gain-of-function phenotype show divergent drug sensitivity, making variant-specific modulation a relevant experimental question."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL16",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958"
+      ],
+      "pmids": [
+       "42800573",
+       "40808385",
+       "38846250",
+       "35902765",
+       "35325842"
+      ],
+      "pubmed_count": 17,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "PHENYTOIN",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "other",
+        "pmid": "42357809",
+        "text": "The SCN8A variant title does not establish a CARBAMAZEPINE effect on channel function."
+       },
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "40743388",
+        "text": "The CARBAMAZEPINE thalamic reticular nucleus title does not identify SCN8A variants or their direction."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "40808385",
+        "text": "The sodium channel physiology title provides family-level context for investigating blockade of an overactive SCN8A channel."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL108",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958"
+      ],
+      "pmids": [
+       "42357809",
+       "40808385",
+       "40743388",
+       "39975394",
+       "38846250"
+      ],
+      "pubmed_count": 15,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "CARBAMAZEPINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "different_gene_of_family",
+        "pmid": "36287100",
+        "text": "The gain-of-function mutation paper concerns SCN1A rather than SCN8A."
+       },
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "42179731",
+        "text": "The SCN8A case report title does not state whether the variant increases channel activity."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "literature_review_first",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "OXCARBAZEPINE's listed blocking action could oppose excess SCN8A activity, but no supplied title establishes this directional effect."
+      ],
+      "why": [
+       {
+        "pmid": "36287100",
+        "text": "The SCN1A gain-of-function title supplies a family-level analogy for investigating sodium channel blockade, although it does not establish an SCN8A mechanism."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL1068",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958"
+      ],
+      "pmids": [
+       "42179731",
+       "41420531",
+       "36287100",
+       "35787526",
+       "35325842"
+      ],
+      "pubmed_count": 10,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "OXCARBAZEPINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "23239147",
+        "text": "The slow inactivation study title does not identify SCN8A gain-of-function variants or report a LAMOTRIGINE-specific result."
+       },
+       {
+        "kind": "not_a_drug_test",
+        "pmid": "38802994",
+        "text": "The SCN8A consensus title describes consensus rather than a channel experiment with LAMOTRIGINE."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "23239147",
+        "text": "The comparative sodium channel study identifies slow inactivation as a mechanism worth examining when testing LAMOTRIGINE against excess channel activity."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL741",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "15208697",
+       "23205958",
+       "23239147"
+      ],
+      "pmids": [
+       "42179731",
+       "40808385",
+       "38845412",
+       "38802994",
+       "36571905"
+      ],
+      "pubmed_count": 8,
+      "studies": [
+       {
+        "last_update": "2024-04-11",
+        "nct": "NCT05450822",
+        "start_date": "2022-02-18",
+        "status": "RECRUITING",
+        "why_stopped": null,
+        "why_stopped_withheld": false
+       }
+      ]
+     },
+     "max_stage": "APPROVAL",
+     "name": "LAMOTRIGINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "other",
+        "pmid": "35902765",
+        "text": "The SCN8A mutation title does not identify a TOPIRAMATE-specific effect."
+       },
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "10768292",
+        "text": "The TOPIRAMATE overview title does not identify SCN8A variants or their functional direction."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "35902765",
+        "text": "SCN8A mutations with a gain-of-function phenotype show divergent drug sensitivity, supporting variant-specific investigation of TOPIRAMATE."
+       },
+       {
+        "pmid": "10768292",
+        "text": "The TOPIRAMATE preclinical overview addresses its mechanism of action, providing context for examining its listed blockade against excess channel activity."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL220492",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "10768292"
+      ],
+      "pmids": [
+       "38846250",
+       "36571905",
+       "35902765",
+       "29588963",
+       "28346953"
+      ],
+      "pubmed_count": 5,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "TOPIRAMATE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "INHIBITOR",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "model_system_or_species",
+        "pmid": "31063770",
+        "text": "The sodium channel study concerns rat hippocampal neurons, limiting transfer to human SCN8A variants."
+       },
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "39812613",
+        "text": "The SCN8A report title does not state the variant direction."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "31063770",
+        "text": "The CENOBAMATE sodium channel study provides a direct channel-level basis for investigating its listed inhibition against excess SCN8A activity."
+       },
+       {
+        "pmid": "39812613",
+        "text": "The CENOBAMATE report explicitly concerns SCN8A encephalopathy, providing gene-specific context for the inhibition hypothesis."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL3989949",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "31063770"
+      ],
+      "pmids": [
+       "42651828",
+       "41106086",
+       "39812613"
+      ],
+      "pubmed_count": 3,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "CENOBAMATE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "40808385",
+        "text": "The sodium channel physiology title does not identify SCN8A gain-of-function variants."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "literature_review_first",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [
+       "QUINIDINE's listed blocking action could oppose an overactive SCN8A channel, but no supplied title establishes this effect."
+      ],
+      "why": []
+     },
+     "drug_id": "CHEMBL1294",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [],
+      "pmids": [
+       "40808385",
+       "37901435",
+       "29455050"
+      ],
+      "pubmed_count": 3,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "QUINIDINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "17940193",
+        "text": "The slow inactivation title does not identify SCN8A variants or their direction."
+       },
+       {
+        "kind": "not_a_drug_test",
+        "pmid": "35234610",
+        "text": "The Scn8a mouse title names a different compound, so its reported result does not establish a LACOSAMIDE effect."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "17940193",
+        "text": "LACOSAMIDE enhances slow inactivation of voltage-gated sodium channels, suggesting a mechanism to examine against excess SCN8A activity."
+       },
+       {
+        "pmid": "35234610",
+        "text": "The Scn8a gain-of-function mouse title links sodium channel inhibition with seizure prevention, supporting the general blocking hypothesis."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL58323",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "17940193"
+      ],
+      "pmids": [
+       "35234610",
+       "29466837"
+      ],
+      "pubmed_count": 2,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "LACOSAMIDE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "19088384",
+        "text": "The voltage-sensor coupling title does not identify SCN8A gain-of-function variants."
+       },
+       {
+        "kind": "other",
+        "pmid": "20585544",
+        "text": "The inactivated-state preference title does not identify a LIDOCAINE-specific result."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "heterologous_channel_assay",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "20585544",
+        "text": "The channel inhibitor study identifies inactivated-state preference as a mechanistic question for testing blockade of overactive SCN8A channels."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL79",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "19088384",
+       "20585544"
+      ],
+      "pmids": [
+       "40808385",
+       "34771603"
+      ],
+      "pubmed_count": 2,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "LIDOCAINE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    },
+    {
+     "action_type": "BLOCKER",
+     "critique": {
+      "doubts": [
+       {
+        "kind": "no_direction_in_source",
+        "pmid": "32968789",
+        "text": "The neuron study title names current changes without stating whether the variants increase channel activity."
+       },
+       {
+        "kind": "model_system_or_species",
+        "pmid": "28193882",
+        "text": "The SCN8A hyperexcitability study concerns a mouse model, limiting transfer to human neurons."
+       }
+      ],
+      "evidence_read": "title only",
+      "next_test": "patient_derived_neuron_electrophysiology",
+      "provenance": {
+       "agent": "codex",
+       "extractor_run_id": "20261004T111139Z-critique_candidates-61051",
+       "input_manifest_sha256": "8f6b327d745b390cc5cebf4998b2c4d8620405e97d0c7a7b50b2983ab17af0d9",
+       "model": "gpt-6-astra",
+       "output_sha256": "8f9532483a358393f36e1a0a9f8c946b8b6b7bfb1dcc7d71586e119f09af5f20",
+       "prompt_sha256": "61f1c6a96a4f4734ef56fce8dfcf91d0da20a286d90766c68d12081be60992b5",
+       "run_at": "2026-10-04T11:12:37Z",
+       "step": "critique_candidates",
+       "tool_version": "0.160.0"
+      },
+      "reason": null,
+      "status": "checked_by_code",
+      "unchecked_reasoning": [],
+      "why": [
+       {
+        "pmid": "9262334",
+        "text": "RILUZOLE shows differential action on sodium channel classes, providing a channel-level rationale for testing modulation of excess SCN8A activity."
+       }
+      ]
+     },
+     "drug_id": "CHEMBL744",
+     "effect": "reduces",
+     "evidence": {
+      "opentargets_pmids": [
+       "9262334"
+      ],
+      "pmids": [
+       "32968789",
+       "28193882"
+      ],
+      "pubmed_count": 2,
+      "studies": []
+     },
+     "max_stage": "APPROVAL",
+     "name": "RILUZOLE",
+     "on_line_gene": true,
+     "state": "already_studied",
+     "target_level": "protein_family",
+     "targets": [
+      "SCN10A",
+      "SCN11A",
+      "SCN1A",
+      "SCN2A",
+      "SCN3A",
+      "SCN4A",
+      "SCN5A",
+      "SCN8A",
+      "SCN9A"
+     ]
+    }
+   ],
+   "cards_not_shown": 41,
+   "cards_not_shown_by_state": {
+    "already_studied": 7,
+    "no_paper_found": 7,
+    "paper_found": 27
+   },
+   "cards_not_shown_reason": "Cards are capped at 10 per line in the fixed order; the 41 not shown passed the same filter and come later in that order, so they have the same number of papers pairing them with the gene or fewer (ties are broken by name).",
+   "direction": "gain",
+   "direction_evidence": {
+    "level": "checked by code",
+    "pmid": "22365152",
+    "variant": "p.Asn1768Asp"
+   },
+   "funnel": {
+    "approved": 2868,
+    "direction_pass": 51,
+    "family": 51,
+    "on_line_gene": 44,
+    "with_mechanism_reference_only": 27,
+    "with_pair_paper": 17,
+    "without_paper": 7
+   },
+   "gene": "SCN8A",
+   "gloss": "gain of function: the channel is too active",
+   "key": "scn8a_dee",
+   "label": "SCN8A developmental and epileptic encephalopathy (gain of function)",
+   "new_candidates": 34,
+   "new_candidates_on_line_gene": 30,
+   "refusal_reason": null,
+   "removed_by_reason": {
+    "action_unclear": 0,
+    "outside_the_channel_family": 2817,
+    "wrong_direction": 0
+   },
+   "sanity_check": {
+    "already_tried_total": 17,
+    "applicable": true,
+    "surfaced": 17
+   },
+   "status": "screened"
+  },
+  {
+   "cards": [],
+   "cards_not_shown": 0,
+   "cards_not_shown_by_state": {
+    "already_studied": 0,
+    "no_paper_found": 0,
+    "paper_found": 0
+   },
+   "cards_not_shown_reason": null,
+   "direction": "loss",
+   "direction_evidence": {
+    "level": "checked by code",
+    "pmid": "14672992",
+    "variant": "p.Leu986Phe"
+   },
+   "funnel": {
+    "approved": 2868,
+    "direction_pass": 0,
+    "family": 51,
+    "on_line_gene": 0,
+    "with_mechanism_reference_only": 0,
+    "with_pair_paper": 0,
+    "without_paper": 0
+   },
+   "gene": "SCN1A",
+   "gloss": "loss of function: the channel is not active enough",
+   "key": "dravet",
+   "label": "Dravet syndrome (SCN1A loss of function)",
+   "new_candidates": 0,
+   "new_candidates_on_line_gene": 0,
+   "refusal_reason": null,
+   "removed_by_reason": {
+    "action_unclear": 0,
+    "outside_the_channel_family": 2817,
+    "wrong_direction": 51
+   },
+   "sanity_check": {
+    "already_tried_total": 16,
+    "applicable": false,
+    "surfaced": 0
+   },
+   "status": "screened"
+  },
+  {
+   "cards": [],
+   "cards_not_shown": 0,
+   "cards_not_shown_by_state": null,
+   "cards_not_shown_reason": null,
+   "direction": "not_applicable",
+   "direction_evidence": null,
+   "funnel": null,
+   "gene": "SYNGAP1",
+   "gloss": "a synapse-signalling gene; gain or loss of function is not used for this gene here",
+   "key": "syngap1",
+   "label": "SYNGAP1-related disorder",
+   "new_candidates": null,
+   "new_candidates_on_line_gene": null,
+   "refusal_reason": "not_a_channel_line",
+   "removed_by_reason": null,
+   "sanity_check": null,
+   "status": "refused"
+  },
+  {
+   "cards": [],
+   "cards_not_shown": 0,
+   "cards_not_shown_by_state": null,
+   "cards_not_shown_reason": null,
+   "direction": "not_applicable",
+   "direction_evidence": null,
+   "funnel": null,
+   "gene": "STXBP1",
+   "gloss": "a synapse-protein gene; gain or loss of function is not used for this gene here",
+   "key": "stxbp1",
+   "label": "STXBP1-related disorder",
+   "new_candidates": null,
+   "new_candidates_on_line_gene": null,
+   "refusal_reason": "not_a_channel_line",
+   "removed_by_reason": null,
+   "sanity_check": null,
+   "status": "refused"
+  },
+  {
+   "cards": [],
+   "cards_not_shown": 0,
+   "cards_not_shown_by_state": null,
+   "cards_not_shown_reason": null,
+   "direction": "not_applicable",
+   "direction_evidence": null,
+   "funnel": null,
+   "gene": "CDKL5",
+   "gloss": "a kinase gene; gain or loss of function is not used for this gene here",
+   "key": "cdkl5",
+   "label": "CDKL5 deficiency disorder",
+   "new_candidates": null,
+   "new_candidates_on_line_gene": null,
+   "refusal_reason": "not_a_channel_line",
+   "removed_by_reason": null,
+   "sanity_check": null,
+   "status": "refused"
+  }
+ ],
+ "meta": {
+  "already_studied_caption": "Already studied for this gene: not a new idea",
+  "approved_total_method": "molecules with ChEMBL max_phase 4 whose Open Targets clinical stage is APPROVAL, collapsed to ChEMBL parent molecules (salts count once; esters are separate molecules)",
+  "badge": "Found by AI, checked by code",
+  "chembl_version": "ChEMBL_37",
+  "direction_filter_note": "The direction filter is a code rule matching each medicine's listed action type to the line's variant direction. It judges neither risk nor benefit and says nothing about any patient.",
+  "direction_source": "graph_direction_evidence",
+  "doubt_kind_labels": {
+   "different_gene_of_family": "The source concerns another gene of the family",
+   "different_variant_direction": "The source concerns variants of the other direction",
+   "model_system_or_species": "The source is a model system or another species",
+   "no_direction_in_source": "The source does not say which direction the variant has",
+   "not_a_drug_test": "The source did not test the medicine",
+   "other": "Another limitation"
+  },
+  "evidence_read": "title only",
+  "evidence_retrieved": "2026-10-04",
+  "family_coverage_note": "Open Targets 26.09 lists some approved medicines without a mechanism-of-action row; such a medicine is counted in the approved total but cannot enter the family pool, so the family count is a lower bound.",
+  "family_direction_note": "Of the 51 approved medicines listed on this channel family, 51 reduce channel activity, 0 increase it and 0 have no mapped direction; a loss-of-function line can pass only medicines that increase activity.",
+  "family_effects": {
+   "increases": 0,
+   "reduces": 51,
+   "unclear": 0
+  },
+  "family_genes": [
+   "SCN10A",
+   "SCN11A",
+   "SCN1A",
+   "SCN2A",
+   "SCN3A",
+   "SCN4A",
+   "SCN5A",
+   "SCN8A",
+   "SCN9A"
+  ],
+  "family_label": "voltage-gated sodium channel alpha subunits",
+  "hypothesis_label": "Hypothesis for laboratory testing, not medical advice",
+  "interstitial": "This page lists approved medicines that a computer filter matched to a protein mechanism. They are untested ideas for laboratory research, not treatments. Nothing here applies to any child's care. Never start, stop or change a medicine without your child's neurologist.",
+  "interstitial_back": "Back to the family view",
+  "interstitial_continue": "I'm a researcher, continue",
+  "medication_warning": "Not medical advice. Never change or stop a medication without your child's neurologist.",
+  "new_candidates_note": "new_candidates counts the medicines that passed the direction filter and are not already paired with the gene by a paper or study; new_candidates_on_line_gene counts those whose Open Targets mechanism lists the line's own gene; the rest are listed on other family genes only, and some have no reference at all (see without_paper).",
+  "next_test_labels": {
+   "heterologous_channel_assay": "Patch-clamp assay of the patient variant expressed in a cell line, with and without the compound",
+   "literature_review_first": "A systematic literature review before any laboratory experiment",
+   "mouse_model_seizure_assay": "Seizure read-out in a mouse model carrying a variant of this direction",
+   "patient_derived_neuron_electrophysiology": "Electrophysiology in patient-derived neurons carrying the variant"
+  },
+  "open_targets_release": "26.09",
+  "ordering_rule": "ordered by a fixed rule (number of papers pairing drug and gene, then name), not by expected benefit",
+  "pubmed_query_form": "\"DRUG NAME\"[tiab] AND \"GENE\"[tiab]",
+  "pubmed_query_note": "Each pair is searched once with the Open Targets preferred name and the bare gene symbol in title or abstract; synonyms, brand names and protein names such as Nav1.2 are not searched, so paper counts are lower bounds.",
+  "removed_counts_note": "The count outside the channel family is the approved total minus the family count, not a per-drug filter; the direction and action counts are per drug. Removed medicines are counted, never named.",
+  "retrieved": "2026-10-04",
+  "rule_version": "screen-rules-2",
+  "sanity_check_note": "already_tried_total counts the approved family medicines that a paper or registered study already pairs with the gene, before the direction filter; surfaced counts those among the medicines that passed it.",
+  "source": "real",
+  "sources": [
+   "Drug and mechanism data: Open Targets Platform (CC0 1.0), which includes ChEMBL (EMBL-EBI)",
+   "Approved-medicine id list: ChEMBL molecule endpoint (CC BY-SA 3.0), ids only",
+   "Papers pairing drug and gene: PubMed (NLM) E-utilities, titles only",
+   "Registered studies: ClinicalTrials.gov API v2"
+  ],
+  "studies_found": 1,
+  "target_caption": "Open Targets lists these mechanisms against the sodium-channel family, not against a single gene; the family genes of each mechanism are shown as targets.",
+  "target_level": "protein_family"
+ }
+}

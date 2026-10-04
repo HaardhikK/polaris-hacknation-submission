@@ -1,0 +1,163 @@
+{
+ "approved_names": [
+  "ablocker",
+  "blockadine",
+  "farawayzole",
+  "mixamide",
+  "modulin",
+  "openol",
+  "othergenin",
+  "vernakalant",
+  "zblocker"
+ ],
+ "approved_total": 4000,
+ "approved_total_method": "fixture: parent molecules with stage APPROVAL",
+ "chembl_approved_ids": 4200,
+ "chembl_version": "ChEMBL_37",
+ "drugs": [
+  {
+   "drug_id": "CHEMBL1",
+   "max_stage": "APPROVAL",
+   "mechanisms": [
+    {
+     "action_type": "BLOCKER",
+     "pmids": [
+      "111"
+     ],
+     "target_genes": [
+      "SCN1A",
+      "SCN2A"
+     ]
+    }
+   ],
+   "name": "BLOCKADINE",
+   "synonyms": [
+    "Blockadine",
+    "BKD"
+   ]
+  },
+  {
+   "drug_id": "CHEMBL2",
+   "max_stage": "APPROVAL",
+   "mechanisms": [
+    {
+     "action_type": "OPENER",
+     "pmids": [],
+     "target_genes": [
+      "SCN2A"
+     ]
+    }
+   ],
+   "name": "OPENOL",
+   "synonyms": [
+    "Openol"
+   ]
+  },
+  {
+   "drug_id": "CHEMBL3",
+   "max_stage": "APPROVAL",
+   "mechanisms": [
+    {
+     "action_type": "MODULATOR",
+     "pmids": [],
+     "target_genes": [
+      "SCN2A"
+     ]
+    }
+   ],
+   "name": "MODULIN",
+   "synonyms": []
+  },
+  {
+   "drug_id": "CHEMBL4",
+   "max_stage": "APPROVAL",
+   "mechanisms": [
+    {
+     "action_type": "BLOCKER",
+     "pmids": [],
+     "target_genes": [
+      "SCN8A"
+     ]
+    },
+    {
+     "action_type": "ACTIVATOR",
+     "pmids": [],
+     "target_genes": [
+      "SCN8A"
+     ]
+    }
+   ],
+   "name": "MIXAMIDE",
+   "synonyms": []
+  },
+  {
+   "drug_id": "CHEMBL5",
+   "max_stage": "APPROVAL",
+   "mechanisms": [
+    {
+     "action_type": "INHIBITOR",
+     "pmids": [],
+     "target_genes": [
+      "KCNQ2"
+     ]
+    }
+   ],
+   "name": "OTHERGENIN",
+   "synonyms": []
+  },
+  {
+   "drug_id": "CHEMBL6",
+   "max_stage": "PHASE_2",
+   "mechanisms": [
+    {
+     "action_type": "BLOCKER",
+     "pmids": [],
+     "target_genes": [
+      "SCN2A"
+     ]
+    }
+   ],
+   "name": "PHASETWOINE",
+   "synonyms": []
+  },
+  {
+   "drug_id": "CHEMBL7",
+   "max_stage": "APPROVAL",
+   "mechanisms": [
+    {
+     "action_type": "BLOCKER",
+     "pmids": [],
+     "target_genes": [
+      "SCN2A"
+     ]
+    }
+   ],
+   "name": "ZBLOCKER",
+   "synonyms": []
+  },
+  {
+   "drug_id": "CHEMBL8",
+   "max_stage": "APPROVAL",
+   "mechanisms": [
+    {
+     "action_type": "BLOCKER",
+     "pmids": [],
+     "target_genes": [
+      "SCN2A"
+     ]
+    }
+   ],
+   "name": "ABLOCKER",
+   "synonyms": []
+  }
+ ],
+ "family_genes": [
+  "SCN1A",
+  "SCN2A",
+  "SCN8A"
+ ],
+ "licence": "CC0 1.0",
+ "release": "26.09",
+ "retrieved": "2026-10-04",
+ "source": "Open Targets Platform"
+}

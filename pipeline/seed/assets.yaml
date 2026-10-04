@@ -1,0 +1,364 @@
+# Research assets by station. scope: gene = serves every line of that gene ("Already open to you"
+# on both SCN2A lines, never a borrow between them); scope: line = belongs to one direction.
+# Channel-gene drugs, trials and models are always line-scoped with a direction and say how that
+# direction was established (direction_basis). The Scn2a mouse line MMRRC:069700-UCD is left out
+# until its allele direction is sourced.
+# retrieved / last_verified: set only for pages the pipeline fetched (ClinicalTrials.gov, PubMed);
+# organisation, registry and repository pages stay empty until a person opens them.
+
+# --- SCN2A, gene scope ---
+- id: dragonfly_registry
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SCN2A
+  label: DRAGONFLY natural-history registry (NORD IAMRARE)
+  source: { label: FamilieSCN2A research page, url: https://www.scn2a.org/research/clinical-trials-and-research-opportunities/ }
+
+- id: simons_searchlight_scn2a
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SCN2A
+  label: Simons Searchlight registry (NCT01238250)
+  source: { label: ClinicalTrials.gov NCT01238250, url: https://clinicaltrials.gov/study/NCT01238250, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: citizen_health_scn2a
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SCN2A
+  label: Citizen Health records-based natural history
+  source: { label: Citizen Health, url: https://www.citizen.health }
+
+- id: scn2a_clinical_trial_readiness_study
+  type: natural_history
+  station: natural_history
+  scope: gene
+  owner_gene: SCN2A
+  label: SCN2A Clinical Trial Readiness Study
+  source: { label: PMID 40336930, url: https://pubmed.ncbi.nlm.nih.gov/40336930/, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: inchstone_measure
+  type: outcome_measure
+  station: outcome_measure
+  scope: gene
+  owner_gene: SCN2A
+  label: Inchstone developmental outcome measure
+  source: { label: PMID 38911512, url: https://pubmed.ncbi.nlm.nih.gov/38911512/, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: vineland3_gsv_scn2a
+  type: outcome_measure
+  station: outcome_measure
+  scope: gene
+  owner_gene: SCN2A
+  label: Vineland-3 growth scale values for SCN2A
+  source: { label: PMID 39887012, url: https://pubmed.ncbi.nlm.nih.gov/39887012/, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+# --- SCN2A gain, line scope ---
+- id: embold_trial
+  type: trial
+  station: trial
+  scope: line
+  owner_gene: SCN2A
+  owner_line: scn2a_gain
+  direction: gain
+  direction_basis: onset_proxy
+  note: Open to SCN2A with seizure onset under 3 months, not selected by a functional test; shown as inferred.
+  label: EMBOLD trial (NCT05818553)
+  source: { label: ClinicalTrials.gov NCT05818553, url: https://clinicaltrials.gov/study/NCT05818553, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: nct07019922_trial
+  type: trial
+  station: trial
+  scope: line
+  owner_gene: SCN2A
+  owner_line: scn2a_gain
+  direction: gain
+  direction_basis: stated_in_record
+  label: SCN2A trial for documented gain-of-function variants (NCT07019922)
+  source: { label: ClinicalTrials.gov NCT07019922, url: https://clinicaltrials.gov/study/NCT07019922, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: nct05737784_trial
+  type: trial
+  station: trial
+  scope: line
+  owner_gene: SCN2A
+  owner_line: scn2a_gain
+  direction: gain
+  direction_basis: onset_proxy
+  note: Open to any documented SCN2A variant with onset before 3 months; onset is a clinical proxy, shown as inferred.
+  label: SCN2A trial for seizure onset before 3 months (NCT05737784)
+  source: { label: ClinicalTrials.gov NCT05737784, url: https://clinicaltrials.gov/study/NCT05737784, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+# --- SYNGAP1, gene scope (non-channel: no direction) ---
+- id: citizen_health_syngap1
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SYNGAP1
+  label: Citizen Health records-based natural history
+  source: { label: Citizen Health, url: https://www.citizen.health }
+
+- id: rare_x_syngap1
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SYNGAP1
+  label: RARE-X data collection (Global Genes)
+  open_to_all: true # Global Genes states RARE-X is open to any rare-disease community (source URL below; hand assertion)
+  source: { label: Global Genes RARE-X, url: https://globalgenes.org/rare-x/ }
+
+- id: simons_searchlight_syngap1
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SYNGAP1
+  label: Simons Searchlight registry (NCT01238250)
+  source: { label: ClinicalTrials.gov NCT01238250, url: https://clinicaltrials.gov/study/NCT01238250, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: stxbp1_syngap1_natural_history
+  type: natural_history
+  station: natural_history
+  scope: gene
+  owner_gene: SYNGAP1
+  label: STXBP1 and SYNGAP1 natural-history study (NCT06555965)
+  source: { label: ClinicalTrials.gov NCT06555965, url: https://clinicaltrials.gov/study/NCT06555965, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: jax_029303_syngap1
+  type: model
+  station: model
+  scope: gene
+  owner_gene: SYNGAP1
+  label: Syngap1 mouse line JAX 029303
+  source: { label: JAX strain 029303, url: https://www.jax.org/strain/029303 }
+
+- id: mmrrc_069939_syngap1
+  type: model
+  station: model
+  scope: gene
+  owner_gene: SYNGAP1
+  label: Mouse line MMRRC:069939-JAX carrying a SYNGAP1 insertion allele
+  source: { label: MMRRC 069939-JAX, url: "https://www.mmrrc.org/catalog/sds.php?mmrrc_id=69939" }
+
+# --- SCN8A gain (DEE), line scope for trials; gene scope for the registry ---
+- id: scn8a_registry
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SCN8A
+  label: International SCN8A Registry (scn8a.net)
+  note: "The registry site asks not to be mined; linked only, never fetched. Operator: the SCN8A Alliance."
+  source: { label: International SCN8A Registry site, url: https://scn8a.net }
+
+- id: embold_trial_scn8a
+  type: trial
+  station: trial
+  scope: line
+  owner_gene: SCN8A
+  owner_line: scn8a_dee
+  direction: gain
+  direction_basis: onset_proxy
+  note: EMBOLD names SCN8A encephalopathy with early seizure onset; onset is a clinical proxy for gain of function, shown as inferred. Same record as embold_trial (SCN2A gain); one row per resource on every card.
+  label: EMBOLD trial (NCT05818553)
+  source: { label: ClinicalTrials.gov NCT05818553, url: https://clinicaltrials.gov/study/NCT05818553, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+# --- Dravet (SCN1A loss) ---
+- id: dravet_european_registry
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SCN1A
+  label: European Dravet patient registry (Dravet Syndrome European Federation)
+  source: { label: Dravet Syndrome European Federation registry page, url: https://dravet.eu/european-patient-registry/ }
+
+- id: simons_searchlight_scn1a
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: SCN1A
+  label: Simons Searchlight registry (NCT01238250)
+  source: { label: ClinicalTrials.gov NCT01238250, url: https://clinicaltrials.gov/study/NCT01238250, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: envision_natural_history
+  type: natural_history
+  station: natural_history
+  scope: gene
+  owner_gene: SCN1A
+  label: ENVISION natural-history study in Dravet syndrome (NCT04537832)
+  note: Terminated after collecting its dataset; the record's own words are shown.
+  source: { label: ClinicalTrials.gov NCT04537832, url: https://clinicaltrials.gov/study/NCT04537832, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: scn1a_horizons_natural_history
+  type: natural_history
+  station: natural_history
+  scope: gene
+  owner_gene: SCN1A
+  label: SCN1A Horizons natural-history study (NCT06504511)
+  source: { label: ClinicalTrials.gov NCT06504511, url: https://clinicaltrials.gov/study/NCT06504511, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: jax_036177_scn1a
+  type: model
+  station: model
+  scope: line
+  owner_gene: SCN1A
+  owner_line: dravet
+  direction: unknown
+  note: Allele direction not sourced from a lab study yet; unknown fails the gate on purpose.
+  label: Scn1a mouse line JAX 036177
+  source: { label: JAX strain 036177, url: https://www.jax.org/strain/036177 }
+
+# --- STXBP1 (non-channel: no direction) ---
+- id: citizen_health_stxbp1
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: STXBP1
+  label: Citizen Health records-based natural history
+  source: { label: Citizen Health, url: https://www.citizen.health }
+
+- id: simons_searchlight_stxbp1
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: STXBP1
+  label: Simons Searchlight registry (NCT01238250)
+  source: { label: ClinicalTrials.gov NCT01238250, url: https://clinicaltrials.gov/study/NCT01238250, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: stxbp1_syngap1_natural_history_stxbp1
+  type: natural_history
+  station: natural_history
+  scope: gene
+  owner_gene: STXBP1
+  label: STXBP1 and SYNGAP1 natural-history study (NCT06555965)
+  note: The same two-gene study as the SYNGAP1 asset; one row per resource on every card.
+  source: { label: ClinicalTrials.gov NCT06555965, url: https://clinicaltrials.gov/study/NCT06555965, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: stxbp1_european_readiness_study
+  type: natural_history
+  station: natural_history
+  scope: gene
+  owner_gene: STXBP1
+  label: European STXBP1 clinical-trial-readiness study (NCT06625112)
+  source: { label: ClinicalTrials.gov NCT06625112, url: https://clinicaltrials.gov/study/NCT06625112, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: stxbp1_disease_concept_model
+  type: outcome_measure
+  station: outcome_measure
+  scope: gene
+  owner_gene: STXBP1
+  label: STXBP1 disease concept model
+  source: { label: PMID 36625631, url: https://pubmed.ncbi.nlm.nih.gov/36625631/, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: mmrrc_049923_stxbp1
+  type: model
+  station: model
+  scope: gene
+  owner_gene: STXBP1
+  label: Mouse line MMRRC:049923-UCD carrying an Stxbp1 allele
+  source: { label: MMRRC 049923-UCD, url: "https://www.mmrrc.org/catalog/sds.php?mmrrc_id=49923" }
+
+- id: stxbp1_slc6a1_trial
+  type: trial
+  station: trial
+  scope: gene
+  owner_gene: STXBP1
+  label: Trial in STXBP1 and SLC6A1 disorders (NCT04937062)
+  source: { label: ClinicalTrials.gov NCT04937062, url: https://clinicaltrials.gov/study/NCT04937062, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+# --- CDKL5 (non-channel: no direction) ---
+- id: cdkl5_international_registry
+  type: registry
+  station: registry
+  scope: gene
+  owner_gene: CDKL5
+  label: International CDKL5 Registry (NCT04486768)
+  note: Suspended for a platform change; the record's own words are shown.
+  source: { label: ClinicalTrials.gov NCT04486768, url: https://clinicaltrials.gov/study/NCT04486768, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: rett_related_natural_history_cdkl5
+  type: natural_history
+  station: natural_history
+  scope: gene
+  owner_gene: CDKL5
+  label: Natural history of Rett syndrome and related disorders, includes CDKL5 (NCT02738281)
+  source: { label: ClinicalTrials.gov NCT02738281, url: https://clinicaltrials.gov/study/NCT02738281, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: cdd_hand_measure
+  type: outcome_measure
+  station: outcome_measure
+  scope: gene
+  owner_gene: CDKL5
+  label: CDD-Hand outcome measure
+  source: { label: PMID 35422141, url: https://pubmed.ncbi.nlm.nih.gov/35422141/, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: cdd_severity_measure
+  type: outcome_measure
+  station: outcome_measure
+  scope: gene
+  owner_gene: CDKL5
+  label: CDKL5 deficiency disorder severity measure
+  source: { label: PMID 37751639, url: https://pubmed.ncbi.nlm.nih.gov/37751639/, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: cdd_sleep_measure
+  type: outcome_measure
+  station: outcome_measure
+  scope: gene
+  owner_gene: CDKL5
+  label: CDKL5 deficiency disorder sleep measure
+  source: { label: PMID 38963064, url: https://pubmed.ncbi.nlm.nih.gov/38963064/, retrieved: 2026-10-04 }
+  last_verified: 2026-10-04
+
+- id: jax_021967_cdkl5
+  type: model
+  station: model
+  scope: gene
+  owner_gene: CDKL5
+  label: Cdkl5 mouse line JAX 021967
+  source: { label: JAX strain 021967, url: https://www.jax.org/strain/021967 }
+
+- id: jax_030523_cdkl5
+  type: model
+  station: model
+  scope: gene
+  owner_gene: CDKL5
+  label: Cdkl5 mouse line JAX 030523
+  source: { label: JAX strain 030523, url: https://www.jax.org/strain/030523 }
+
+- id: jax_028856_cdkl5
+  type: model
+  station: model
+  scope: gene
+  owner_gene: CDKL5
+  label: Cdkl5 mouse line JAX 028856
+  source: { label: JAX strain 028856, url: https://www.jax.org/strain/028856 }
+
+- id: mmrrc_050622_cdkl5
+  type: model
+  station: model
+  scope: gene
+  owner_gene: CDKL5
+  label: Mouse line MMRRC:050622-UCD carrying a Cdkl5 allele
+  source: { label: MMRRC 050622-UCD, url: "https://www.mmrrc.org/catalog/sds.php?mmrrc_id=50622" }

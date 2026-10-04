@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polaris-pipeline"
+version = "0.1.0"
+description = "Polaris build pipeline: seed YAML + fetched public data -> validated, human-signed graph.json"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = [
+  "pydantic==2.12.5",
+  "pyyaml==6.0.3",
+  "requests==2.32.5",
+  "jsonschema==4.25.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.4.2",
+  "ruff==0.14.0",
+]
+
+# The package root is this folder itself, imported as `pipeline`.
+[tool.setuptools]
+package-dir = { "pipeline" = "." }
+packages = ["pipeline", "pipeline.tests"]
+
+[tool.setuptools.package-data]
+pipeline = ["prompts/*.json", "prompts/*.md"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

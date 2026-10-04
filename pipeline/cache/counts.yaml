@@ -1,0 +1,39 @@
+# Written by make caches from data/raw/orphadata/ and data/raw/ctgov/: the counts behind
+# the About page's 'how this grows' line.
+orphanet_entries: 4245
+orphanet_entries_with_a_gene: 3734
+orphanet_direction_labels:
+  links: 8503
+  gain_of_function: 214
+  loss_of_function: 1222
+studies_fetched: 18
+studies_naming_two_or_more_seeded_genes:
+- nct: NCT01238250
+  genes:
+  - SCN1A
+  - SCN2A
+  - STXBP1
+  - SYNGAP1
+- nct: NCT06967727
+  genes:
+  - CDKL5
+  - SCN1A
+  - SCN2A
+  - SCN8A
+  - STXBP1
+  - SYNGAP1
+- nct: NCT06555965
+  genes:
+  - STXBP1
+  - SYNGAP1
+- nct: NCT05232630
+  genes:
+  - STXBP1
+  - SYNGAP1
+- nct: NCT05818553
+  genes:
+  - SCN2A
+  - SCN8A
+retrieved:
+  orphadata: '2026-10-04'
+  ctgov: '2026-10-04'

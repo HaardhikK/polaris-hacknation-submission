@@ -1,0 +1,270 @@
+# Written by make caches from data/raw/reporter/ (NIH RePORTER v2, keyless). Strip-list
+# fields only: project number, title, organisation, fiscal year, dates, project page.
+# Never investigators or abstracts. Titles may name medicines: Level 2 only.
+# Kept: projects whose end date is on or after the retrieval date and whose title
+# names the gene.
+retrieved: '2026-10-04'
+projects:
+- gene: CDKL5
+  appl_id: 11237178
+  project_num: 5F31EY035937-03
+  title: Impact of CDKL5 deficiency on thalamocortical dynamics
+  organisation: YALE UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2023-12-01'
+  end_date: '2026-11-30'
+  url: https://reporter.nih.gov/project-details/11237178
+- gene: CDKL5
+  appl_id: 11248090
+  project_num: 3U01NS114312-05S1
+  title: Multi-site validation of biomarkers and core clinical outcome measures for
+    clinical trial readiness in CDKL5 Deficiency Disorder - Supplement
+  organisation: UNIVERSITY OF COLORADO DENVER
+  fiscal_year: 2025
+  start_date: '2021-02-15'
+  end_date: '2027-01-31'
+  url: https://reporter.nih.gov/project-details/11248090
+- gene: SCN1A
+  appl_id: 11384953
+  project_num: 1F31NS149609-01
+  title: Investigating Developmental Interneuron Pathology and Cell-based Therapy
+    in a Translational Rabbit Model of Dravet Syndrome
+  organisation: UNIVERSITY OF MICHIGAN AT ANN ARBOR
+  fiscal_year: 2026
+  start_date: '2026-09-01'
+  end_date: '2028-08-31'
+  url: https://reporter.nih.gov/project-details/11384953
+- gene: SCN1A
+  appl_id: 11416328
+  project_num: 5F31NS143195-02
+  title: The Nigrotegmental Circuit in an Scn1a+/- Mouse Model of Dravet Syndrome
+  organisation: UNIVERSITY OF MICHIGAN AT ANN ARBOR
+  fiscal_year: 2026
+  start_date: '2025-09-01'
+  end_date: '2028-01-31'
+  url: https://reporter.nih.gov/project-details/11416328
+- gene: SCN1A
+  appl_id: 11249243
+  project_num: 5R01NS110869-07
+  title: Interneuron axonopathy underlies circuit dysfunction in a mouse model of
+    Dravet syndrome
+  organisation: CHILDREN'S HOSP OF PHILADELPHIA
+  fiscal_year: 2026
+  start_date: '2019-04-15'
+  end_date: '2029-12-31'
+  url: https://reporter.nih.gov/project-details/11249243
+- gene: SCN1A
+  appl_id: 11232287
+  project_num: 5R01NS121234-05
+  title: 'Defining Novel Mechanisms of Sudden Death in Dravet Syndrome: Dysregulation
+    of Sodium Channels in the Heart'
+  organisation: OHIO STATE UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2021-12-01'
+  end_date: '2026-11-30'
+  url: https://reporter.nih.gov/project-details/11232287
+- gene: SCN1A
+  appl_id: 11261627
+  project_num: 5R01NS131467-04
+  title: Dravet Syndrome Anti-Epileptic Control by Targeting GIRK Channels
+  organisation: NORTHEASTERN UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2023-03-01'
+  end_date: '2027-12-31'
+  url: https://reporter.nih.gov/project-details/11261627
+- gene: SCN1A
+  appl_id: 11330318
+  project_num: 5R61NS138832-02
+  title: Development of an oligonucleotide therapeutic for Dravet syndrome
+  organisation: ALLEN INSTITUTE
+  fiscal_year: 2026
+  start_date: '2025-05-15'
+  end_date: '2027-04-30'
+  url: https://reporter.nih.gov/project-details/11330318
+- gene: SCN2A
+  appl_id: 11436758
+  project_num: 1K99NS151036-01
+  title: Examining Scn2a loss of function in sensory perception
+  organisation: UNIVERSITY OF CALIFORNIA, SAN FRANCISCO
+  fiscal_year: 2026
+  start_date: '2026-08-15'
+  end_date: '2028-07-31'
+  url: https://reporter.nih.gov/project-details/11436758
+- gene: SCN2A
+  appl_id: 11594149
+  project_num: 1R56NS144233-01A1
+  title: Dual-AAV gene replacement for SCN2A disorders
+  organisation: PURDUE UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2026-08-04'
+  end_date: '2027-07-31'
+  url: https://reporter.nih.gov/project-details/11594149
+- gene: SCN2A
+  appl_id: 11317220
+  project_num: 5K08NS121601-05
+  title: Multi-scale disease modeling of SCN2A-related epilepsy due to gain-of-function
+    variants
+  organisation: NORTHWESTERN UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2022-07-01'
+  end_date: '2027-04-30'
+  url: https://reporter.nih.gov/project-details/11317220
+- gene: SCN2A
+  appl_id: 11289342
+  project_num: 5R01MH136475-03
+  title: CRISPRa-based rescue of sensorimotor deficits in the Scn2a+/- mouse model
+    of autism spectrum disorder
+  organisation: UNIVERSITY OF CALIFORNIA, SAN FRANCISCO
+  fiscal_year: 2026
+  start_date: '2024-04-01'
+  end_date: '2029-01-31'
+  url: https://reporter.nih.gov/project-details/11289342
+- gene: SCN2A
+  appl_id: 11242307
+  project_num: 1F31NS141565-01A1
+  title: Predicting the neurophysiological consequences of pathogenic SCN2A variants
+  organisation: NORTHWESTERN UNIVERSITY
+  fiscal_year: 2025
+  start_date: '2025-12-01'
+  end_date: '2027-11-30'
+  url: https://reporter.nih.gov/project-details/11242307
+- gene: SCN2A
+  appl_id: 11378873
+  project_num: 3R01NS117585-05S1
+  title: Neuronal and Behavioral Deficits Associated with Scn2a Deficiency in Autism
+    Spectrum Disorder
+  organisation: PURDUE UNIVERSITY
+  fiscal_year: 2025
+  start_date: '2021-04-01'
+  end_date: '2027-03-31'
+  url: https://reporter.nih.gov/project-details/11378873
+- gene: SCN2A
+  appl_id: 11180978
+  project_num: 5R01DC019371-06
+  title: Role of SCN2A in Myelination and Neural Circuit Development in Autism Spectrum
+    Disorder
+  organisation: UNIVERSITY OF MICHIGAN AT ANN ARBOR
+  fiscal_year: 2025
+  start_date: '2021-09-01'
+  end_date: '2027-08-31'
+  url: https://reporter.nih.gov/project-details/11180978
+- gene: SCN2A
+  appl_id: 11075268
+  project_num: 5R01NS123154-05
+  title: Neuronal hyperexcitability and seizures in a Scn2a deficient mouse model
+  organisation: PURDUE UNIVERSITY
+  fiscal_year: 2025
+  start_date: '2021-07-15'
+  end_date: '2027-04-30'
+  url: https://reporter.nih.gov/project-details/11075268
+- gene: SCN8A
+  appl_id: 11309107
+  project_num: 5F31NS143361-02
+  title: Investigating SCN8A developmental and epileptic encephalopathy mechanisms
+    and treatments in a human cellular model of the thalamocortical circuit
+  organisation: COLUMBIA UNIVERSITY HEALTH SCIENCES
+  fiscal_year: 2026
+  start_date: '2025-07-01'
+  end_date: '2027-12-31'
+  url: https://reporter.nih.gov/project-details/11309107
+- gene: SCN8A
+  appl_id: 11261040
+  project_num: 5R01NS034509-29
+  title: Functional Genetics of the Neuronal Sodium Channel Gene SCN8A
+  organisation: UNIVERSITY OF MICHIGAN AT ANN ARBOR
+  fiscal_year: 2026
+  start_date: '1996-05-01'
+  end_date: '2027-01-31'
+  url: https://reporter.nih.gov/project-details/11261040
+- gene: SCN8A
+  appl_id: 11285465
+  project_num: 5R01NS126392-04
+  title: 'SCN8A encephalopathy: disease mechanisms and treatment'
+  organisation: EMORY UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2023-03-01'
+  end_date: '2028-02-29'
+  url: https://reporter.nih.gov/project-details/11285465
+- gene: SCN8A
+  appl_id: 11261066
+  project_num: 5R01NS131319-03
+  title: Understanding the role of SCN8A in developmental and epileptic encephalopathy
+  organisation: OHIO STATE UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2024-02-21'
+  end_date: '2029-01-31'
+  url: https://reporter.nih.gov/project-details/11261066
+- gene: STXBP1
+  appl_id: 11068519
+  project_num: 1F31NS141322-01
+  title: Disease mechanism and genetic therapy for a pathogenic STXBP1 variant
+  organisation: BAYLOR COLLEGE OF MEDICINE
+  fiscal_year: 2025
+  start_date: '2024-12-16'
+  end_date: '2026-12-15'
+  url: https://reporter.nih.gov/project-details/11068519
+- gene: SYNGAP1
+  appl_id: 11346392
+  project_num: 1R01MH144052-01
+  title: Autism-Associated Synaptic Protein SYNGAP1 at the Cilium
+  organisation: UNIVERSITY OF CALIFORNIA, SAN FRANCISCO
+  fiscal_year: 2026
+  start_date: '2026-08-11'
+  end_date: '2031-04-30'
+  url: https://reporter.nih.gov/project-details/11346392
+- gene: SYNGAP1
+  appl_id: 11574047
+  project_num: 1R56MH142785-01A1
+  title: 'Noncanonical RNA Splicing and Liquid-Liquid Phase Separation of SynGAP1:
+    Novel Mechanisms Underlying Synaptic Plasticity and Cognition'
+  organisation: JOHNS HOPKINS UNIVERSITY
+  fiscal_year: 2026
+  start_date: '2026-07-02'
+  end_date: '2028-06-30'
+  url: https://reporter.nih.gov/project-details/11574047
+- gene: SYNGAP1
+  appl_id: 11384890
+  project_num: 5K23NS140491-02
+  title: Outcome measures and quantitative EEG biomarkers in SYNGAP1-related disorders
+  organisation: CHILDREN'S HOSP OF PHILADELPHIA
+  fiscal_year: 2026
+  start_date: '2025-08-01'
+  end_date: '2030-07-31'
+  url: https://reporter.nih.gov/project-details/11384890
+- gene: SYNGAP1
+  appl_id: 11307079
+  project_num: 5R01MH130594-04
+  title: Rescuing SYNGAP1 haploinsufficiency by redirecting alternative splicing
+  organisation: UNIVERSITY OF CHICAGO
+  fiscal_year: 2026
+  start_date: '2023-04-01'
+  end_date: '2028-03-31'
+  url: https://reporter.nih.gov/project-details/11307079
+- gene: SYNGAP1
+  appl_id: 11368466
+  project_num: 5R01MH130839-05
+  title: Investigating Syngap1 as a regulator of striatal synaptic function
+  organisation: UNIVERSITY OF CALIFORNIA BERKELEY
+  fiscal_year: 2026
+  start_date: '2022-09-01'
+  end_date: '2027-07-31'
+  url: https://reporter.nih.gov/project-details/11368466
+- gene: SYNGAP1
+  appl_id: 11292388
+  project_num: 5R01MH138371-02
+  title: Non-synaptic function of Syngap1 in human neurodevelopmental disorders
+  organisation: UNIVERSITY OF SOUTHERN CALIFORNIA
+  fiscal_year: 2026
+  start_date: '2025-03-01'
+  end_date: '2029-12-31'
+  url: https://reporter.nih.gov/project-details/11292388
+- gene: SYNGAP1
+  appl_id: 11400786
+  project_num: 5U54NS092090-12
+  title: Clinical trial readiness for targeting neuropsychiatric manifestations in
+    SHANK3 and SYNGAP1 pathogenic variants
+  organisation: BOSTON CHILDREN'S HOSPITAL
+  fiscal_year: 2026
+  start_date: '2014-09-30'
+  end_date: '2030-07-31'
+  url: https://reporter.nih.gov/project-details/11400786

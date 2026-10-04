@@ -1,0 +1,46 @@
+{
+ "lines": {
+  "scn2a_gain": {
+   "items": {
+    "CHEMBL1": {
+     "doubts": [
+      {
+       "kind": "different_gene_of_family",
+       "pmid": "333",
+       "text": "The paper studied SCN1A rather than SCN2A."
+      }
+     ],
+     "next_test": "heterologous_channel_assay",
+     "unchecked_reasoning": [
+      "A gain variant may respond differently from the wild type channel."
+     ],
+     "why": [
+      {
+       "pmid": "222",
+       "text": "Blockadine reduces Nav1.2 currents in heterologous cells."
+      },
+      {
+       "pmid": "222",
+       "text": "Compared with Openol, this mechanism points the other way."
+      }
+     ]
+    }
+   },
+   "items_sha256": "233599077dcecd5a149c75413112c7bf40eb9e9ef2cdbc90dd8e95fa399f8001",
+   "provenance": {
+    "agent": "codex",
+    "extractor_run_id": "20261004T070000Z-critique_candidates-1",
+    "input_manifest_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "model": "gpt-6-astra",
+    "output_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "prompt_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "run_at": "2026-10-04T07:00:00Z",
+    "step": "critique_candidates",
+    "tool_version": "0.160.0"
+   },
+   "report": {
+    "kept": 2
+   }
+  }
+ }
+}

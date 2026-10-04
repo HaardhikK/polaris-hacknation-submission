@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Polaris alias proposals",
+  "description": "Synonyms and identifiers the reconcile model proposes. Every identifier is checked against the downloaded vocabularies before a person sees it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["proposals"],
+  "properties": {
+    "proposals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["term", "kind", "gene", "orpha", "omim", "mondo", "hgnc"],
+        "properties": {
+          "term": { "type": "string", "minLength": 2, "maxLength": 120 },
+          "kind": { "type": "string", "enum": ["disease", "gene", "organisation", "id"] },
+          "gene": { "type": "string", "pattern": "^[A-Z][A-Z0-9-]{1,14}$" },
+          "orpha": { "type": ["string", "null"], "pattern": "^ORPHA:[0-9]+$" },
+          "omim": { "type": ["string", "null"], "pattern": "^OMIM:[0-9]{6}$" },
+          "mondo": { "type": ["string", "null"], "pattern": "^MONDO:[0-9]{7}$" },
+          "hgnc": { "type": ["string", "null"], "pattern": "^HGNC:[0-9]+$" }
+        }
+      }
+    }
+  }
+}

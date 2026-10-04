@@ -1,0 +1,51 @@
+# Sources that disagree. Both sides are shown on the site ("Sources disagree" chip); the site
+# uses the lab study where one exists and says which it used. Hand-recorded from
+# the literature survey; the quotes themselves arrive as signed claims (A3/A4). Conflicts for a
+# gene without a seeded line are kept here for A7 and are not attached to any line by the build.
+- id: scn2a_direction_labels
+  gene: SCN2A
+  note: Database labels name one direction each; functional assays show both directions exist.
+  sides:
+    - says: Orphanet labels the SCN2A link in ORPHA:1934 as gain of function (database label)
+      source: { label: Orphanet ORPHA:1934, url: https://www.orpha.net/en/disease/detail/1934, retrieved: 2026-10-04 }
+    - says: Gene2Phenotype G2P00033 labels SCN2A intellectual disability as loss of function (inferred)
+      source: { label: Gene2Phenotype G2P00033, url: https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00033, retrieved: 2026-10-04 }
+
+- id: scn2a_p1658s
+  gene: SCN2A
+  variant: p.Pro1658Ser
+  note: Two functional studies of the same variant reach opposite directions; shown as mixed until settled.
+  sides:
+    - says: Reported as loss of function
+      source: { label: PMID 32400968, url: https://pubmed.ncbi.nlm.nih.gov/32400968/, retrieved: 2026-10-04 }
+    - says: Reported as gain of function
+      source: { label: PMID 38939966, url: https://pubmed.ncbi.nlm.nih.gov/38939966/, retrieved: 2026-10-04 }
+
+- id: scn8a_r223g
+  gene: SCN8A
+  variant: p.Arg223Gly
+  note: An earlier loss-of-function report versus a later net gain-of-function conclusion in the same paper.
+  sides:
+    - says: Earlier report cited as loss of function
+      source: { label: PMID 34847423, url: https://pubmed.ncbi.nlm.nih.gov/34847423/, retrieved: 2026-10-04 }
+    - says: Concludes net gain of function
+      source: { label: PMID 34847423, url: https://pubmed.ncbi.nlm.nih.gov/34847423/, retrieved: 2026-10-04 }
+
+- id: scn8a_mechanism_labels
+  gene: SCN8A
+  note: Database labels disagree with each other.
+  sides:
+    - says: Gene2Phenotype G2P01608 labels SCN8A-DEE as dominant negative (entry dated 2015)
+      source: { label: Gene2Phenotype G2P01608, url: https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01608, retrieved: 2026-10-04 }
+    - says: Orphanet labels the SCN8A link in ORPHA:442835 as gain of function
+      source: { label: Orphanet ORPHA:442835, url: https://www.orpha.net/en/disease/detail/442835, retrieved: 2026-10-04 }
+
+- id: cdkl5_t958r
+  gene: CDKL5
+  variant: p.Thr958Arg
+  note: One hyperactive-kinase variant in a gene otherwise labelled loss of function.
+  sides:
+    - says: CDKL5 disease variants reduce kinase activity
+      source: { label: PMID 16330482, url: https://pubmed.ncbi.nlm.nih.gov/16330482/, retrieved: 2026-10-04 }
+    - says: T958R is a hyperactive kinase
+      source: { label: PMID 35280940, url: https://pubmed.ncbi.nlm.nih.gov/35280940/, retrieved: 2026-10-04 }

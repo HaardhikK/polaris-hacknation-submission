@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Polaris researcher-screen critique output",
+  "description": "What the critique model returns for one line's candidates. Strict: every property required, nothing extra. Code post-checks every sentence before it is shown.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "items"
+  ],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "drug_id",
+          "why",
+          "doubts",
+          "next_test"
+        ],
+        "properties": {
+          "drug_id": {
+            "type": "string",
+            "description": "The candidate's ChEMBL id, copied exactly.",
+            "pattern": "^CHEMBL[0-9]+$"
+          },
+          "why": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "items": {
+              "$ref": "#/$defs/sentence"
+            }
+          },
+          "doubts": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "items": {
+              "$ref": "#/$defs/doubt"
+            }
+          },
+          "next_test": {
+            "type": "string",
+            "enum": [
+              "heterologous_channel_assay",
+              "patient_derived_neuron_electrophysiology",
+              "mouse_model_seizure_assay",
+              "literature_review_first"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "sentence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "pmid"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "One plain sentence, at most 300 characters, no links or markup.",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "pmid": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "A PMID from this candidate's papers or opentargets_pmids; null when none supports the sentence.",
+          "pattern": "^[0-9]{1,9}$"
+        }
+      }
+    },
+    "doubt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "pmid",
+        "kind"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "One plain sentence, at most 300 characters, no links or markup.",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "pmid": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "A PMID from this candidate's papers or opentargets_pmids; null when none supports the sentence.",
+          "pattern": "^[0-9]{1,9}$"
+        },
+        "kind": {
+          "type": "string",
+          "description": "The one code from the input's doubt_kinds table that fits this doubt best.",
+          "enum": [
+            "no_direction_in_source",
+            "different_gene_of_family",
+            "different_variant_direction",
+            "model_system_or_species",
+            "not_a_drug_test",
+            "other"
+          ]
+        }
+      }
+    }
+  }
+}

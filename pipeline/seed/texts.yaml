@@ -1,0 +1,129 @@
+# Written by make explain (Codex handoff 3). Each text passed pipeline.explain's post-check
+# (deny-list, names and identifiers only from the facts, length, no links, meaning check);
+# a text that failed is recorded with a reason code and the site shows the template
+# instead. facts_sha256 ties each text to the facts it was written from; make build
+# re-checks. Do not edit by hand: re-run make explain.
+texts:
+  scn2a_loss:stxbp1_syngap1_natural_history:
+    card_key: scn2a_loss:stxbp1_syngap1_natural_history
+    check_first:
+    - who the study accepts and its age range
+    - which measures it uses and whether they fit your condition
+    - its data-sharing and consent terms
+    citations:
+    - NCT06555965
+    addressee: Children's Hospital of Philadelphia
+    facts_sha256: 41f8f31d714006fb228441ff7a4fc6b737d8f5a0cb43b44a52e488c118eccbc4
+    source: codex
+    text: The STXBP1 and SYNGAP1 communities have a natural-history study, NCT06555965.
+      The SCN2A community can compare or copy its design because it does not depend
+      on how the gene goes wrong.
+    proposal: 'To Children''s Hospital of Philadelphia: Our SCN2A community would
+      like to compare or copy the natural-history design of NCT06555965 and offer
+      our families'' experience, the natural-history data our families contribute
+      to and the outcome measures we already use. The study team decides how its design
+      can be reused.'
+    provenance:
+      agent: codex
+      model: gpt-6-astra
+      tool_version: 0.160.0
+      run_at: '2026-10-04T07:35:24Z'
+      prompt_sha256: d89b1bc31bced76bc4846a2484ba210d958768edf7bb2220a30ff5d84a4ccd41
+      input_manifest_sha256: 77bedbe915208cc5df033eec0332634e2a3c5a269acecd0aacd04a293299b63e
+      extractor_run_id: 20261004T073454Z-explain-19475
+      step: explain
+      output_sha256: 40a3d038a213603b54e1ee2b5332c1e39f1ef946fe1beee9f89506ab3b068ffe
+      checker: pipeline.explain post-check
+    provenance_line: Written by gpt-6-astra at build time on 2026-10-04 from the cited
+      facts; checked by code.
+    rejected_reason: null
+  scn2a_loss:stxbp1_european_readiness_study:
+    card_key: scn2a_loss:stxbp1_european_readiness_study
+    check_first:
+    - who the study accepts and its age range
+    - which measures it uses and whether they fit your condition
+    - its data-sharing and consent terms
+    citations:
+    - NCT06625112
+    addressee: European STXBP1 Consortium
+    facts_sha256: b907193252cf4b3cc9eede0b2284b1c92cfa5b26701dd94101792744186328fa
+    source: codex
+    text: The STXBP1 community has the European STXBP1 clinical-trial-readiness study,
+      NCT06625112. The SCN2A community can compare or copy its natural-history design
+      because it does not depend on how the gene goes wrong.
+    proposal: 'To European STXBP1 Consortium: Our SCN2A community would like to compare
+      or copy the natural-history design of NCT06625112 and offer our families'' experience,
+      the natural-history data our families contribute to and the outcome measures
+      we already use. The study team decides how its design can be reused.'
+    provenance:
+      agent: codex
+      model: gpt-6-astra
+      tool_version: 0.160.0
+      run_at: '2026-10-04T07:35:24Z'
+      prompt_sha256: d89b1bc31bced76bc4846a2484ba210d958768edf7bb2220a30ff5d84a4ccd41
+      input_manifest_sha256: 77bedbe915208cc5df033eec0332634e2a3c5a269acecd0aacd04a293299b63e
+      extractor_run_id: 20261004T073454Z-explain-19475
+      step: explain
+      output_sha256: 40a3d038a213603b54e1ee2b5332c1e39f1ef946fe1beee9f89506ab3b068ffe
+      checker: pipeline.explain post-check
+    provenance_line: Written by gpt-6-astra at build time on 2026-10-04 from the cited
+      facts; checked by code.
+    rejected_reason: null
+  scn2a_loss:cdd_hand_measure:
+    card_key: scn2a_loss:cdd_hand_measure
+    check_first:
+    - whether the measure has been used in your condition and age range
+    citations:
+    - PMID 35422141
+    addressee: the CDKL5 community
+    facts_sha256: ca9c5c8666a68e7e267d73e1931de55f48d4cf123fc74c4419471b164a585be3
+    source: codex
+    text: The CDKL5 community has the CDD-Hand outcome measure. The SCN2A community
+      can compare or copy its design because it does not depend on how the gene goes
+      wrong.
+    proposal: 'To the CDKL5 community: Our SCN2A community would like to compare or
+      copy the CDD-Hand outcome measure''s design and offer our families'' experience,
+      the natural-history data our families contribute to and the outcome measures
+      we already use. The team that built it decides how it can be reused.'
+    provenance:
+      agent: codex
+      model: gpt-6-astra
+      tool_version: 0.160.0
+      run_at: '2026-10-04T07:35:24Z'
+      prompt_sha256: d89b1bc31bced76bc4846a2484ba210d958768edf7bb2220a30ff5d84a4ccd41
+      input_manifest_sha256: 77bedbe915208cc5df033eec0332634e2a3c5a269acecd0aacd04a293299b63e
+      extractor_run_id: 20261004T073454Z-explain-19475
+      step: explain
+      output_sha256: 40a3d038a213603b54e1ee2b5332c1e39f1ef946fe1beee9f89506ab3b068ffe
+      checker: pipeline.explain post-check
+    provenance_line: Written by gpt-6-astra at build time on 2026-10-04 from the cited
+      facts; checked by code.
+    rejected_reason: null
+  scn2a_loss:embold_trial:
+    card_key: scn2a_loss:embold_trial
+    check_first: []
+    citations:
+    - NCT05818553
+    - PMID 34287911
+    addressee: null
+    facts_sha256: 1c3f5dda4cdbf9c8d3683e5bef8875c5c7cc10c0d3abe6db0c4806f07e3af1bd
+    source: codex
+    text: 'SCN2A gain of function has the EMBOLD trial (NCT05818553), but it is not
+      matched: your child''s channel works too weakly, while the channel in SCN2A
+      gain of function works too strongly. The study picks children by early seizure
+      onset, an inferred sign of channel direction, not a lab-tested one.'
+    proposal: null
+    provenance:
+      agent: codex
+      model: gpt-6-astra
+      tool_version: 0.160.0
+      run_at: '2026-10-04T07:35:24Z'
+      prompt_sha256: d89b1bc31bced76bc4846a2484ba210d958768edf7bb2220a30ff5d84a4ccd41
+      input_manifest_sha256: 77bedbe915208cc5df033eec0332634e2a3c5a269acecd0aacd04a293299b63e
+      extractor_run_id: 20261004T073454Z-explain-19475
+      step: explain
+      output_sha256: 40a3d038a213603b54e1ee2b5332c1e39f1ef946fe1beee9f89506ab3b068ffe
+      checker: pipeline.explain post-check
+    provenance_line: Written by gpt-6-astra at build time on 2026-10-04 from the cited
+      facts; checked by code.
+    rejected_reason: null

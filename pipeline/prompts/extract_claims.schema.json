@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Polaris extraction output",
+  "description": "What the extraction model returns for one batch of abstracts. Strict: every property required, nothing extra, no sign-off fields. Humans sign in seed/verifications.yaml.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["claims"],
+  "properties": {
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pmid",
+          "gene",
+          "claim_level",
+          "variant",
+          "direction",
+          "stance",
+          "basis",
+          "evidence_quote"
+        ],
+        "properties": {
+          "pmid": {
+            "type": "string",
+            "description": "The PMID of the abstract the quote comes from, digits only.",
+            "pattern": "^[0-9]{1,9}$"
+          },
+          "gene": {
+            "type": "string",
+            "description": "HGNC gene symbol, upper case.",
+            "pattern": "^[A-Z][A-Z0-9-]{1,14}$"
+          },
+          "claim_level": {
+            "type": "string",
+            "enum": ["variant", "gene"]
+          },
+          "variant": {
+            "type": ["string", "null"],
+            "description": "Protein change in HGVS form, e.g. p.Arg853Gln; null for gene-level claims.",
+            "maxLength": 40
+          },
+          "direction": {
+            "type": "string",
+            "enum": ["gain", "loss", "mixed", "unknown", "not_applicable"]
+          },
+          "stance": {
+            "type": "string",
+            "enum": ["supports", "contradicts", "unclear"]
+          },
+          "basis": {
+            "type": "string",
+            "enum": ["functional-assay", "clinical-inference", "review"]
+          },
+          "evidence_quote": {
+            "type": "string",
+            "description": "One sentence copied exactly from the abstract, at most 300 characters.",
+            "minLength": 20,
+            "maxLength": 300
+          }
+        }
+      }
+    }
+  }
+}

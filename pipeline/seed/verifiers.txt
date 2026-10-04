@@ -1,0 +1,2 @@
+# Names allowed to sign claims in verifications.yaml, one per line. Empty for this submission:
+# claims ship as "checked by code".

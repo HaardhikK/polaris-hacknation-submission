@@ -1,0 +1,1905 @@
+# Written by make caches from data/raw/ctgov/ (ClinicalTrials.gov v2, NLM). Allow-listed
+# fields only; eligibility text is never committed. Listing does not imply NLM
+# endorsement.
+studies:
+- nct: NCT01238250
+  brief_title: 'Online Study of People Who Have Genetic Changes and Features of Autism:
+    Simons Searchlight'
+  overall_status: RECRUITING
+  start_date: 2010-10
+  last_update_date: '2026-07-23'
+  why_stopped: null
+  conditions:
+  - 16P11.2 Deletion Syndrome
+  - 16p11.2 Duplications
+  - 1Q21.1 Deletion
+  - 1Q21.1 Microduplication Syndrome (Disorder)
+  - ACTL6B
+  - ADNP
+  - AHDC1
+  - ANK2
+  - ANKRD11
+  - ARID1B
+  - ASH1L
+  - BCL11A
+  - CHAMP1
+  - CHD2
+  - CHD8
+  - CSNK2A1
+  - CTBP1
+  - CTNNB1 Gene Mutation
+  - CUL3
+  - DDX3X
+  - DNMT3A
+  - DSCAM
+  - DYRK1A
+  - FOXP1
+  - GRIN2A
+  - GRIN2B
+  - HIVEP2-Related Intellectual Disability
+  - HNRNPH2
+  - KATNAL2
+  - KDM5B
+  - KDM6B
+  - KMT2C Gene Mutation
+  - KMT2E
+  - KMT5B
+  - MBD5
+  - MED13L
+  - PACS1
+  - PPP2R5D-Related Intellectual Disability
+  - PTCHD1
+  - REST
+  - SCN2A Encephalopathy
+  - SETBP1 Gene Mutation
+  - SETD5
+  - SMARCA4 Gene Mutation
+  - SMARCC2
+  - STXBP1 Encephalopathy With Epilepsy
+  - SYNGAP1-Related Intellectual Disability
+  - TBR1
+  - ARHGEF9
+  - HNRNPU
+  - PPP3CA
+  - PPP2R1A
+  - SLC6A1
+  - 2p16.3 Deletions
+  - 5q35 Deletions
+  - 5q35 Duplications
+  - 7q11.23 Duplications
+  - 15Q13.3 Deletion Syndrome
+  - 16p11.2 Triplications
+  - 16P12.2 Microdeletion
+  - 16P13.11 Microdeletion Syndrome (Disorder)
+  - 17Q12 Microdeletion Syndrome (Disorder)
+  - 17Q12 Duplication Syndrome
+  - 17Q21.31 Deletion Syndrome
+  - 17q21.3 Duplications
+  - ACTB
+  - ADSL
+  - AFF2
+  - ALDH5A1
+  - ANK3
+  - ARX
+  - ATRX Gene Mutation
+  - AUTS2 Syndrome
+  - BCKDK
+  - BRSK2
+  - CACNA1C
+  - CAPRIN1
+  - CASK
+  - CASZ1
+  - CHD3
+  - CIC
+  - CNOT3
+  - CREBBP Gene Mutation
+  - CSDE1
+  - CTCF
+  - DEAF1
+  - DHCR7
+  - DLG4
+  - EBF3
+  - EHMT1
+  - EP300 Gene Mutation
+  - GIGYF1
+  - GRIN1
+  - GRIN2D
+  - IQSEC2-Related Syndromic Intellectual Disability
+  - IRF2BPL
+  - KANSL1
+  - KCNB1
+  - KDM3B
+  - NEXMIF
+  - KMT2A
+  - MBOAT7
+  - MEIS2
+  - MYT1L
+  - NAA15
+  - NBEA
+  - NCKAP1
+  - NIPBL
+  - NLGN2
+  - NLGN3
+  - NLGN4X
+  - NR4A2
+  - NRXN1
+  - NRXN2
+  - NSD1 Gene Mutation
+  - PHF21A
+  - PHF3
+  - PHIP
+  - PSMD12
+  - RELN
+  - RERE
+  - RFX3
+  - RIMS1
+  - RORB
+  - SCN1A
+  - SETD2 Gene Mutation
+  - SHANK2
+  - SIN3A
+  - SLC9A6
+  - SON
+  - SOX5
+  - SPAST
+  - SRCAP
+  - TAOK1
+  - TANC2
+  - TCF20
+  - TLK2
+  - TRIO
+  - TRIP12
+  - UPF3B
+  - USP9X
+  - VPS13B
+  - WAC
+  - WDFY3
+  - ZBTB20
+  - ZNF292
+  - ZNF462
+  - 2Q37 Deletion Syndrome
+  - 9q34 Duplications
+  - 15q15 Deletions
+  - 15Q24 Deletion
+  - NR3C2
+  - SYNCRIP
+  - 2q37.3 Deletion
+  - 6q16 Deletion
+  - 15q11.2 BP1-BP2 Deletion
+  - 16p13.3 Deletion
+  - 17Q11.2 Microduplication Syndrome (Disorder)
+  - 17p13.3
+  - Xq28 Duplication
+  - CLCN4
+  - CSNK2B
+  - DYNC1H1
+  - EIF3F
+  - GNB1
+  - MED13
+  - MEF2C
+  - RALGAPB
+  - SCN1B
+  - YY1
+  - Xp11.22 Duplication
+  - PACS2
+  - MAOA
+  - MAOB
+  - HNRNPC
+  - HNRNPD
+  - HNRNPK
+  - HNRNPR
+  - HNRNPUL2
+  - 5P Deletion Syndrome
+  - TCF7L2 Gene Mutation
+  - HECW2
+  - PPM1D
+  - RNU4-2
+  - SNAP25
+  - FOXP2
+  - ITSN1
+  keywords:
+  - 16p11.2
+  - 16p11.2 del
+  - 16p11.2 deletion
+  - 16p11.2 dup
+  - 16p11.2 duplication
+  - chromosome 16
+  - chromosome 16p
+  - chromosome 16p11
+  - chromosome 16p11.2
+  - 1q21.1
+  - 1q21.1 del
+  - 1q21.1 deletion
+  - 1q21.1 dup
+  - 1q21.1 duplication
+  - chromosome 1
+  - chromosome 1q
+  - chromosome 1q21
+  - chromosome 1q21.1
+  - genetic mutation
+  - genetic variant
+  - gene variant
+  - ADNP
+  - ANKRD11
+  - ARID1B
+  - ASXL3
+  - ACTL6B
+  - AHDC1
+  - BAF190
+  - ANK2
+  - ASH1L
+  - BCL11A
+  - CHD2
+  - CHD8
+  - CTNNB1
+  - CUL3
+  - DYRK1A
+  - FOXP1
+  - GRIN2B
+  - KDM6B
+  - KMT2E
+  - MBD5
+  - MED13L
+  - REST
+  - SCN2A
+  - SMARCC2
+  - SYNGAP1
+  - HIVEP2
+  - HNRNPH2
+  - PPP2R5D
+  - CHAMP1
+  - CSNK2A1
+  - CTBP1
+  - DDX3X
+  - DNMT3A
+  - DSCAM
+  - GRIN2A
+  - KATNAL2
+  - KDM5B
+  - KMT2C
+  - KMT5B
+  - SUV420H1
+  - PACS1
+  - PTCHD1
+  - SETBP1
+  - SETD5
+  - SMARCA4
+  - STXBP1
+  - TBR1
+  - ARHGEF9
+  - HNRNPU
+  - PPP2B
+  - PPP2R1A
+  - SLC6A1
+  - PACS2
+  - MAOA
+  - MAOB
+  - HNRNPC
+  - HNRNPD
+  - HNRNPK
+  - HNRNPR
+  - HNRNPUL2
+  - 5P Deletion Syndrome
+  - TCF7L2
+  - HECW2
+  - PPM1D
+  - RNU4-2
+  - SNAP25
+  - FOXP2
+  - ITSN1
+  interventions: []
+  phases: []
+  enrollment_count: 100000
+  enrollment_type: ESTIMATED
+  minimum_age: null
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: null
+  outcome_measures:
+  - Baseline comprehensive collection of medical, behavioral, learning, and developmental
+    information of people who have documented gene changes that are associated with
+    features of autism and other neurodevelopmental disorders.
+  - Longitudinal, or long-term, comprehensive collection of medical, behavioral, learning,
+    and developmental information from people who have documented gene changes that
+    are associated with features of autism and other neurodevelopmental disorders.
+  lead_sponsor: Simons Searchlight
+  locations:
+  - facility: Boston Children's Hospital
+    city: Boston
+    country: United States
+  - facility: Geisinger Health System
+    city: Lewisburg
+    country: United States
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT06967727
+  brief_title: Registry and Natural History of Epilepsy-Dyskinesia Syndromes
+  overall_status: RECRUITING
+  start_date: '2025-06-01'
+  last_update_date: '2025-08-17'
+  why_stopped: null
+  conditions:
+  - Epilepsy-Dyskinesia
+  - Epilepsy
+  - Dyskinesia
+  - EDS
+  - Epilepsy-Dyskinesia Syndomes
+  - Epilepsy in Children
+  - Dyskinesias
+  - Movement Disorders in Children
+  - Neurologic Disorder
+  - Chorea
+  - Myoclonus
+  - Ataxia
+  - Dystonia Disorder
+  - Movement Disorders
+  keywords:
+  - epilepsy
+  - Epilepsy-Dyskinesia
+  - Epilepsy-Dyskinesia Syndrome
+  - Dyskinesia
+  - movement disorders
+  - epileptic encephalopathy
+  - neurogenetics
+  - PRRT2
+  - ATP1A3
+  - GNAO1
+  - MECP2
+  - CACNA1A
+  - CDKL5
+  - FOXG1
+  - SCN1A
+  - SCN8A
+  - SLC2A1
+  - STXBP1
+  - UBA5
+  - ADCY5
+  interventions: []
+  phases: []
+  enrollment_count: 700
+  enrollment_type: ESTIMATED
+  minimum_age: 0 Years
+  maximum_age: 30 Years
+  std_ages:
+  - CHILD
+  - ADULT
+  study_population: null
+  outcome_measures:
+  - Creation of Biorepository
+  - Assess Health-Related Quality of Life
+  - Understanding of Disease Spectrum
+  - Investigate the Efficacy of Symptomatic Treatments
+  - Establish Clinical Trial Readiness
+  lead_sponsor: Boston Children's Hospital
+  locations:
+  - facility: Boston Children's Hospital
+    city: Boston
+    country: United States
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT06555965
+  brief_title: STXBP1 and SYNGAP1 Related Disorders Natural History Study
+  overall_status: RECRUITING
+  start_date: '2023-08-30'
+  last_update_date: '2025-10-29'
+  why_stopped: null
+  conditions:
+  - Genetic Disease
+  - STXBP1 Encephalopathy With Epilepsy
+  - SYNGAP1-Related Intellectual Disability
+  keywords:
+  - STXBP1
+  - Natural History
+  - Clinical Research
+  - SYNGAP1
+  interventions:
+  - type: OTHER
+    name: Non-interventional study
+  phases: []
+  enrollment_count: 600
+  enrollment_type: ESTIMATED
+  minimum_age: null
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: Participating individuals must have a confirmed genetic diagnosis
+    of STXBP1 or SYNGAP1 related disorders.
+  outcome_measures:
+  - Changes in percentiles recorded on clinical assessments over time
+  lead_sponsor: Children's Hospital of Philadelphia
+  locations:
+  - facility: Stanford Medicine Children's Health
+    city: Palo Alto
+    country: United States
+  - facility: Children's Hospital Colorado
+    city: Aurora
+    country: United States
+  - facility: Weill Cornell Medicine
+    city: New York
+    country: United States
+  - facility: The Children's Hospital of Philadelphia
+    city: Philadelphia
+    country: United States
+  - facility: Texas Children's Hospital
+    city: Houston
+    country: United States
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT05232630
+  brief_title: 'Fenfluramine for the Treatment of Different Types of Developmental
+    and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic
+    Outcomes'
+  overall_status: COMPLETED
+  start_date: '2022-10-20'
+  last_update_date: '2026-09-29'
+  why_stopped: null
+  conditions:
+  - Refractory Epilepsy
+  - SYNGAP1 Encephalopathy
+  - STXBP1 Encephalopathy With Epilepsy
+  - Inv Dup(15) Encephalopathy
+  - Multifocal or Bilateral Malformations of Cortical Development
+  - Continuous Spike and Waves During Slow Sleep
+  keywords:
+  - refractory epilepsy
+  - SYNGAP1
+  - STXBP1
+  - Inv Dup(15)
+  - developmental and epileptic encephalopathies
+  - DEEs
+  - Epilepsy
+  - Drug Resistant Epilepsy
+  - Intractable epilepsy
+  - Nervous System Diseases
+  - Genetic Diseases, Inborn
+  interventions:
+  - type: DRUG
+    name: Fenfluramine
+  phases:
+  - PHASE4
+  enrollment_count: 20
+  enrollment_type: ACTUAL
+  minimum_age: 2 Years
+  maximum_age: 35 Years
+  std_ages:
+  - CHILD
+  - ADULT
+  study_population: null
+  outcome_measures:
+  - Seizure frequency.
+  - Seizure severity.
+  - Behaviour.
+  - Gross motor function.
+  - Sleep habits.
+  - Global impression of change.
+  - Global impression of change.
+  - Quality of life and family impact.
+  - Epileptiform activity
+  lead_sponsor: Hospital Ruber Internacional
+  locations:
+  - facility: Hospital Ruber Internacional
+    city: Madrid
+    country: Spain
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT04395495
+  brief_title: RASopathy Biorepository
+  overall_status: RECRUITING
+  start_date: '2017-06-27'
+  last_update_date: '2025-12-18'
+  why_stopped: null
+  conditions:
+  - RAS Mutation
+  - Neurofibromatosis 1
+  - Noonan Syndrome
+  - Noonan Syndrome With Multiple Lentigines
+  - Noonan Neurofibromatosis Syndrome
+  - Cardiofaciocutaneous Syndrome
+  - Costello Syndrome
+  - Legius Syndrome
+  - Smith-Kingsmore Syndrome
+  - MTOR Gene Mutation
+  - GATOR-1 Gene Mutation
+  - SYNGAP1-Related Intellectual Disability
+  - DLG4
+  - MAPK1 Gene Mutation
+  keywords: []
+  interventions: []
+  phases: []
+  enrollment_count: 1000
+  enrollment_type: ESTIMATED
+  minimum_age: null
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: The RASopathies are a group of developmental disorders caused
+    by genetic changes in the genes that compose the Ras/mitogen activated protein
+    kinase (MAPK) pathway.
+  outcome_measures:
+  - Collection of biospecimen
+  - Collection of medical history
+  - Release of Specimens and Clinical Data to Other Investigators for use in RASopathy
+    Research
+  lead_sponsor: Children's Hospital Medical Center, Cincinnati
+  locations:
+  - facility: Cincinnati Children's Hospital Medical Center
+    city: Cincinnati
+    country: United States
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT05818553
+  brief_title: A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic
+    Encephalopathies (DEE)
+  overall_status: ACTIVE_NOT_RECRUITING
+  start_date: '2023-08-02'
+  last_update_date: '2026-01-29'
+  why_stopped: null
+  conditions:
+  - SCN2A Encephalopathy
+  - SCN8A Encephalopathy
+  keywords:
+  - Pediatric epilepsy
+  - NaV1.2 Voltage-Gated Sodium Channel
+  - SCN2A variant
+  - SCN8A variant
+  - Developmental and epileptic encephalopathy
+  interventions:
+  - type: DRUG
+    name: PRAX-562
+  phases:
+  - PHASE2
+  - PHASE3
+  enrollment_count: 77
+  enrollment_type: ESTIMATED
+  minimum_age: 1 Year
+  maximum_age: 18 Years
+  std_ages:
+  - CHILD
+  - ADULT
+  study_population: null
+  outcome_measures:
+  - 'PART A (Cohorts 1 and 2) RDB: To evaluate the safety and tolerability of PRAX
+    562 in pediatric participants with SCN2A- and SCN8A- DEEs'
+  - 'PART B (Cohorts 1 and 2) OLE: To evaluate the long-term safety and tolerability
+    of PRAX-562 in pediatric participants with DEEs'
+  - 'PART A (Cohorts 1 and 2) RDB: To assess the effect of PRAX-562 on the frequency
+    of countable motor seizures in pediatric participants with DEEs'
+  - Plasma concentrations of PRAX-562
+  - Seizure Frequency (OLE Extension)
+  - To assess the effect of PRAX-562 on the frequency of countable motor seizures
+    in pediatric participants with DEEs
+  - Incidence of Treatment-Emergent Adverse Events (TEAEs) [Safety and Tolerability])
+  lead_sponsor: Praxis Precision Medicines
+  locations:
+  - facility: Praxis Research Site
+    city: Atlanta
+    country: United States
+  - facility: Praxis Research Site
+    city: Chicago
+    country: United States
+  - facility: Praxis Research Site
+    city: Minneapolis
+    country: United States
+  - facility: Praxis Research Site
+    city: Hackensack
+    country: United States
+  - facility: Praxis Research Site
+    city: Tel Litwinsky
+    country: Israel
+  - facility: Praxis Research Site
+    city: Madrid
+    country: Spain
+  - facility: Praxis Research Site
+    city: Glasgow
+    country: United Kingdom
+  - facility: Praxis Research Site
+    city: London
+    country: United Kingdom
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT07019922
+  brief_title: A Clinical Trial of Elsunersen in Pediatric SCN2A-DEE to Assess Efficacy
+    and Safety
+  overall_status: RECRUITING
+  start_date: '2025-08-13'
+  last_update_date: '2026-08-03'
+  why_stopped: null
+  conditions:
+  - Epileptic Encephalopathy
+  - SCN2A Encephalopathy
+  keywords:
+  - epilepsis
+  - early onset scn2a
+  - epileptic encephalopathy
+  - scn2a
+  - gain of function
+  - seizure
+  interventions:
+  - type: DRUG
+    name: 1mg elsunersen
+  - type: DRUG
+    name: 0.5mg elsunersen
+  phases:
+  - PHASE3
+  enrollment_count: 40
+  enrollment_type: ESTIMATED
+  minimum_age: 1 Day
+  maximum_age: 18 Years
+  std_ages:
+  - CHILD
+  - ADULT
+  study_population: null
+  outcome_measures:
+  - To assess the efficacy of elsunersen on seizure frequency in participants with
+    early-onset SCN2A DEE
+  - To assess secondary efficacy outcomes of elsunersen in participants with early-onset
+    SCN2A DEE
+  - To assess secondary efficacy outcomes of elsunersen in participants with early-onset
+    SCN2A DEE
+  - CGI-S change from baseline
+  - CGI subdomain scores at each postdose time point
+  - CgGI-S from baseline
+  - CgGI-I subdomain scores at each postdose time point
+  - Sleep assessment scores from baseline
+  - To evaluate the safety and tolerability of elsunersen in participants with early-onset
+    SCN2A DEE
+  lead_sponsor: Praxis Precision Medicines
+  locations:
+  - facility: Praxis Research Site
+    city: San Diego
+    country: United States
+  - facility: Praxis Research Site
+    city: Aurora
+    country: United States
+  - facility: Praxis Research Site
+    city: Chicago
+    country: United States
+  - facility: Praxis Research Site
+    city: Cincinnati
+    country: United States
+  - facility: Praxis Research Site
+    city: Philadelphia
+    country: United States
+  - facility: Praxis Research Site
+    city: Memphis
+    country: United States
+  - facility: Praxis Research Site
+    city: Porto Alegre
+    country: Brazil
+  - facility: Praxis Research Site
+    city: São Paulo
+    country: Brazil
+  - facility: Praxis Research Site
+    city: Bonn
+    country: Germany
+  - facility: Praxis Research Site
+    city: Rome
+    country: Italy
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT05737784
+  brief_title: A Clinical Trial of PRAX-222 in Pediatric Participants With Early Onset
+    SCN2A Developmental and Epileptic Encephalopathy
+  overall_status: ACTIVE_NOT_RECRUITING
+  start_date: '2023-04-13'
+  last_update_date: '2026-08-03'
+  why_stopped: null
+  conditions:
+  - SCN2A-DEE
+  - Epilepsy
+  keywords:
+  - Antisense Oligonucleotide
+  - NaV1.2 Voltage-Gated Sodium Channel
+  - Voltage-Gated Sodium Channel Blockers
+  - SCN2A variant
+  - Pediatric epilepsy
+  - Developmental and Epileptic Encephalopathy
+  - DEE
+  interventions:
+  - type: DRUG
+    name: PRAX-222 - Initial Dose
+  - type: DRUG
+    name: PRAX-222 - Initial Ascending Doses
+  - type: DRUG
+    name: PRAX-222 - Optional Ascending Doses
+  - type: DRUG
+    name: PRAX-222 - Fixed Doses
+  - type: PROCEDURE
+    name: Placebo
+  phases:
+  - PHASE1
+  - PHASE2
+  enrollment_count: 60
+  enrollment_type: ESTIMATED
+  minimum_age: 2 Years
+  maximum_age: 18 Years
+  std_ages:
+  - CHILD
+  - ADULT
+  study_population: null
+  outcome_measures:
+  - Number of participants with treatment-emergent adverse events (Preliminary Safety,
+    Dose Escalation)
+  - Seizure frequency (Confirmatory Phase)
+  - Seizure frequency (Preliminary Safety)
+  - Seizure frequency (Preliminary Safety)
+  - Percent change in seizure frequency (Preliminary Safety)
+  - Number of participants with a treatment response (Preliminary Safety)
+  - Seizure frequency (Dose Escalation Phase)
+  - Seizure frequency (Dose Escalation Phase)
+  - Seizure frequency (Confirmatory Phase)
+  - Percent change in seizure frequency (Dose Escalation Phase)
+  - Percent change in seizure frequency (Confirmatory Phase)
+  - Number of participants with a treatment response (Dose Escalation Phase)
+  - Number of participants with a treatment response (Confirmatory Phase)
+  - Changes in EEG-based outcome measures (Confirmatory Phase)
+  - Change from baseline in Clinical Global Impression-Severity (CGI-S) score (Confirmatory
+    Phase)
+  - Change from baseline in Caregiver Global Impression-Severity (CgGI-S) score (Confirmatory
+    Phase)
+  - Clinical Global Impression-Improvement (CGI-I) score (Confirmatory Phase)
+  - Caregiver Global Impression-Improvement (CgGI-I) score (Confirmatory Phase)
+  - Developmental milestones (Confirmatory Phase)
+  - Quality of life as assessed by Quality of Life Inventory-Disability (Confirmatory
+    Phase)
+  - Behavior as assessed by Vineland Adaptive Behavior Scale-3rd edition (Vineland-3;
+    Confirmatory Phase)
+  - Behavior as assessed by Aberrant Behaviors Checklist-2nd edition (ABC-2; Confirmatory
+    Phase)
+  - Sleep as assessed by Sleep Disturbance Scale for Children (Confirmatory Phase)
+  lead_sponsor: Praxis Precision Medicines
+  locations:
+  - facility: Le Bonheur Childrens Hospital
+    city: Memphis
+    country: United States
+  - facility: Hospital de Clinicas de Porto Alegre
+    city: Porto Alegre
+    country: Brazil
+  - facility: Praxis Research Site
+    city: São Paulo
+    country: Brazil
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT04873869
+  brief_title: Study to Evaluate NBI-921352 as Adjunctive Therapy in Subjects With
+    SCN8A Developmental and Epileptic Encephalopathy Syndrome (SCN8A-DEE)
+  overall_status: TERMINATED
+  start_date: '2022-01-31'
+  last_update_date: '2025-10-16'
+  why_stopped: This study was prematurely terminated due to sponsor decision.
+  conditions:
+  - SCN8A Developmental and Epileptic Encephalopathy Syndrome
+  keywords:
+  - Epilepsy
+  - Sodium channel
+  - voltage-gated
+  - type VIII
+  - alpha subunit (SCN8A)
+  - NaV1.6 inhibitor
+  interventions:
+  - type: DRUG
+    name: NBI-921352
+  - type: DRUG
+    name: Placebo
+  phases:
+  - PHASE2
+  enrollment_count: 8
+  enrollment_type: ACTUAL
+  minimum_age: 2 Years
+  maximum_age: 21 Years
+  std_ages:
+  - CHILD
+  - ADULT
+  study_population: null
+  outcome_measures:
+  - Percentage Change From Baseline in 28-day Seizure Frequency for Countable Motor
+    Seizures During the 16-week Treatment Period
+  - Percentage of Participants With a Treatment Response
+  - Percentage Change From Baseline in 28-day Seizure Frequency for Countable Motor
+    Seizures During the 10-week Maintenance Period
+  - Percentage of Participants With a ≥ 25%, ≥ 75%, or 100% Treatment Response During
+    the 16-week Treatment Period
+  - Percentage of Participants With a ≥25%, ≥50%, ≥75%, or 100% Treatment Response
+    During the 10-week Maintenance Period
+  - Clinical Global Impression of Change (CGIC) Score at Each Visit During the 16-week
+    Treatment Period
+  - Parent/Caregiver Global Impression of Change (GIC) Score at Each Visit During
+    the 16-week Treatment Period
+  - Change From Baseline in Clinical Global Impression of Severity (CGIS) Scores at
+    Each Visit During the 16-week Treatment Period
+  - Change From Baseline in Parent/Caregiver Global Impression of Severity (GIS) Scores
+    at Each Visit During the 16-week Treatment Period
+  lead_sponsor: Neurocrine Biosciences
+  locations:
+  - facility: UCSF Medical Center
+    city: San Francisco
+    country: United States
+  - facility: Children's National Hospital
+    city: Washington D.C.
+    country: United States
+  - facility: University of Rochester
+    city: Rochester
+    country: United States
+  - facility: Cook Children's Medical Center
+    city: Fort Worth
+    country: United States
+  retrieved: '2026-10-04'
+  human_check:
+  - why_stopped
+- nct: NCT05226780
+  brief_title: Extension Study to Evaluate How Safe and Tolerable NBI-921352 is as
+    an Adjunctive Therapy for Participants With SCN8A-DEE
+  overall_status: TERMINATED
+  start_date: '2022-07-12'
+  last_update_date: '2026-05-27'
+  why_stopped: This study was prematurely terminated due to sponsor decision.
+  conditions:
+  - SCN8A Developmental and Epileptic Encephalopathy Syndrome
+  keywords:
+  - Epilepsy
+  - Sodium channel
+  - voltage-gated
+  - type VIII
+  - alpha subunit (SCN8A)
+  - NaV1.6 inhibitor
+  interventions:
+  - type: DRUG
+    name: NBI-921352
+  phases:
+  - PHASE2
+  enrollment_count: 8
+  enrollment_type: ACTUAL
+  minimum_age: 2 Years
+  maximum_age: 22 Years
+  std_ages:
+  - CHILD
+  - ADULT
+  study_population: null
+  outcome_measures:
+  - Number of Participants with Serious treatment-emergent adverse events (TEAEs),
+    TEAEs Leading to Discontinuation and Fatal TEAEs
+  - Percentage Change from Baseline in 28-day Seizure Frequency for Countable Motor
+    Seizures
+  lead_sponsor: Neurocrine Biosciences
+  locations:
+  - facility: UCSF Medical Center
+    city: San Francisco
+    country: United States
+  - facility: Children's National Hospital
+    city: Washington D.C.
+    country: United States
+  - facility: University of Rochester
+    city: Rochester
+    country: United States
+  - facility: Cook Children's Medical Center
+    city: Fort Worth
+    country: United States
+  retrieved: '2026-10-04'
+  human_check:
+  - why_stopped
+- nct: NCT04537832
+  brief_title: Natural History Study of Infants and Children With Developmental and
+    Epileptic Encephalopathies
+  overall_status: TERMINATED
+  start_date: '2021-01-18'
+  last_update_date: '2023-06-12'
+  why_stopped: The ENVISION study has generated a robust data set that shows consistency
+    in the seizure and non-seizure manifestations of SCN1A+ Dravet syndrome.
+  conditions:
+  - Dravet Syndrome
+  keywords:
+  - severe myoclonic epilepsy
+  - epilepsy
+  - severe myoclonic epilepsy of infancy
+  - SMEI
+  - SCN1A related seizure disorder
+  - epileptic encephalopathy
+  - developmental and epileptic encephalopathies
+  - DEE
+  interventions:
+  - type: OTHER
+    name: No Intervention
+  phases: []
+  enrollment_count: 58
+  enrollment_type: ACTUAL
+  minimum_age: 6 Months
+  maximum_age: 60 Months
+  std_ages:
+  - CHILD
+  study_population: Infants and children aged between 6 and 60 months with SCN1A-positive
+    Dravet Syndrome.
+  outcome_measures:
+  - Seizure burden
+  - Seizure freedom
+  - Use of anti-seizure medication(s)
+  - Use of Special Diet
+  - Cognitive functioning
+  - Behavioral and social functioning
+  - Motor functioning
+  - Incidence of Adverse Events
+  - Overall survival
+  lead_sponsor: Encoded Therapeutics
+  locations:
+  - facility: Children's Hospital Los Angeles
+    city: Los Angeles
+    country: United States
+  - facility: UCSF Benioff Children's Hospital
+    city: San Francisco
+    country: United States
+  - facility: Children's Hospital Colorado
+    city: Aurora
+    country: United States
+  - facility: Nicklaus Children's Hospital
+    city: Miami
+    country: United States
+  - facility: Ann and Robert H. Lurie Children's Hospital of Chicago
+    city: Chicago
+    country: United States
+  - facility: Northeast Regional Epilepsy Group
+    city: Hackensack
+    country: United States
+  - facility: Abigail Wexner Research Institute at Nationwide Children's Hospital
+    city: Columbus
+    country: United States
+  - facility: Oregon Health and Science University
+    city: Portland
+    country: United States
+  - facility: Children's Hospital of Philadelphia
+    city: Philadelphia
+    country: United States
+  - facility: Le Bonheur Children's Hospital
+    city: Memphis
+    country: United States
+  - facility: Cook Children's Medical Center
+    city: Fort Worth
+    country: United States
+  - facility: Multicare Institute for Research and Innovation
+    city: Tacoma
+    country: United States
+  - facility: Austin Hospital - Melbourne Brain Centre
+    city: Heidelberg
+    country: Australia
+  - facility: Hospital de la Santa Creu i Sant Pau
+    city: Barcelona
+    country: Spain
+  - facility: Hospital Universitari i Politècnic La Fe
+    city: Valencia
+    country: Spain
+  - facility: Queen Elizabeth Hospital
+    city: Glasgow
+    country: United Kingdom
+  retrieved: '2026-10-04'
+  human_check:
+  - why_stopped
+- nct: NCT06504511
+  brief_title: SCN1A Horizons A Natural History Study of SCN1A-related Epilepsies
+    in the United Kingdom
+  overall_status: UNKNOWN
+  start_date: '2023-11-20'
+  last_update_date: '2024-07-16'
+  why_stopped: null
+  conditions:
+  - SCN1A
+  - Dravet Syndrome
+  - Epilepsy
+  keywords:
+  - Epilepsy
+  - SCN1A
+  - Natural History
+  - Developmental Outcome
+  interventions: []
+  phases: []
+  enrollment_count: 400
+  enrollment_type: ESTIMATED
+  minimum_age: null
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: Approximately 400 participants with a minimum of 2 years of follow-up
+    are planned to be enrolled.
+  outcome_measures:
+  - Countable convulsive seizures per month
+  - Bayley Scales of Infant and Toddler Development 4th UK Edition (Bayley-4)
+  - Wechsler Preschool and Primary Scale of Development 4th UK Edition (WPPSI-IV)
+  - Wechsler Intelligence Scale for Children 5th UK Edition (WISC-V)
+  - Wechsler Adult Intelligence Scale 4th UK Edition (WAIS-IV)
+  - Vineland Adaptive Behaviour Scales - Third Edition
+  - Occurrence and frequency of status epilepticus
+  - Grantham Score
+  - Combined Annotation Dependent Depletion (CADD) score
+  - Rare Exam Variant Ensemble Learner (REVEL) score
+  lead_sponsor: NHS Greater Glasgow and Clyde
+  locations:
+  - facility: Royal Hospital for Children
+    city: Glasgow
+    country: United Kingdom
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT06625112
+  brief_title: A Multicentric European Study to Promote Clinical Trial Readiness for
+    STXBP1-related Disorders
+  overall_status: RECRUITING
+  start_date: '2025-11-04'
+  last_update_date: '2026-02-06'
+  why_stopped: null
+  conditions:
+  - STXBP1 Encephalopathy With Epilepsy
+  keywords:
+  - European
+  - STXBP1
+  - European STXBP1 Consortium
+  - ESCO
+  - STXBP1-RD
+  - Syntaxin Binding Protein
+  - epileptic encephalopathy
+  - epilepsy
+  - natural history study
+  - registry
+  interventions: []
+  phases: []
+  enrollment_count: 120
+  enrollment_type: ESTIMATED
+  minimum_age: null
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: null
+  outcome_measures:
+  - Changes in clinical assessment percentiles over time.
+  lead_sponsor: European STXBP1 Consortium
+  locations:
+  - facility: Universitair Ziekenhuis Antwerpen
+    city: Antwerp
+    country: Belgium
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT04937062
+  brief_title: Phenylbutyrate for Monogenetic Developmental and Epileptic Encephalopathy
+  overall_status: ACTIVE_NOT_RECRUITING
+  start_date: '2021-03-01'
+  last_update_date: '2026-01-22'
+  why_stopped: null
+  conditions:
+  - STXBP1 Encephalopathy With Epilepsy, SLC6A1 Neurodevelopmental Disorder
+  - Developmental and Epileptic Encephalopathy
+  keywords:
+  - phenylbutyrate, developmental and epileptic encephalopathy
+  interventions:
+  - type: DRUG
+    name: Glycerol Phenylbutyrate 1100 MG/ML [Ravicti]
+  phases:
+  - EARLY_PHASE1
+  enrollment_count: 50
+  enrollment_type: ESTIMATED
+  minimum_age: 0 Months
+  maximum_age: 17 Years
+  std_ages:
+  - CHILD
+  study_population: null
+  outcome_measures:
+  - Short Term Adverse events (i.e., safety)
+  - Long Term Adverse events (i.e., safety)
+  - Percentage of doses taken by participants (i.e., tolerability)
+  - Plasma concentration of phenylbutyrate
+  lead_sponsor: Weill Medical College of Cornell University
+  locations:
+  - facility: Children's Hospital Colorado
+    city: Aurora
+    country: United States
+  - facility: Weill Cornell Medicine
+    city: New York
+    country: United States
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT06983158
+  brief_title: A Clinical Trial of CAP-002 Gene Therapy in Pediatric Patients With
+    Syntaxin-Binding Protein 1 (STXBP1) Encephalopathy
+  overall_status: TERMINATED
+  start_date: '2025-07-03'
+  last_update_date: '2026-06-10'
+  why_stopped: Stopping rule for study was met
+  conditions:
+  - Developmental and Epileptic Encephalopathy
+  keywords:
+  - STXBP1
+  - Gene therapy
+  interventions:
+  - type: DRUG
+    name: gene therapy
+  phases:
+  - PHASE1
+  - PHASE2
+  enrollment_count: 1
+  enrollment_type: ACTUAL
+  minimum_age: 18 Months
+  maximum_age: 7 Years
+  std_ages:
+  - CHILD
+  study_population: null
+  outcome_measures:
+  - Primary Safety
+  - Bayley Scales of Infant and Toddler Development- Fourth Edition
+  - Gross Motor Function Measure
+  - Peabody Developmental Motor Scales-Third Edition
+  - STXBP1-Clinical Severity Assessment-Clinician
+  - Vineland Adaptive Behavior Scales | Third Edition
+  - Observer-Reported Communication Ability
+  - Sensory Profile-2
+  - Quality of Life Inventory-Disability
+  - STXBP1-Clinical Severity Assessment-Caregiver
+  - Aberrant Behavior Checklist
+  - Child Behavior Checklist
+  - Child's Sleep Habits
+  - Seizure frequency
+  lead_sponsor: Capsida Biotherapeutics, Inc.
+  locations:
+  - facility: Colorado Child Health Research Institute
+    city: Aurora
+    country: United States
+  - facility: Weill Cornell Medicine
+    city: New York
+    country: United States
+  - facility: Buerger Center for Advanced Pediatric Care, Children's Hospital of Philadelphia
+    city: Philadelphia
+    country: United States
+  - facility: Texas Children's Hospital
+    city: Houston
+    country: United States
+  retrieved: '2026-10-04'
+  human_check:
+  - why_stopped
+- nct: NCT04486768
+  brief_title: International CDKL5 Registry
+  overall_status: SUSPENDED
+  start_date: '2018-12-05'
+  last_update_date: '2026-04-21'
+  why_stopped: The Registry is being changed to a new online platform provider. The
+    Registry will resume once the platform transfer has been completed.
+  conditions:
+  - CDKL5 Deficiency Disorder (CDD)
+  keywords:
+  - CDKL5
+  - CDD
+  - CDKL5 Disorder
+  - CDKL5 Deficiency
+  - pediatric epilepsy
+  - epilepsy
+  - CDKL5 Registry
+  - CDKL5 Patient Registry
+  - CDD Registry
+  - CDD Patient Registry
+  interventions:
+  - type: OTHER
+    name: Survey Instrument
+  phases: []
+  enrollment_count: 500
+  enrollment_type: ESTIMATED
+  minimum_age: null
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: We expect to enroll up to 500 CDD patients over a 5 year period.
+  outcome_measures:
+  - Frequency of different mutation types and genotype-phenotype correlations in CDKL5
+    Deficiency Disorder (CDD).
+  - Caregiver reported longitudinal assessments to quantify seizure frequency over
+    time.
+  - Caregiver reported longitudinal assessment of sleep quality in patients over time.
+  - Caregiver reported assessment of GI disturbances in patients over time and across
+    age groups.
+  - Caregiver reported longitudinal assessment of supplement use for the treatment
+    of CDKL5 Deficiency Disorder (CDD) as an adjunct to prescription medications.
+  - Caregiver reported longitudinal assessment of diet use for the treatment of CDKL5
+    Deficiency Disorder (CDD) as an adjunct to prescribed medications.
+  - Caregiver reported time to attainment of developmental milestones.
+  - Medication use in patients by age group.
+  - Frequency of hospitalization in CDKL5 Deficiency Disorder (CDD) patients.
+  - Frequency of respiratory infections in CDKL5 Deficiency Disorder (CDD) patients.
+  lead_sponsor: University of Pennsylvania
+  locations:
+  - facility: University of Pennsylvania Orphan Disease Center
+    city: Philadelphia
+    country: United States
+  retrieved: '2026-10-04'
+  human_check:
+  - why_stopped
+- nct: NCT02738281
+  brief_title: Natural History of Rett Syndrome & Related Disorders
+  overall_status: COMPLETED
+  start_date: 2015-11
+  last_update_date: '2021-08-05'
+  why_stopped: null
+  conditions:
+  - Rett Syndrome
+  - MECP2 Duplication dIsorder
+  - CDKL5 Disorder
+  - FOXG1 Syndrome
+  keywords: []
+  interventions: []
+  phases: []
+  enrollment_count: 1044
+  enrollment_type: ACTUAL
+  minimum_age: null
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: null
+  outcome_measures:
+  - Clinical longitudinal assessments in Rett syndrome (RTT) as measured by mean growth
+    over 5 years.
+  - Clinical and neurobehavioral longitudinal assessments in Rett syndrome (RTT) as
+    measured by mean change in head circumference over 5 years
+  - Clinical and neurobehavioral longitudinal assessments in Rett syndrome (RTT) as
+    measured by mean number of stereotypic movements at 5 years
+  - Clinical and neurobehavioral longitudinal assessments in Rett syndrome (RTT) as
+    the percent of subjects with reported epilepsy at 5 years
+  - Clinical and neurobehavioral longitudinal assessments in Rett syndrome (RTT) as
+    the percent of subjects with reported scoliosis at 5 years
+  - Clinical and neurobehavioral longitudinal assessments in Rett syndrome (RTT) as
+    the percent of subjects with MECP2 mutations at 5 years
+  - Clinical and neurobehavioral longitudinal assessments in Rett syndrome (RTT) as
+    reported by the mean Clinical Severity Scale (CSS) at 5 years
+  - Clinical and neurobehavioral longitudinal assessments in Rett syndrome (RTT) as
+    measured by the mean Motor Behavioral Assessment (MBA) at 5 years
+  - 'Clinical and neurobehavioral longitudinal assessments in MECP2 duplication syndrome:
+    mean growth rate over 5 years with subjects having MECP2 duplication syndrome'
+  - 'Clinical and neurobehavioral longitudinal assessments in MECP2 duplication syndrome:
+    mean change in head circumference 5 years with subjects having MECP2 duplication
+    syndrome'
+  - 'Clinical and neurobehavioral longitudinal assessments in MECP2 duplication syndrome:
+    mean number of stereotypic movements in a 24 hour period at 5 years with subjects
+    having MECP2 duplication syndrome'
+  - 'Clinical and neurobehavioral longitudinal assessments in MECP2 duplication syndrome:
+    percent of subjects reporting scoliosis 5 years with subjects having MECP2 duplication
+    syndrome'
+  - 'Clinical and neurobehavioral longitudinal assessments in MECP2 duplication syndrome:
+    percent of subjects surviving at 5 years with subjects having MECP2 duplication
+    syndrome'
+  - 'Clinical and neurobehavioral longitudinal assessments in MECP2 duplication syndrome:
+    the mean CSS score at 5 years with subjects having MECP2 duplication syndrome'
+  - 'Clinical and neurobehavioral longitudinal assessments in MECP2 duplication syndrome:
+    the mean MAB score at 5 years with subjects having MECP2 duplication syndrome'
+  - Quality of Life Measures in RTT
+  - Quality of Life Measures in MECP2 duplication syndrome
+  - Quality of Life Measures in RTT-related disorders.
+  - Quality of Life Measures in RTT
+  - Quality of Life Measures in MECP2 duplication syndrome
+  - Quality of Life Measures in RTT-related disorders
+  lead_sponsor: University of Alabama at Birmingham
+  locations:
+  - facility: University of Alabama at Birmingham
+    city: Birmingham
+    country: United States
+  - facility: UCSF Oakland Benioff Children's Hospital
+    city: Oakland
+    country: United States
+  - facility: University of California San Diego
+    city: San Diego
+    country: United States
+  - facility: University of Colorado Denver
+    city: Denver
+    country: United States
+  - facility: Rush University Medical Center
+    city: Chicago
+    country: United States
+  - facility: Children's Hospital Boston
+    city: Boston
+    country: United States
+  - facility: Gillette Children's Specialty Healthcare
+    city: Saint Paul
+    country: United States
+  - facility: Washington University School of Medicine and St. Louis Children's Hospital
+    city: St Louis
+    country: United States
+  - facility: Cincinnati Children's Hospital Medical Center
+    city: Cincinnati
+    country: United States
+  - facility: Cleveland Clinic
+    city: Cleveland
+    country: United States
+  - facility: Children's Hospital of Philadelphia
+    city: Philadelphia
+    country: United States
+  - facility: Greenwood Genetic Center
+    city: Greenwood
+    country: United States
+  - facility: Vanderbilt University
+    city: Nashville
+    country: United States
+  - facility: Baylor College of Medicine
+    city: Houston
+    country: United States
+  retrieved: '2026-10-04'
+  human_check: []
+- nct: NCT03635073
+  brief_title: A Study of Soticlestat in Adults and Children With Rare Epilepsies
+  overall_status: TERMINATED
+  start_date: '2018-07-19'
+  last_update_date: '2026-09-04'
+  why_stopped: Due to negative results from phase 3 SKYLINE and SKYWAY studies and
+    unrelated to patient safety it has been determined that supplementary data from
+    TAK-935-18-001 study is no longer necessary. Therefore, Takeda has made a decision
+    to close this study
+  conditions:
+  - Epilepsy
+  - Dravet Syndrome (DS)
+  - Lennox-Gastaut Syndrome (LGS)
+  keywords:
+  - Soticlestat
+  - Drug Therapy
+  interventions:
+  - type: DRUG
+    name: Soticlestat
+  phases:
+  - PHASE2
+  enrollment_count: 156
+  enrollment_type: ACTUAL
+  minimum_age: 2 Years
+  maximum_age: null
+  std_ages:
+  - CHILD
+  - ADULT
+  - OLDER_ADULT
+  study_population: null
+  outcome_measures:
+  - Percentage of Participants Who Experienced At Least One Treatment-emergent Adverse
+    Event (AE)
+  - Change From Baseline in Behavioral and Adaptive Functional Measures Using the
+    Vineland Adaptive Behavior Scale (VABS)
+  - Change From Baseline in Behavior Measures Using Total Scores of the Aberrant Behavior
+    Checklist-Community Edition (ABC-C) for Participants Greater Than Equal to (≥)
+    6 Years of Age
+  - Change From Baseline in Behavior Measures Using Subscale Scores of the Aberrant
+    Behavior Checklist-Community Edition (ABC-C) for Participants Greater Than Equal
+    to (≥) 6 Years of Age
+  - Number of Participants With Changes From Baseline in the Columbia-Suicide Severity
+    Rating Scale (C-SSRS) Categorization Based on Columbia Classification Algorithm
+    of Suicide Assessment Categories 1,2,3,4, and 5 for Participants ≥6 Years of Age
+  - 'Change From Baseline in Clinical Laboratory Parameters: Serum Chemistry (Grams
+    Per Liter (g/L))'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Serum Chemistry (Units
+    Per Liter (U/L))'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Serum Chemistry (Micromoles
+    Per Liter (µmol/L))'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Serum Chemistry (Millimoles
+    Per Liter (mmol/L))'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Haematology (10^9 Cells
+    Per Liter (10^9 Cells/L))'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Haematology (Percentage
+    (%) of Cells)'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Haematology (Liter Per
+    Liter (L/L))'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Haematology (Grams Per
+    Liter (g/L))'
+  - 'Change From Baseline in Clinical Laboratory Parameters: Haematology (10^12 Cells
+    Per Liter (10^12/L))'
+  - 'Change From Baseline in Vital Signs: Blood Pressure'
+  - 'Change From Baseline in Vital Signs: Heart Rate'
+  - 'Change From Baseline in Vital Signs: Respiratory Rate'
+  - 'Change From Baseline in Vital Signs: Temperature'
+  - Change From Baseline in Body Weight
+  - 'Change From Baseline in Electrocardiogram (ECG) Parameters: ECG Heart Rate'
+  - 'Change From Baseline in ECG Parameters: PR Interval'
+  - 'Change From Baseline in ECG Parameters: QRS Duration'
+  - 'Change From Baseline in ECG Parameters: QT Interval'
+  - 'Change From Baseline in ECG Parameters: QTcF Interval'
+  - 'Change From Baseline in ECG Parameters: RR Interval'
+  - Number of Participants With Potentially Clinically Significant Clinical Safety
+    Laboratory Test Values
+  - Number of Participants With Potentially Clinically Significant Vital Signs
+  - Number of Participants With Potentially Clinically Significant Weight and Height
+  - Number of Participants With Potentially Clinically Significant ECG Evaluations
+  - Percent Change From Baseline in All Seizure 28-day Frequency
+  - Percent Change From Baseline in Drop Seizure 28-day Frequency (Lennox-Gastaut
+    Syndrome [LGS] Participants)
+  - Percent Change From Baseline in Convulsive Seizure 28-day Frequency (Dravet Syndrome
+    [DS] Participants)
+  - Percent Change From Baseline in Motor Seizure 28-day Frequency
+  - Change From Baseline in Clinician's Clinical Global Impression of Severity (CGI-S)
+  lead_sponsor: Takeda
+  locations:
+  - facility: Xenosciences Inc
+    city: Phoenix
+    country: United States
+  - facility: David Geffen School of Medicine at UCLA
+    city: Los Angeles
+    country: United States
+  - facility: David Geffen School of Medicine at UCLA
+    city: Los Angeles
+    country: United States
+  - facility: Colorado Children's Hospital
+    city: Aurora
+    country: United States
+  - facility: Colorado Children's Hospital
+    city: Aurora
+    country: United States
+  - facility: Nicklaus Children's Hospital
+    city: Miami
+    country: United States
+  - facility: Nicklaus Children's Hospital
+    city: Miami
+    country: United States
+  - facility: Medsol Clinical Research Center Inc
+    city: Port Charlotte
+    country: United States
+  - facility: Medsol Clinical Research Center Inc
+    city: Port Charlotte
+    country: United States
+  - facility: University of South Florida
+    city: Tampa
+    country: United States
+  - facility: Pediatric Neurology PA
+    city: Winter Park
+    country: United States
+  - facility: Rare Disease Research, LLC
+    city: Atlanta
+    country: United States
+  - facility: Rare Disease Research, LLC
+    city: Atlanta
+    country: United States
+  - facility: Center for Rare Neurological Diseases
+    city: Norcross
+    country: United States
+  - facility: Ann and Robert H Lurie Childrens Hospital of Chicago
+    city: Chicago
+    country: United States
+  - facility: Bluegrass Epilepsy Research LLC
+    city: Lexington
+    country: United States
+  - facility: Boston Children's Hospital
+    city: Boston
+    country: United States
+  - facility: Mayo Clinic - PIN
+    city: Rochester
+    country: United States
+  - facility: Minnesota Epilepsy Group PA
+    city: Saint Paul
+    country: United States
+  - facility: private practice
+    city: Chesterfield
+    country: United States
+  - facility: Northeast Regional Epilepsy Group
+    city: Hackensack
+    country: United States
+  - facility: Children's Hospital at Saint Peter's University Hospital
+    city: New Brunswick
+    country: United States
+  - facility: NYU - Ambulatory Care Center (ACC)
+    city: New York
+    country: United States
+  - facility: Columbia University Medical Center - PIN
+    city: New York
+    country: United States
+  - facility: Wake Forest Baptist Medical Center - PPDS
+    city: Winston-Salem
+    country: United States
+  - facility: Medical University of South Carolina Childrens Hospital - PIN
+    city: Charleston
+    country: United States
+  - facility: Cook Children's Medical Center - Jane and John Justin Neurosciences
+      Center
+    city: Fort Worth
+    country: United States
+  - facility: Monash Children's Hospital
+    city: Clayton
+    country: Australia
+  - facility: Austin Hospital
+    city: Heidelberg
+    country: Australia
+  - facility: Austin Hospital
+    city: Heidelberg West
+    country: Australia
+  - facility: Hospital For Sick Children
+    city: Toronto
+    country: Canada
+  - facility: Shenzhen Children's Hospital
+    city: Shenzhen
+    country: China
+  - facility: Children's Hospital of Fudan University
+    city: Shanghai
+    country: China
+  - facility: Peking University First Hospital
+    city: Beijing
+    country: China
+  - facility: Beijing Children's Hospital,Capital Medical University
+    city: Beijing
+    country: China
+  - facility: Beijing Children's Hospital,Capital Medical University
+    city: Beijing
+    country: China
+  - facility: Xiangya Hospital Central South University
+    city: Changsha
+    country: China
+  - facility: Xiangya Hospital of Central South University
+    city: Changsha
+    country: China
+  - facility: Tel Aviv Sourasky Medical Center PPDS
+    city: Tel Aviv
+    country: Israel
+  - facility: Soroka University Medical Centre
+    city: Beersheba
+    country: Israel
+  - facility: Bnai Zion Medical Center
+    city: Haifa
+    country: Israel
+  - facility: Edith Wolfson Medical Center
+    city: Holon
+    country: Israel
+  - facility: Schneider Children's Medical Center of Israel - Petah Tikvah - PIN
+    city: Petah Tikva
+    country: Israel
+  - facility: Sheba Medical Center - PPDS
+    city: Ramat Gan
+    country: Israel
+  - facility: Sheba Medical Center - PPDS
+    city: Ramat Gan
+    country: Israel
+  - facility: Tel Aviv Sourasky Medical Center PPDS
+    city: Tel Aviv
+    country: Israel
+  - facility: Szpital Kliniczny im. H.Swiecickiego Uniwersytetu Medycznego im. Karola
+      Marcinkowskiego w Poznaniu
+    city: Poznan
+    country: Poland
+  - facility: Uniwersyteckie Centrum Kliniczne
+    city: Gdansk
+    country: Poland
+  - facility: Centrum Medyczne Plejady
+    city: Krakow
+    country: Poland
+  - facility: Samodzielny Publiczny Dzieciecy Szpital Kliniczny w Warszawie
+    city: Warsaw
+    country: Poland
+  - facility: NZOZ Centrum Neurologii Dzieciecej i Leczenia Padaczki
+    city: Kielce
+    country: Poland
+  - facility: Centro Hospitalar Lisboa Central- Hospital Dona Estefania
+    city: Lisbon
+    country: Portugal
+  - facility: Centro Hospitalar Lisboa Norte, E.P.E. Hospital de Santa Maria
+    city: Lisbon
+    country: Portugal
+  - facility: Centro Hospitalar Lisboa Norte, E.P.E. Hospital de Santa Maria
+    city: Lisbon
+    country: Portugal
+  - facility: Hospital Ruber Internacional (Grupo Quironsalud)
+    city: Madrid
+    country: Spain
+  - facility: Clinica Universidad Navarra
+    city: Pamplona
+    country: Spain
+  - facility: Hospital Vithas La Salud
+    city: Granada
+    country: Spain
+  - facility: Hospital Ruber Internacional (Grupo Quironsalud)
+    city: Madrid
+    country: Spain
+  - facility: Hospital Universitari i Politecnic La Fe de Valencia
+    city: Valencia
+    country: Spain
+  retrieved: '2026-10-04'
+  human_check:
+  - why_stopped
+co_listed_in:
+- line: scn2a_gain
+  gene: SCN2A
+  nct: NCT01238250
+  matched_field: conditions
+  window: SCN2A Encephalopathy
+  tier: 1
+  human_check: false
+  kind: registry
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: scn2a_loss
+  gene: SCN2A
+  nct: NCT01238250
+  matched_field: conditions
+  window: SCN2A Encephalopathy
+  tier: 1
+  human_check: false
+  kind: registry
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: syngap1
+  gene: SYNGAP1
+  nct: NCT01238250
+  matched_field: conditions
+  window: SYNGAP1-Related Intellectual Disability
+  tier: 1
+  human_check: false
+  kind: registry
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: dravet
+  gene: SCN1A
+  nct: NCT01238250
+  matched_field: conditions
+  window: SCN1A
+  tier: 1
+  human_check: false
+  kind: registry
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: stxbp1
+  gene: STXBP1
+  nct: NCT01238250
+  matched_field: conditions
+  window: STXBP1 Encephalopathy With Epilepsy
+  tier: 1
+  human_check: false
+  kind: registry
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: scn2a_gain
+  gene: SCN2A
+  nct: NCT06967727
+  matched_field: eligibility_inclusion
+  window: SCN2A
+  tier: 3
+  human_check: true
+  kind: eligible_gene_list
+  retrieved: '2026-10-04'
+  caveat: listed in an eligible-gene list of 107 genes; a movement disorder is required;
+    checked by code only
+- line: scn2a_loss
+  gene: SCN2A
+  nct: NCT06967727
+  matched_field: eligibility_inclusion
+  window: SCN2A
+  tier: 3
+  human_check: true
+  kind: eligible_gene_list
+  retrieved: '2026-10-04'
+  caveat: listed in an eligible-gene list of 107 genes; a movement disorder is required;
+    checked by code only
+- line: syngap1
+  gene: SYNGAP1
+  nct: NCT06967727
+  matched_field: eligibility_inclusion
+  window: SYNGAP1
+  tier: 3
+  human_check: true
+  kind: eligible_gene_list
+  retrieved: '2026-10-04'
+  caveat: listed in an eligible-gene list of 107 genes; a movement disorder is required;
+    checked by code only
+- line: scn8a_dee
+  gene: SCN8A
+  nct: NCT06967727
+  matched_field: keywords
+  window: SCN8A
+  tier: 2
+  human_check: false
+  kind: eligible_gene_list
+  retrieved: '2026-10-04'
+  caveat: listed in an eligible-gene list of 107 genes; a movement disorder is required;
+    checked by code only
+- line: dravet
+  gene: SCN1A
+  nct: NCT06967727
+  matched_field: keywords
+  window: SCN1A
+  tier: 2
+  human_check: false
+  kind: eligible_gene_list
+  retrieved: '2026-10-04'
+  caveat: listed in an eligible-gene list of 107 genes; a movement disorder is required;
+    checked by code only
+- line: stxbp1
+  gene: STXBP1
+  nct: NCT06967727
+  matched_field: keywords
+  window: STXBP1
+  tier: 2
+  human_check: false
+  kind: eligible_gene_list
+  retrieved: '2026-10-04'
+  caveat: listed in an eligible-gene list of 107 genes; a movement disorder is required;
+    checked by code only
+- line: cdkl5
+  gene: CDKL5
+  nct: NCT06967727
+  matched_field: keywords
+  window: CDKL5
+  tier: 2
+  human_check: false
+  kind: eligible_gene_list
+  retrieved: '2026-10-04'
+  caveat: listed in an eligible-gene list of 107 genes; a movement disorder is required;
+    checked by code only
+- line: syngap1
+  gene: SYNGAP1
+  nct: NCT06555965
+  matched_field: conditions
+  window: SYNGAP1-Related Intellectual Disability
+  tier: 1
+  human_check: false
+  kind: natural_history
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: stxbp1
+  gene: STXBP1
+  nct: NCT06555965
+  matched_field: conditions
+  window: STXBP1 Encephalopathy With Epilepsy
+  tier: 1
+  human_check: false
+  kind: natural_history
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: syngap1
+  gene: SYNGAP1
+  nct: NCT05232630
+  matched_field: conditions
+  window: SYNGAP1 Encephalopathy
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: stxbp1
+  gene: STXBP1
+  nct: NCT05232630
+  matched_field: conditions
+  window: STXBP1 Encephalopathy With Epilepsy
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: syngap1
+  gene: SYNGAP1
+  nct: NCT04395495
+  matched_field: conditions
+  window: SYNGAP1-Related Intellectual Disability
+  tier: 1
+  human_check: false
+  kind: biorepository
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean samples are held
+- line: scn2a_gain
+  gene: SCN2A
+  nct: NCT05818553
+  matched_field: conditions
+  window: SCN2A Encephalopathy
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: scn8a_dee
+  gene: SCN8A
+  nct: NCT05818553
+  matched_field: conditions
+  window: SCN8A Encephalopathy
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: scn2a_gain
+  gene: SCN2A
+  nct: NCT07019922
+  matched_field: conditions
+  window: SCN2A Encephalopathy
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: scn2a_gain
+  gene: SCN2A
+  nct: NCT05737784
+  matched_field: conditions
+  window: SCN2A-DEE
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: scn8a_dee
+  gene: SCN8A
+  nct: NCT04873869
+  matched_field: conditions
+  window: SCN8A Developmental and Epileptic Encephalopathy Syndrome
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: scn8a_dee
+  gene: SCN8A
+  nct: NCT05226780
+  matched_field: conditions
+  window: SCN8A Developmental and Epileptic Encephalopathy Syndrome
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: dravet
+  gene: SCN1A
+  nct: NCT04537832
+  matched_field: keywords
+  window: SCN1A related seizure disorder
+  tier: 2
+  human_check: false
+  kind: natural_history
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: dravet
+  gene: SCN1A
+  nct: NCT06504511
+  matched_field: conditions
+  window: SCN1A
+  tier: 1
+  human_check: false
+  kind: natural_history
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: stxbp1
+  gene: STXBP1
+  nct: NCT06625112
+  matched_field: conditions
+  window: STXBP1 Encephalopathy With Epilepsy
+  tier: 1
+  human_check: false
+  kind: natural_history
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: stxbp1
+  gene: STXBP1
+  nct: NCT04937062
+  matched_field: conditions
+  window: STXBP1 Encephalopathy With Epilepsy
+  tier: 1
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: stxbp1
+  gene: STXBP1
+  nct: NCT06983158
+  matched_field: keywords
+  window: STXBP1
+  tier: 2
+  human_check: false
+  kind: trial
+  retrieved: '2026-10-04'
+  caveat: the study team decides who can take part
+- line: cdkl5
+  gene: CDKL5
+  nct: NCT04486768
+  matched_field: conditions
+  window: CDKL5 Deficiency Disorder
+  tier: 1
+  human_check: false
+  kind: registry
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled
+- line: cdkl5
+  gene: CDKL5
+  nct: NCT02738281
+  matched_field: conditions
+  window: CDKL5 Disorder
+  tier: 1
+  human_check: false
+  kind: natural_history
+  retrieved: '2026-10-04'
+  caveat: being listed does not mean families are enrolled

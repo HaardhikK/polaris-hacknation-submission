@@ -1,0 +1,58 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*credentials*.json
+*service-account*.json
+secrets.json
+secrets.yaml
+secrets.yml
+secrets.toml
+*.secrets
+.mcp.json
+.vercel/
+.netlify/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Node / frontend
+node_modules/
+dist/
+coverage/
+*.log
+
+# In-repo tool caches
+.cache/
+
+# Raw data and media: commit samples or fetch scripts only
+data/raw/
+*.mp4
+*.mov
+*.zip
+*.parquet
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Pipeline scratch: per-PMID stubs and Codex event logs never leave the machine
+work/
+data/raw/codex-runs/

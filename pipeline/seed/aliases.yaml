@@ -1,0 +1,154 @@
+# Search terms. A term leads to one line, to the "Which direction?" step (one channel gene), to a
+# gene picker (a code or name that covers several genes), or to a mechanism. Gene names and IDs
+# specific to a direction-split gene (SCN2A, SCN8A, SCN1A) always lead to the direction step.
+# Orphanet entries that cover several genes are group aliases: genes lists only seeded genes, and
+# seed_check verifies each against the Orphadata file. Variant aliases name the PMID of the claim
+# behind them; the build emits a variant alias only once that claim is signed. Symptom (HPO)
+# aliases are derived at build time from phenotype.hpoa and the curated hpo_terms.
+
+# --- SCN2A: gene name and SCN2A-specific IDs -> "Which direction?" ---
+- { term: SCN2A, kind: gene, gene: SCN2A, direction_step: true }
+- { term: Nav1.2, kind: gene, gene: SCN2A, direction_step: true }
+- { term: SCN2A-related disorder, kind: disease, gene: SCN2A, direction_step: true }
+- { term: SCN2A-related epilepsy, kind: disease, gene: SCN2A, direction_step: true }
+- { term: SCN2A encephalopathy, kind: disease, gene: SCN2A, direction_step: true }
+- { term: Developmental and epileptic encephalopathy 11, kind: disease, gene: SCN2A, direction_step: true }
+- { term: DEE11, kind: disease, gene: SCN2A, direction_step: true }
+- { term: Early infantile epileptic encephalopathy 11, kind: disease, gene: SCN2A, direction_step: true }
+- { term: Benign familial infantile seizures 3, kind: disease, gene: SCN2A, direction_step: true }
+- { term: "OMIM:613721", kind: id, gene: SCN2A, direction_step: true }
+- { term: "OMIM:607745", kind: id, gene: SCN2A, direction_step: true }
+- { term: "MONDO:0013388", kind: id, gene: SCN2A, direction_step: true }
+- { term: "MONDO:0011904", kind: id, gene: SCN2A, direction_step: true }
+- { term: "MONDO:1060245", kind: id, gene: SCN2A, direction_step: true }
+- { term: "HGNC:10588", kind: id, gene: SCN2A, direction_step: true }
+- { term: "G2P00033", kind: id, gene: SCN2A, direction_step: true }
+
+# --- Other direction-split genes (no line shipped yet: the step offers registries only) ---
+- { term: SCN8A, kind: gene, gene: SCN8A, direction_step: true }
+- { term: Nav1.6, kind: gene, gene: SCN8A, direction_step: true }
+- { term: "OMIM:614558", kind: id, gene: SCN8A, direction_step: true }
+- { term: "MONDO:0013801", kind: id, gene: SCN8A, direction_step: true }
+- { term: SCN1A, kind: gene, gene: SCN1A, direction_step: true }
+- { term: Nav1.1, kind: gene, gene: SCN1A, direction_step: true }
+
+# --- Orphanet entries covering several genes -> gene picker. genes = seeded genes with a
+# disease-causing link; group_size = all disease-causing genes in the entry (checked against the
+# Orphadata file); the picker always offers "My child's gene isn't listed" -> "Not mapped yet".
+# ORPHA:442835 is not listed: Orphanet records SYNGAP1 there only as a candidate gene.
+- { term: "ORPHA:1934", kind: group, orpha: "ORPHA:1934", group_size: 21, genes: [SCN2A] }
+- { term: Early infantile developmental and epileptic encephalopathy, kind: group, orpha: "ORPHA:1934", group_size: 21, genes: [SCN2A] }
+- { term: "ORPHA:178469", kind: group, orpha: "ORPHA:178469", group_size: 41, genes: [SCN2A] }
+- { term: Autosomal dominant non-syndromic intellectual disability, kind: group, orpha: "ORPHA:178469", group_size: 41, genes: [SCN2A] }
+- { term: "ORPHA:306", kind: group, orpha: "ORPHA:306", group_size: 5, genes: [SCN2A] }
+- { term: Self-limited infantile epilepsy, kind: group, orpha: "ORPHA:306", group_size: 5, genes: [SCN2A] }
+- { term: "ORPHA:140927", kind: group, orpha: "ORPHA:140927", group_size: 2, genes: [SCN2A] }
+- { term: Self-limited neonatal-infantile epilepsy, kind: group, orpha: "ORPHA:140927", group_size: 2, genes: [SCN2A] }
+- { term: Benign familial neonatal-infantile seizures, kind: group, orpha: "ORPHA:140927", group_size: 2, genes: [SCN2A] }
+
+# --- Non-channel genes: straight to the line ---
+- { term: SYNGAP1, kind: gene, line: syngap1 }
+- { term: SYNGAP1-related disorder, kind: disease, line: syngap1 }
+- { term: SYNGAP1-related intellectual disability, kind: disease, line: syngap1 }
+- { term: SYNGAP1-related developmental and epileptic encephalopathy, kind: disease, line: syngap1 }
+- { term: Mental retardation autosomal dominant 5, kind: disease, line: syngap1 }
+- { term: MRD5, kind: disease, line: syngap1 }
+- { term: "OMIM:612621", kind: id, line: syngap1 }
+- { term: "ORPHA:544254", kind: id, line: syngap1 }
+- { term: "MONDO:0012960", kind: id, line: syngap1 }
+- { term: "HGNC:11497", kind: id, line: syngap1 }
+- { term: "G2P01343", kind: id, line: syngap1 }
+
+# --- Variants: line set by the cited functional-assay claim; emitted only when code-checked ---
+- { term: SCN2A p.Arg853Gln, kind: variant, gene: SCN2A, line: scn2a_loss, pmid: "34287911" }
+- { term: SCN2A p.R853Q, kind: variant, gene: SCN2A, line: scn2a_loss, pmid: "34287911" }
+- { term: SCN2A R853Q, kind: variant, gene: SCN2A, line: scn2a_loss, pmid: "34287911" }
+- { term: SCN2A p.Arg1882Gln, kind: variant, gene: SCN2A, line: scn2a_gain, pmid: "38544375" }
+- { term: SCN2A p.R1882Q, kind: variant, gene: SCN2A, line: scn2a_gain, pmid: "38544375" }
+- { term: SCN2A R1882Q, kind: variant, gene: SCN2A, line: scn2a_gain, pmid: "38544375" }
+- { term: SCN2A p.Ala263Val, kind: variant, gene: SCN2A, line: scn2a_gain, pmid: "20956790" }
+- { term: SCN2A p.A263V, kind: variant, gene: SCN2A, line: scn2a_gain, pmid: "20956790" }
+- { term: SCN2A A263V, kind: variant, gene: SCN2A, line: scn2a_gain, pmid: "20956790" }
+
+# --- Organisations ---
+- { term: FamilieSCN2A, kind: organisation, gene: SCN2A, direction_step: true }
+- { term: FamilieSCN2A Foundation, kind: organisation, gene: SCN2A, direction_step: true }
+- { term: SynGAP Research Fund, kind: organisation, line: syngap1 }
+- { term: Bridge the Gap SYNGAP, kind: organisation, line: syngap1 }
+
+# --- Mechanisms (gain/loss only qualifies a channel mechanism) ---
+- { term: sodium channel, kind: mechanism, mechanism: sodium_channel }
+- { term: sodium channel works too strongly, kind: mechanism, mechanism: sodium_channel, direction: gain }
+- { term: sodium channel gain of function, kind: mechanism, mechanism: sodium_channel, direction: gain }
+- { term: sodium channel works too weakly, kind: mechanism, mechanism: sodium_channel, direction: loss }
+- { term: sodium channel loss of function, kind: mechanism, mechanism: sodium_channel, direction: loss }
+- { term: Ras GTPase-activating protein, kind: mechanism, mechanism: ras_gap }
+
+# --- SCN8A: gene name, IDs and disease names -> "Which direction?" (A7) ---
+- { term: SCN8A-related disorder, kind: disease, gene: SCN8A, direction_step: true }
+- { term: SCN8A developmental and epileptic encephalopathy, kind: disease, gene: SCN8A, direction_step: true }
+- { term: SCN8A encephalopathy, kind: disease, gene: SCN8A, direction_step: true }
+- { term: SCN8A-DEE, kind: disease, gene: SCN8A, direction_step: true }
+- { term: Developmental and epileptic encephalopathy 13, kind: disease, gene: SCN8A, direction_step: true }
+- { term: DEE13, kind: disease, gene: SCN8A, direction_step: true }
+- { term: "HGNC:10596", kind: id, gene: SCN8A, direction_step: true }
+- { term: "G2P01608", kind: id, gene: SCN8A, direction_step: true }
+
+# --- SCN1A: gene name and IDs -> "Which direction?" (a gain form exists); the names of the loss form
+# itself (Dravet syndrome, SMEI) and its organisations lead to the dravet line ---
+- { term: Dravet syndrome, kind: disease, gene: SCN1A, line: dravet }
+- { term: Dravet, kind: disease, gene: SCN1A, line: dravet }
+- { term: Severe myoclonic epilepsy of infancy, kind: disease, gene: SCN1A, line: dravet }
+- { term: SMEI, kind: disease, gene: SCN1A, line: dravet }
+- { term: SCN1A-related seizure disorder, kind: disease, gene: SCN1A, direction_step: true }
+- { term: SCN1A-related epilepsy, kind: disease, gene: SCN1A, direction_step: true }
+- { term: "OMIM:607208", kind: id, gene: SCN1A, direction_step: true }
+- { term: "MONDO:0100135", kind: id, gene: SCN1A, direction_step: true }
+- { term: "HGNC:10585", kind: id, gene: SCN1A, direction_step: true }
+- { term: "G2P00251", kind: id, gene: SCN1A, direction_step: true }
+
+# --- Orphanet entries covering several seeded genes -> gene picker (A7) ---
+- { term: "ORPHA:442835", kind: group, orpha: "ORPHA:442835", group_size: 53, genes: [SCN1A, SCN8A] }
+- { term: Non-specific early-onset epileptic encephalopathy, kind: group, orpha: "ORPHA:442835", group_size: 53, genes: [SCN1A, SCN8A] }
+- { term: "ORPHA:33069", kind: group, orpha: "ORPHA:33069", group_size: 6, genes: [SCN1A, SCN2A] }
+
+# --- STXBP1: straight to the line ---
+- { term: STXBP1, kind: gene, line: stxbp1 }
+- { term: STXBP1-related disorder, kind: disease, line: stxbp1 }
+- { term: STXBP1 encephalopathy, kind: disease, line: stxbp1 }
+- { term: STXBP1 encephalopathy with epilepsy, kind: disease, line: stxbp1 }
+- { term: STXBP1-related developmental and epileptic encephalopathy, kind: disease, line: stxbp1 }
+- { term: Developmental and epileptic encephalopathy 4, kind: disease, line: stxbp1 }
+- { term: DEE4, kind: disease, line: stxbp1 }
+- { term: "OMIM:612164", kind: id, line: stxbp1 }
+- { term: "ORPHA:599373", kind: id, line: stxbp1 }
+- { term: "MONDO:0012812", kind: id, line: stxbp1 }
+- { term: "HGNC:11444", kind: id, line: stxbp1 }
+- { term: "G2P01128", kind: id, line: stxbp1 }
+
+# --- CDKL5: straight to the line ---
+- { term: CDKL5, kind: gene, line: cdkl5 }
+- { term: CDKL5 deficiency disorder, kind: disease, line: cdkl5 }
+- { term: CDD, kind: disease, line: cdkl5 }
+- { term: CDKL5 disorder, kind: disease, line: cdkl5 }
+- { term: CDKL5-related developmental and epileptic encephalopathy, kind: disease, line: cdkl5 }
+- { term: Developmental and epileptic encephalopathy 2, kind: disease, line: cdkl5 }
+- { term: DEE2, kind: disease, line: cdkl5 }
+- { term: "OMIM:300672", kind: id, line: cdkl5 }
+- { term: "ORPHA:505652", kind: id, line: cdkl5 }
+- { term: "MONDO:0010396", kind: id, line: cdkl5 }
+- { term: "HGNC:11411", kind: id, line: cdkl5 }
+- { term: "G2P01596", kind: id, line: cdkl5 }
+
+# --- Organisations (A7) ---
+- { term: SCN8A Alliance, kind: organisation, gene: SCN8A, direction_step: true }
+- { term: The Cute Syndrome Foundation, kind: organisation, gene: SCN8A, direction_step: true }
+- { term: Dravet Syndrome Foundation, kind: organisation, gene: SCN1A, line: dravet }
+- { term: Dravet Syndrome European Federation, kind: organisation, gene: SCN1A, line: dravet }
+- { term: STXBP1 Foundation, kind: organisation, line: stxbp1 }
+- { term: LouLou Foundation, kind: organisation, line: cdkl5 }
+- { term: International Foundation for CDKL5 Research, kind: organisation, line: cdkl5 }
+
+# --- Mechanisms (A7) ---
+- { term: synaptic protein, kind: mechanism, mechanism: synaptic_protein }
+- { term: kinase, kind: mechanism, mechanism: kinase }

@@ -1,0 +1,242 @@
+# Written by make reconcile (Codex handoff 2). Identifier proposals that passed the
+# checks named in each row. Status 'proposed' until a person moves a row into
+# aliases.yaml; 'proposed_shared_entry' may only become a group alias. Do not edit.
+provenance:
+  agent: codex
+  model: gpt-6-astra
+  tool_version: 0.160.0
+  run_at: '2026-10-04T02:37:24Z'
+  prompt_sha256: 7c99bfc2106ad368c44a999e27407485887d5b6ef503f08350975cb137ca36d4
+  input_manifest_sha256: b0c7b02407302888709ad2175ab73164b8dc740e3cdea2ddef42090f406091fc
+  extractor_run_id: 20261004T023632Z-reconcile_aliases-36205
+  step: reconcile_aliases
+  output_sha256: e3d84ab5ecb439b80dd6d9ab32a0b7a5ef6af0bde1df2d3451bfd63ec643a8ea
+proposals:
+- term: Developmental and epileptic encephalopathy 11
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:1934
+  omim: OMIM:613721
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: DEE11
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:1934
+  omim: OMIM:613721
+  mondo: null
+  hgnc: null
+  status: proposed_symbol_like
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: Early infantile epileptic encephalopathy 11
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:1934
+  omim: OMIM:613721
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: EIEE11
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:1934
+  omim: OMIM:613721
+  mondo: null
+  hgnc: null
+  status: proposed_symbol_like
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: Benign familial neonatal-infantile seizures
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:140927
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: BFNIS
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:140927
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_symbol_like
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: Benign familial infantile epilepsy
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:306
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: Malignant migrating partial seizures of infancy
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:293181
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: EIMFS
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:293181
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_symbol_like
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: Severe myoclonic epilepsy of infancy
+  kind: disease
+  gene: SCN2A
+  orpha: ORPHA:33069
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: Nav1.2
+  kind: gene
+  gene: SCN2A
+  orpha: null
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - name only, no id
+- term: SCN2A1
+  kind: gene
+  gene: SCN2A
+  orpha: null
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_symbol_like
+  checked_against:
+  - name only, no id
+- term: Sodium voltage-gated channel alpha subunit 2
+  kind: gene
+  gene: SCN2A
+  orpha: null
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - name only, no id
+- term: SYNGAP1 encephalopathy
+  kind: disease
+  gene: SYNGAP1
+  orpha: ORPHA:544254
+  omim: OMIM:612621
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: Intellectual developmental disorder, autosomal dominant 5
+  kind: disease
+  gene: SYNGAP1
+  orpha: ORPHA:544254
+  omim: OMIM:612621
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: Mental retardation, autosomal dominant 5
+  kind: disease
+  gene: SYNGAP1
+  orpha: ORPHA:544254
+  omim: OMIM:612621
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: MRD5
+  kind: disease
+  gene: SYNGAP1
+  orpha: ORPHA:544254
+  omim: OMIM:612621
+  mondo: null
+  hgnc: null
+  status: proposed_symbol_like
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+  - 'omim: gene link in HPO genes_to_disease'
+- term: Myoclonic-astatic epilepsy
+  kind: disease
+  gene: SYNGAP1
+  orpha: ORPHA:1942
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: EMAtS
+  kind: disease
+  gene: SYNGAP1
+  orpha: ORPHA:1942
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed_shared_entry
+  checked_against:
+  - 'orpha: disease-causing link in Orphadata'
+- term: SynGAP
+  kind: gene
+  gene: SYNGAP1
+  orpha: null
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - name only, no id
+- term: Synaptic Ras GTPase activating protein 1
+  kind: gene
+  gene: SYNGAP1
+  orpha: null
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - name only, no id
+- term: SYNGAP1 Foundation
+  kind: organisation
+  gene: SYNGAP1
+  orpha: null
+  omim: null
+  mondo: null
+  hgnc: null
+  status: proposed
+  checked_against:
+  - name only, no id

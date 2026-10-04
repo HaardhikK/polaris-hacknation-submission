@@ -1,0 +1,84 @@
+# PubMed IDs the pipeline fetches (make fetch). One ID per line; text after # is a note.
+# Every claim on the site comes from one of these abstracts via Codex extraction + validation + human
+# sign-off. Picks: a hand-made survey of the literature (assay table, reviews, assets) plus one offline PubMed esearch
+# run by hand on 2026-10-04 (retmax 60, sort relevance, 41 hits). esearch is never called by the
+# pipeline. The exact term was:
+#   SCN2A[Title/Abstract] AND ("gain of function"[Title/Abstract] OR "loss of function"[Title/Abstract]
+#   OR gain-of-function[Title/Abstract] OR loss-of-function[Title/Abstract]) AND (patch-clamp[Title/Abstract]
+#   OR electrophysiolog*[Title/Abstract] OR "whole-cell"[Title/Abstract] OR HEK[Title/Abstract]
+#   OR oocytes[Title/Abstract] OR biophysical[Title/Abstract] OR "functional characterization"[Title/Abstract]
+#   OR "functional analysis"[Title/Abstract]) AND hasabstract[text] NOT review[Publication Type]
+
+# --- Functional-assay papers named in the research round (15 rows; direction evidence) ---
+34287911  # SCN2A R853Q, loss of function (demo-path claim)
+31558572  # SCN2A R1882Q, gain of function
+20956790  # SCN2A A263V, gain of function
+32400968  # SCN2A P1658S, loss of function (conflicts with 38939966)
+38939966  # SCN2A P1658S, gain of function (conflicts with 32400968)
+22365152  # SCN8A N1768D, gain of function
+31715021  # SCN8A R850Q, gain of function
+34847423  # SCN8A R223G, earlier loss report vs net gain conclusion (conflict row)
+24990319  # SCN1A N301S, loss of function
+14672992  # SCN1A L986F, loss of function
+42311236  # STXBP1 D262V, R235* cited as controls ("reported in")
+38490366  # STXBP1 missense variants, protein instability
+16330482  # CDKL5 disease variants, loss of kinase activity
+35280940  # CDKL5 T958R, hyperactive kinase (conflict chip)
+33308442  # SYNGAP1 57 variants, loss-of-function to wild-type range
+
+# --- Reviews and clinical series (basis: review / clinical-inference; never set direction) ---
+28379373  # Wolff 2017, SCN2A phenotype-direction series
+35037686  # Brunklaus 2022, 437 patch-clamped SCN variants, paralog agreement
+34431999  # Johannesen 2022, SCN8A gain vs loss carriers
+37578743  # Thompson 2023, automated patch clamp, mixed-function SCN2A variants
+
+# --- Asset papers (paper nodes on cards: natural history, outcome measures) ---
+40336930  # SCN2A Clinical Trial Readiness Study
+38911512  # Inchstone outcome measure (SCN2A-led)
+39887012  # Vineland-3 growth scale values, SCN2A
+36625631  # STXBP1 disease concept model
+35422141  # CDD-Hand (CDKL5 outcome measure)
+37751639  # CDKL5 severity measure
+38963064  # CDKL5 sleep measure
+
+# --- Later lines: fetched for paper nodes, not extracted in Core ---
+30779207  # SCN1A T226M, gain of function
+28139826  # KCNQ2 R201C/H, gain of function
+30478917  # KCNQ2 E130K, W270R, G281R, loss of function
+41493289  # KCNQ2 I134N, gain of function
+
+# --- SCN2A functional-assay esearch (above): 41 hits, 7 already listed above, 34 new ---
+38651838
+40540154
+39707911
+12086636
+34156984
+29466837
+35637276
+41642117
+37010102
+26645390
+28235671
+34093402
+11166117
+34850743
+32750235
+27956748
+22677033
+30813884
+36027690
+24657915
+38544375
+37152433
+23758435
+36865317
+41986745
+30698461
+41630925
+42745013
+38148154
+28256214
+35417276
+36029553
+20550552
+42774767

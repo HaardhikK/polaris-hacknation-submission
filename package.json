@@ -1,0 +1,8 @@
+{
+  "name": "polaris-root",
+  "private": true,
+  "description": "Root dev dependencies only: the Codex CLI the pipeline calls through pipeline/codex_run.sh. The website lives in web/.",
+  "devDependencies": {
+    "@openai/codex": "0.160.0"
+  }
+}

@@ -1,0 +1,124 @@
+# ClinicalTrials.gov records we cite. genes_named is the hand claim; A5 verifies it against the
+# fetched record (conditions, keywords, inclusion criteria) and stores matched_field. Status,
+# start date and last-update date are read from the record at build time, never from here.
+# note is for curators and is never emitted to the site. retrieved = the A1 fetch date.
+- nct: NCT01238250
+  name: Simons Searchlight
+  kind: registry
+  genes_named: [SCN1A, SCN2A, STXBP1, SYNGAP1]
+  note: Registry open since 2010-10; the record does not say when each gene was added.
+  source: { label: ClinicalTrials.gov NCT01238250, url: https://clinicaltrials.gov/study/NCT01238250, retrieved: 2026-10-04 }
+
+- nct: NCT06967727
+  name: Registry and Natural History of Epilepsy-Dyskinesia Syndromes
+  kind: eligible_gene_list
+  genes_named: [SCN1A, SCN2A, SCN8A, KCNQ2, STXBP1, CDKL5, SYNGAP1]
+  note: eligible-gene list, 107 genes, movement disorder required. Weighted below condition-level listings.
+  source: { label: ClinicalTrials.gov NCT06967727, url: https://clinicaltrials.gov/study/NCT06967727, retrieved: 2026-10-04 }
+
+- nct: NCT06555965
+  name: STXBP1 and SYNGAP1 Related Disorders Natural History Study
+  kind: natural_history
+  genes_named: [STXBP1, SYNGAP1]
+  note: Two-gene shared natural-history study; the demo-path borrow for scn2a_loss.
+  source: { label: ClinicalTrials.gov NCT06555965, url: https://clinicaltrials.gov/study/NCT06555965, retrieved: 2026-10-04 }
+
+- nct: NCT05232630
+  name: Pilot trial in STXBP1 and SYNGAP1
+  kind: trial
+  genes_named: [STXBP1, SYNGAP1]
+  source: { label: ClinicalTrials.gov NCT05232630, url: https://clinicaltrials.gov/study/NCT05232630, retrieved: 2026-10-04 }
+
+- nct: NCT04395495
+  name: RASopathy biorepository
+  kind: biorepository
+  genes_named: [SYNGAP1]
+  source: { label: ClinicalTrials.gov NCT04395495, url: https://clinicaltrials.gov/study/NCT04395495, retrieved: 2026-10-04 }
+
+- nct: NCT05818553
+  name: EMBOLD
+  kind: trial
+  genes_named: [SCN2A, SCN8A]
+  note: Open to SCN2A with seizure onset under 3 months and to SCN8A-DEE; onset is a clinical proxy for gain of function, shown as inferred. The consistency-check hold-out.
+  source: { label: ClinicalTrials.gov NCT05818553, url: https://clinicaltrials.gov/study/NCT05818553, retrieved: 2026-10-04 }
+
+- nct: NCT07019922
+  name: SCN2A trial for documented gain-of-function variants
+  kind: trial
+  genes_named: [SCN2A]
+  note: The record names gain of function in its entry criteria.
+  source: { label: ClinicalTrials.gov NCT07019922, url: https://clinicaltrials.gov/study/NCT07019922, retrieved: 2026-10-04 }
+
+- nct: NCT05737784
+  name: SCN2A trial for seizure onset before 3 months
+  kind: trial
+  genes_named: [SCN2A]
+  note: Open to any documented SCN2A variant with onset before 3 months; onset is a clinical proxy for gain of function, shown as inferred.
+  source: { label: ClinicalTrials.gov NCT05737784, url: https://clinicaltrials.gov/study/NCT05737784, retrieved: 2026-10-04 }
+
+# --- Per-line studies added in A7 (status and dates come from the fetched record) ---
+- nct: NCT04873869
+  name: SCN8A trial, stopped (NCT04873869)
+  kind: trial
+  genes_named: [SCN8A]
+  note: Terminated by sponsor decision (verbatim reason in the record); "Tried before" only.
+  source: { label: ClinicalTrials.gov NCT04873869, url: https://clinicaltrials.gov/study/NCT04873869, retrieved: 2026-10-04 }
+
+- nct: NCT05226780
+  name: SCN8A extension study, stopped (NCT05226780)
+  kind: trial
+  genes_named: [SCN8A]
+  note: Terminated by sponsor decision (verbatim reason in the record); "Tried before" only.
+  source: { label: ClinicalTrials.gov NCT05226780, url: https://clinicaltrials.gov/study/NCT05226780, retrieved: 2026-10-04 }
+
+- nct: NCT04537832
+  name: ENVISION natural-history study in Dravet syndrome
+  kind: natural_history
+  genes_named: [SCN1A]
+  note: Terminated after collecting its dataset (verbatim reason in the record).
+  source: { label: ClinicalTrials.gov NCT04537832, url: https://clinicaltrials.gov/study/NCT04537832, retrieved: 2026-10-04 }
+
+- nct: NCT06504511
+  name: SCN1A Horizons natural-history study (UK)
+  kind: natural_history
+  genes_named: [SCN1A]
+  source: { label: ClinicalTrials.gov NCT06504511, url: https://clinicaltrials.gov/study/NCT06504511, retrieved: 2026-10-04 }
+
+- nct: NCT06625112
+  name: European STXBP1 clinical-trial-readiness study
+  kind: natural_history
+  genes_named: [STXBP1]
+  source: { label: ClinicalTrials.gov NCT06625112, url: https://clinicaltrials.gov/study/NCT06625112, retrieved: 2026-10-04 }
+
+- nct: NCT04937062
+  name: Trial in STXBP1 and SLC6A1 disorders (NCT04937062)
+  kind: trial
+  genes_named: [STXBP1]
+  source: { label: ClinicalTrials.gov NCT04937062, url: https://clinicaltrials.gov/study/NCT04937062, retrieved: 2026-10-04 }
+
+- nct: NCT06983158
+  name: STXBP1 gene-therapy trial, stopped (NCT06983158)
+  kind: trial
+  genes_named: [STXBP1]
+  note: Terminated, "stopping rule for study was met" (verbatim in the record); "Tried before" only.
+  source: { label: ClinicalTrials.gov NCT06983158, url: https://clinicaltrials.gov/study/NCT06983158, retrieved: 2026-10-04 }
+
+- nct: NCT04486768
+  name: International CDKL5 Registry
+  kind: registry
+  genes_named: [CDKL5]
+  note: Suspended for a platform change (verbatim reason in the record).
+  source: { label: ClinicalTrials.gov NCT04486768, url: https://clinicaltrials.gov/study/NCT04486768, retrieved: 2026-10-04 }
+
+- nct: NCT02738281
+  name: Natural history of Rett syndrome and related disorders (includes CDKL5)
+  kind: natural_history
+  genes_named: [CDKL5]
+  source: { label: ClinicalTrials.gov NCT02738281, url: https://clinicaltrials.gov/study/NCT02738281, retrieved: 2026-10-04 }
+
+- nct: NCT03635073
+  name: Rare-epilepsies trial, stopped (NCT03635073)
+  kind: trial
+  genes_named: [CDKL5, SCN1A]
+  note: Included CDKL5 deficiency disorder and Dravet syndrome by name, not by gene symbol, so no co-listing edge is computed; "Tried before" on both lines by this hand list; terminated after phase 3 results elsewhere (verbatim reason in the record, human check).
+  source: { label: ClinicalTrials.gov NCT03635073, url: https://clinicaltrials.gov/study/NCT03635073, retrieved: 2026-10-04 }

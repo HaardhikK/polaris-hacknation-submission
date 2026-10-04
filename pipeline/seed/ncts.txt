@@ -1,0 +1,26 @@
+# ClinicalTrials.gov records the pipeline fetches (make fetch). One NCT per line; # starts a note.
+# Raw records stay in data/raw/ctgov/ (gitignored). The committed cache, built in phase A5, will keep
+# only the allow-listed fields (the strip-list in pipeline/check_public.py). Picks: the Core seed
+# skeleton; NCT02738281 from the literature survey (CDKL5 named in a shared study).
+
+# --- Studies that name more than one of our genes ---
+NCT01238250  # Simons Searchlight registry (SCN1A, SCN2A, STXBP1, SYNGAP1 among 187 conditions)
+NCT06967727  # Epilepsy-dyskinesia registry, 107-gene eligibility list, movement disorder required
+NCT06555965  # STXBP1 + SYNGAP1 natural-history study (CHOP) — demo-path borrow
+NCT05232630  # Pilot trial, STXBP1 + SYNGAP1
+NCT04395495  # RASopathy biorepository, lists SYNGAP1
+NCT05818553  # EMBOLD, SCN2A + SCN8A (consistency-check hold-out)
+
+# --- Per-line assets and earlier studies ---
+NCT07019922  # SCN2A gain line trial
+NCT05737784  # SCN2A gain line trial
+NCT04873869  # SCN8A trial, terminated
+NCT05226780  # SCN8A trial, terminated
+NCT04537832  # Dravet: ENVISION natural history, terminated
+NCT06504511  # Dravet: SCN1A Horizons natural history
+NCT06625112  # STXBP1 natural history
+NCT04937062  # STXBP1 trial
+NCT06983158  # STXBP1 trial, terminated
+NCT04486768  # CDKL5 international registry, suspended
+NCT03635073  # CDKL5 trial, terminated
+NCT02738281  # Rett and related disorders natural history, includes CDKL5

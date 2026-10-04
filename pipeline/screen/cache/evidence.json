@@ -1,0 +1,1116 @@
+{
+ "genes": [
+  "SCN1A",
+  "SCN2A",
+  "SCN8A"
+ ],
+ "pairs": {
+  "CHEMBL1068|SCN1A": {
+   "pmids": [
+    "41875007",
+    "41617776",
+    "38358607",
+    "36287100",
+    "35787526"
+   ],
+   "pubmed_count": 14,
+   "studies": []
+  },
+  "CHEMBL1068|SCN2A": {
+   "pmids": [
+    "41875007",
+    "41617776",
+    "40236662",
+    "38358607",
+    "37152433"
+   ],
+   "pubmed_count": 16,
+   "studies": []
+  },
+  "CHEMBL1068|SCN8A": {
+   "pmids": [
+    "42179731",
+    "41420531",
+    "36287100",
+    "35787526",
+    "35325842"
+   ],
+   "pubmed_count": 10,
+   "studies": []
+  },
+  "CHEMBL1075|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1075|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1075|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1077896|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1077896|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1077896|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1086|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1086|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1086|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1087|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1087|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1087|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL108|SCN1A": {
+   "pmids": [
+    "42258029",
+    "42198385",
+    "42194586",
+    "42040244",
+    "42017391"
+   ],
+   "pubmed_count": 62,
+   "studies": []
+  },
+  "CHEMBL108|SCN2A": {
+   "pmids": [
+    "42017391",
+    "41875007",
+    "40808385",
+    "40540154",
+    "36571905"
+   ],
+   "pubmed_count": 23,
+   "studies": []
+  },
+  "CHEMBL108|SCN8A": {
+   "pmids": [
+    "42357809",
+    "40808385",
+    "40743388",
+    "39975394",
+    "38846250"
+   ],
+   "pubmed_count": 15,
+   "studies": []
+  },
+  "CHEMBL1093|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1093|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1093|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1095|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1095|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1095|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1098|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1098|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1098|SCN8A": {
+   "pmids": [
+    "34771603"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL1179047|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1179047|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1179047|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1194|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1194|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1194|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1195|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1195|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1195|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1196|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1196|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1196|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1197|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1197|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1197|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1200|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1200|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1200|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201193|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201193|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201193|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201217|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201217|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201217|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201242|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201242|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201242|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201336|SCN1A": {
+   "pmids": [
+    "23667778"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL1201336|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201336|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201754|SCN1A": {
+   "pmids": [
+    "20301494",
+    "31575436",
+    "21620771"
+   ],
+   "pubmed_count": 3,
+   "studies": []
+  },
+  "CHEMBL1201754|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1201754|SCN8A": {
+   "pmids": [
+    "31575436",
+    "28346953"
+   ],
+   "pubmed_count": 2,
+   "studies": []
+  },
+  "CHEMBL1242|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1242|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1242|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1294|SCN1A": {
+   "pmids": [
+    "40808385",
+    "39985505",
+    "37901435",
+    "29455050"
+   ],
+   "pubmed_count": 4,
+   "studies": []
+  },
+  "CHEMBL1294|SCN2A": {
+   "pmids": [
+    "42485940",
+    "40808385",
+    "29455050"
+   ],
+   "pubmed_count": 3,
+   "studies": []
+  },
+  "CHEMBL1294|SCN8A": {
+   "pmids": [
+    "40808385",
+    "37901435",
+    "29455050"
+   ],
+   "pubmed_count": 3,
+   "studies": []
+  },
+  "CHEMBL1404|SCN1A": {
+   "pmids": [
+    "20735403"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL1404|SCN2A": {
+   "pmids": [
+    "24862204"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL1404|SCN8A": {
+   "pmids": [
+    "26121051"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL16|SCN1A": {
+   "pmids": [
+    "41875007",
+    "40808385",
+    "39119390",
+    "35733834",
+    "35696452"
+   ],
+   "pubmed_count": 30,
+   "studies": []
+  },
+  "CHEMBL16|SCN2A": {
+   "pmids": [
+    "42774767",
+    "41875007",
+    "40808385",
+    "40198980",
+    "38544375"
+   ],
+   "pubmed_count": 21,
+   "studies": []
+  },
+  "CHEMBL16|SCN8A": {
+   "pmids": [
+    "42800573",
+    "40808385",
+    "38846250",
+    "35902765",
+    "35325842"
+   ],
+   "pubmed_count": 17,
+   "studies": []
+  },
+  "CHEMBL1762|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1762|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL1762|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL184412|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL184412|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL184412|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL2111112|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL2111112|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL2111112|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL220492|SCN1A": {
+   "pmids": [
+    "42498321",
+    "42261045",
+    "40949139",
+    "39174245",
+    "38580379"
+   ],
+   "pubmed_count": 28,
+   "studies": []
+  },
+  "CHEMBL220492|SCN2A": {
+   "pmids": [
+    "42774767",
+    "40462216",
+    "37628333",
+    "36571905",
+    "34556045"
+   ],
+   "pubmed_count": 7,
+   "studies": []
+  },
+  "CHEMBL220492|SCN8A": {
+   "pmids": [
+    "38846250",
+    "36571905",
+    "35902765",
+    "29588963",
+    "28346953"
+   ],
+   "pubmed_count": 5,
+   "studies": []
+  },
+  "CHEMBL24072|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL24072|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL24072|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL315838|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL315838|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL315838|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL315985|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL315985|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL315985|SCN8A": {
+   "pmids": [
+    "36321697"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL370805|SCN1A": {
+   "pmids": [
+    "39940809",
+    "23494229"
+   ],
+   "pubmed_count": 2,
+   "studies": []
+  },
+  "CHEMBL370805|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL370805|SCN8A": {
+   "pmids": [
+    "39940809"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL3989949|SCN1A": {
+   "pmids": [
+    "42358368",
+    "40292823",
+    "36176237"
+   ],
+   "pubmed_count": 3,
+   "studies": []
+  },
+  "CHEMBL3989949|SCN2A": {
+   "pmids": [
+    "42651828"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL3989949|SCN8A": {
+   "pmids": [
+    "42651828",
+    "41106086",
+    "39812613"
+   ],
+   "pubmed_count": 3,
+   "studies": []
+  },
+  "CHEMBL492|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL492|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL492|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL517|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL517|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL517|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL558|SCN1A": {
+   "pmids": [
+    "23182886"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL558|SCN2A": {
+   "pmids": [
+    "27867041"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL558|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL569|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL569|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL569|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL58323|SCN1A": {
+   "pmids": [
+    "37467773",
+    "35696452",
+    "34556045",
+    "29466837"
+   ],
+   "pubmed_count": 4,
+   "studies": []
+  },
+  "CHEMBL58323|SCN2A": {
+   "pmids": [
+    "42316283",
+    "34556045",
+    "30361185",
+    "29466837"
+   ],
+   "pubmed_count": 4,
+   "studies": []
+  },
+  "CHEMBL58323|SCN8A": {
+   "pmids": [
+    "35234610",
+    "29466837"
+   ],
+   "pubmed_count": 2,
+   "studies": []
+  },
+  "CHEMBL631|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL631|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL631|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL640|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL640|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL640|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL652|SCN1A": {
+   "pmids": [
+    "40808385"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL652|SCN2A": {
+   "pmids": [
+    "40808385"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL652|SCN8A": {
+   "pmids": [
+    "40808385"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL698|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL698|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL698|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL741|SCN1A": {
+   "pmids": [
+    "42744406",
+    "41137852",
+    "40949139",
+    "40808385",
+    "39864869"
+   ],
+   "pubmed_count": 30,
+   "studies": []
+  },
+  "CHEMBL741|SCN2A": {
+   "pmids": [
+    "42774767",
+    "40808385",
+    "36709037",
+    "36571905",
+    "34612084"
+   ],
+   "pubmed_count": 8,
+   "studies": []
+  },
+  "CHEMBL741|SCN8A": {
+   "pmids": [
+    "42179731",
+    "40808385",
+    "38845412",
+    "38802994",
+    "36571905"
+   ],
+   "pubmed_count": 8,
+   "studies": [
+    {
+     "last_update": "2024-04-11",
+     "nct": "NCT05450822",
+     "start_date": "2022-02-18",
+     "status": "RECRUITING",
+     "why_stopped": null,
+     "why_stopped_withheld": false
+    }
+   ]
+  },
+  "CHEMBL744|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL744|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL744|SCN8A": {
+   "pmids": [
+    "32968789",
+    "28193882"
+   ],
+   "pubmed_count": 2,
+   "studies": []
+  },
+  "CHEMBL750|SCN1A": {
+   "pmids": [
+    "38167335",
+    "35733834",
+    "34556045",
+    "32079034",
+    "26183863"
+   ],
+   "pubmed_count": 6,
+   "studies": []
+  },
+  "CHEMBL750|SCN2A": {
+   "pmids": [
+    "35733834",
+    "34556045"
+   ],
+   "pubmed_count": 2,
+   "studies": []
+  },
+  "CHEMBL750|SCN8A": {
+   "pmids": [
+    "29588963"
+   ],
+   "pubmed_count": 1,
+   "studies": []
+  },
+  "CHEMBL79|SCN1A": {
+   "pmids": [
+    "40808385",
+    "23182886",
+    "21833183"
+   ],
+   "pubmed_count": 3,
+   "studies": []
+  },
+  "CHEMBL79|SCN2A": {
+   "pmids": [
+    "40808385",
+    "27867041",
+    "21833183"
+   ],
+   "pubmed_count": 3,
+   "studies": []
+  },
+  "CHEMBL79|SCN8A": {
+   "pmids": [
+    "40808385",
+    "34771603"
+   ],
+   "pubmed_count": 2,
+   "studies": []
+  },
+  "CHEMBL856|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL856|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL856|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL861|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL861|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL861|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL87992|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL87992|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL87992|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL900|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL900|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL900|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL918|SCN1A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL918|SCN2A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  },
+  "CHEMBL918|SCN8A": {
+   "pmids": [],
+   "pubmed_count": 0,
+   "studies": []
+  }
+ },
+ "pmids_per_pair": 5,
+ "pubmed_query_form": "\"DRUG NAME\"[tiab] AND \"GENE\"[tiab]",
+ "retrieved": "2026-10-04",
+ "sources": [
+  "PubMed (NLM) E-utilities",
+  "ClinicalTrials.gov API v2"
+ ],
+ "titles": {
+  "10344632": "Assessment of the adrenergic effects of orphenadrine in rat vas deferens.",
+  "10768292": "An overview of the preclinical aspects of topiramate: pharmacology, pharmacokinetics, and mechanism of action.",
+  "11684990": "Local anesthetic properties of prenylamine.",
+  "12130695": "Prenylamine block of Nav1.5 channel is mediated via a receptor distinct from that of local anesthetics.",
+  "12761351": "Point mutations at L1280 in Nav1.4 channel D3-S6 modulate binding affinity and stereoselectivity of bupivacaine enantiomers.",
+  "12952496": "Safety, tolerability and pharmacokinetic profile of BIA 2-093, a novel putative antiepileptic agent, during first administration to humans.",
+  "13620024": "Hexylcaine (cyclaine) as topical anesthetic in gastroscopy and esophagoscopy.",
+  "14563715": "Site of origin and molecular substrate of atrioventricular junctional rhythm in the rabbit heart.",
+  "14975698": "Heterologous expression and functional analysis of rat Nav1.8 (SNS) voltage-gated sodium channels in the dorsal root ganglion neuroblastoma cell line ND7-23.",
+  "15208697": "The neurobiology of antiepileptic drugs.",
+  "15272045": "State-dependent trapping of flecainide in the cardiac sodium channel.",
+  "15511691": "Zonisamide: chemistry, mechanism of action, and pharmacokinetics.",
+  "15635807": "Interactions of local anesthetics with voltage-gated Na+ channels.",
+  "17371199": "Vernakalant (RSD1235): a novel, atrial-selective antifibrillatory agent.",
+  "17940193": "The investigational anticonvulsant lacosamide selectively enhances slow inactivation of voltage-gated sodium channels.",
+  "18407836": "The effect of propoxycaine.HCl on the physical properties of neuronal membranes.",
+  "18462746": "Late sodium current inhibition as a new cardioprotective approach.",
+  "1900101": "Mortality and morbidity in patients receiving encainide, flecainide, or placebo. The Cardiac Arrhythmia Suppression Trial.",
+  "19088384": "Local anesthetics disrupt energetic coupling between the voltage-sensing segments of a sodium channel.",
+  "19217209": "Involvement of voltage-gated sodium channels blockade in the analgesic effects of orphenadrine.",
+  "19394343": "Distribution of the pacemaker HCN4 channel mRNA and protein in the rabbit sinoatrial node.",
+  "19878664": "Contractile actions of L-type Ca2+ agonists in human vas deferens and effects of structurally different Ca2+ antagonists.",
+  "20301494": "SCN1A Seizure Disorders.",
+  "20585544": "Fast- or slow-inactivated state preference of Na+ channel inhibitors: a simulation and experimental study.",
+  "20716669": "Glutamate receptor ion channels: structure, regulation, and function.",
+  "20735403": "Ranolazine selectively blocks persistent current evoked by epilepsy-associated Naν1.1 mutations.",
+  "20976818": "Effects of phenazopyridine on rat bladder primary afferent activity, and comparison with lidocaine and acetaminophen.",
+  "2106401": "Comparative hemodynamic effects of procainamide, tocainide, and encainide in severe chronic heart failure.",
+  "21279331": "Effect of dronedarone on Na+, Ca2+ and HCN channels.",
+  "21620771": "Low long-term efficacy and tolerability of add-on rufinamide in patients with Dravet syndrome.",
+  "2167458": "Procaine isothiocyanate: an irreversible inhibitor of the specific binding of [3H]batrachotoxinin-A benzoate to sodium channels.",
+  "21833183": "Propranolol blocks cardiac and neuronal voltage-gated sodium channels.",
+  "2225716": "Effect of indecainide in patients with left ventricular dysfunction.",
+  "23142844": "Anesthetics interacting with lipid rafts.",
+  "23182886": "Oral mexiletine for lidocaine-responsive neonatal epilepsy.",
+  "23205958": "How did phenobarbital's chemical structure affect the development of subsequent antiepileptic drugs (AEDs)?",
+  "23239147": "Comparative study of lacosamide and classical sodium channel blocking antiepileptic drugs on sodium channel slow inactivation.",
+  "23254968": "Effectiveness of topical anesthetics on reducing tactile sensitivity in the paws of newborn rats.",
+  "23494229": "Effects of an epilepsy-causing mutation in the SCN1A sodium channel gene on cocaine-induced seizure susceptibility in mice.",
+  "23637539": "Safety and efficacy of vernakalant for acute cardioversion of atrial fibrillation: an update.",
+  "23647933": "Dronedarone's inhibition of If current is the primary mechanism responsible for its bradycardic effect.",
+  "23667778": "Therapeutic hypothermia for refractory status epilepticus in a child with malignant migrating partial seizures of infancy and SCN1A mutation: a case report.",
+  "23933296": "Inhibition of I(f) in the atrioventricular node as a mechanism for dronedarone's reduction in ventricular rate during atrial fibrillation.",
+  "24225327": "Eslicarbazepine acetate: an update on efficacy and safety in epilepsy.",
+  "24862204": "Antiepileptic activity of preferential inhibitors of persistent sodium current.",
+  "25182566": "Class III antiarrhythmic drug dronedarone inhibits cardiac inwardly rectifying Kir2.1 channels through binding at residue E224.",
+  "2518680": "Encainide.",
+  "25205296": "Structural basis of drugs that increase cardiac inward rectifier Kir2.1 currents.",
+  "26121051": "Late Sodium Current in Human Atrial Cardiomyocytes from Patients in Sinus Rhythm and Atrial Fibrillation.",
+  "26183863": "Efficacy of antiepileptic drugs for the treatment of Dravet syndrome with different genotypes.",
+  "2688391": "Recent antiarrhythmic drugs.",
+  "27022281": "Integrating subpathway analysis to identify candidate agents for hepatocellular carcinoma.",
+  "27867041": "Infantile Epileptic Encephalopathy Associated With SCN2A Mutation Responsive to Oral Mexiletine.",
+  "28193882": "Neuronal hyperexcitability in a mouse model of SCN8A epileptic encephalopathy.",
+  "28265756": "Sodium channel biophysics, late sodium current and genetic arrhythmic syndromes.",
+  "28346953": "Lennox-Gastaut Syndrome: A State of the Art Review.",
+  "2871724": "Anticonvulsant drugs: mechanisms of action.",
+  "29455050": "Targeted gene panel and genotype-phenotype correlation in children with developmental and epileptic encephalopathy.",
+  "29466837": "Mutations in SCN3A cause early infantile epileptic encephalopathy.",
+  "29588963": "Phenytoin as a last-resort treatment in SCN8A encephalopathy.",
+  "30361185": "Lacosamide for SCN2A-related intractable neonatal and infantile seizures.",
+  "31063770": "Effects of cenobamate (YKP3089), a newly developed anti-epileptic drug, on voltage-gated sodium channels in rat hippocampal CA3 neurons.",
+  "31320795": "Vernakalant in Atrial Fibrillation: A Relatively New Weapon in the Armamentarium Against an Old Enemy.",
+  "31575436": "Rufinamide efficacy and association with phenotype and genotype in children with intractable epilepsy: A retrospective single center study.",
+  "32079034": "Changing Landscape of Dravet Syndrome Management: An Overview.",
+  "32968789": "Variant-specific changes in persistent or resurgent sodium current in SCN8A-related epilepsy patient-derived neurons.",
+  "34556045": "Response to Sodium Channel blocking Antiseizure medications and coding polymorphisms of Sodium Channel genes in Taiwanese epilepsy patients.",
+  "34612084": "Relevance of NR1I2 variants on carbamazepine therapy in Mexican Mestizos with epilepsy at a tertiary-care hospital.",
+  "34771603": "Voltage-Gated Sodium Channels as Potential Biomarkers and Therapeutic Targets for Epithelial Ovarian Cancer.",
+  "35234610": "NBI-921352, a first-in-class, Na(V)1.6 selective, sodium channel inhibitor that prevents seizures in Scn8a gain-of-function mice, and wild-type mice and rats.",
+  "35325842": "Clinical characteristics and treatment experience of individuals with SCN8A developmental and epileptic encephalopathy (SCN8A-DEE): Findings from an online caregiver survey.",
+  "35696452": "The gain of function SCN1A disorder spectrum: novel epilepsy phenotypes and therapeutic implications.",
+  "35733834": "Long-term course of early onset developmental and epileptic encephalopathy associated with 2q24.3 microduplication.",
+  "35787526": "Population pharmacokinetics of oxcarbazepine 10-monohydroxy derivative in Chinese adult epileptic patients.",
+  "35902765": "SCN8A epileptic encephalopathy mutations display a gain-of-function phenotype and divergent sensitivity to antiepileptic drugs.",
+  "36176237": "Successful treatment of adult Dravet syndrome patients with cenobamate.",
+  "36287100": "SCN1A gain-of-function mutation causing an early onset epileptic encephalopathy.",
+  "36321697": "In vitro effects of eslicarbazepine (S-licarbazepine) as a potential precision therapy on SCN8A variants causing neuropsychiatric disorders.",
+  "36571905": "Bioinformatics and network pharmacology analysis of drug targets and mechanisms related to the comorbidity of epilepsy and migraine.",
+  "36709037": "miR-9a-5p expression is decreased in the hippocampus of rats resistant to lamotrigine: A behavioural, molecular and bioinformatics assessment.",
+  "37152433": "Functional analysis of a novel de novo SCN2A variant in a patient with seizures refractory to oxcarbazepine.",
+  "37467773": "Use of Sodium Channel Blockers in the Thr226Met Pathologic Variant of SCN1A: A Case Report.",
+  "37628333": "Genotype-Phenotype Analysis of Children with Epilepsy Referred for Whole-Exome Sequencing at a Tertiary Care University Hospital.",
+  "37901435": "Reduction of Kcnt1 is therapeutic in mouse models of SCN1A and SCN8A epilepsy.",
+  "38167335": "Switching from zonisamide to perampanel improved the frequency of seizures caused by hyperthermia in Dravet syndrome: a case report.",
+  "38358607": "Application of Northern Goshawk Back-Propagation Artificial Neural Network in the Prediction of Monohydroxycarbazepine Concentration in Patients with Epilepsy.",
+  "38544375": "Variant-specific in vitro neuronal network phenotypes and drug sensitivity in SCN2A developmental and epileptic encephalopathy.",
+  "38580379": "Familial hemiplegic migraine in Indian children-a tertiary center experience.",
+  "38802994": "Global modified Delphi consensus on diagnosis, phenotypes, and treatment of SCN8A-related epilepsy and/or neurodevelopmental disorders.",
+  "38845412": "SCN8A self-limited infantile epilepsy: Does epilepsy resolve?",
+  "38846250": "Beyond the Norm: A Report of a Rare Case of Sodium Channel 8 Alpha (SCN8A) Gene-Related Epilepsy Unveiled in a Nine-Year-Old Child.",
+  "39119390": "Deciphering the Complexities of Sodium Voltage-Gated Channel Alpha Subunit 1 (SCN1A) Mutation: A Case of Intractable Epilepsy in a Five-and-a-Half-Month-Old Male.",
+  "39174245": "Familial hemiplegic migraine.",
+  "39812613": "Cenobamate as add-on treatment for SCN8A developmental and epileptic encephalopathy.",
+  "39864869": "[An adult case of Dravet syndrome in which seizures worsened after discontinuation of lamotrigine and administration of stiripentol].",
+  "39940809": "Impaired Molecular Mechanisms Contributing to Chronic Pain in Patients with Hidradenitis Suppurativa: Exploring Potential Biomarkers and Therapeutic Targets.",
+  "39975394": "Actions of the Anti-Seizure Drug Carbamazepine in the Thalamic Reticular Nucleus: Potential Mechanism of Aggravating Absence Seizures.",
+  "39985505": "The epilepsy-autism phenotype associated with developmental and epileptic encephalopathies: New mechanism-based therapeutic options.",
+  "40198980": "Precision medicine approach for in vitro modeling and computational screening of anti-epileptic drugs in pediatric epilepsy patients with SCN2A (R1629L) mutation.",
+  "40236662": "Oxcarbazepine may be an effective option for Chinese pediatric patients with self-limited focal epilepsy of neonatal/infantile onset: a retrospective cohort study.",
+  "40292823": "Lack of effectiveness and seizure worsening with cenobamate in pediatric patients with Dravet syndrome.",
+  "40462216": "SCN2A gene mutations with epilepsy: single center experience.",
+  "40540154": "Human Cortical Organoids with a Novel SCN2A Variant Exhibit Hyperexcitability and Differential Responses to Anti-Seizure Compounds.",
+  "40743388": "Actions of the antiseizure drug carbamazepine in the thalamic reticular nucleus: Potential mechanism of aggravating absence seizures.",
+  "40808385": "Voltage-gated sodium channels in the nervous system: Molecular physiology to therapeutic interventions.",
+  "40949139": "Epilepsy and migraine: a diagnostic and therapeutic challenge.",
+  "41106086": "Cenobamate in pediatric epilepsy and developmental and epileptic encephalopathies: Efficacy, safety, and syndrome-specific considerations.",
+  "41137852": "Clinical and genetic landscape of epilepsies with absence seizures and single-gene etiology.",
+  "41420531": "Longitudinal analyses of electronic medical records reveal dynamic developmental trajectories for patients with SCN8A-related disorders.",
+  "41617776": "Genotypic spectrum in 1215 patients with Dravet syndrome or Dravet syndrome-like phenotype.",
+  "41875007": "Pharmacogenomics of anti-seizure medications in epilepsy: a systematic review of genetic predictors of response and tolerance.",
+  "42017391": "Self-limited neonatal epilepsy with 2q24.3 duplications: Case series and literature review.",
+  "42040244": "Elicited Repetitive Daily Blindness Associated With Gain-of-Function SCN1A Variants and Responsiveness to Sodium Channel Blockers.",
+  "42179731": "Implication of genetic-dependent stage in the development of SCN8A-associated epilepsy: a case report.",
+  "42194586": "Early-Onset and Syndromic Pediatric Epilepsy in Kazakhstan: Clinical, Molecular, and Phenotypic Spectrum.",
+  "42198385": "Genetic Polymorphisms in SCN1A Gene (rs6432860) and Pharmacoresistance to Antiepileptic Drugs Among Jordanian Patients with Epilepsy.",
+  "42258029": "The role of SCN1A mutations in temporal lobe epilepsy: Genetic insights and clinical implications.",
+  "42261045": "Dravet syndrome: diverse seizure phenotypes with various triggers and developmental outcome- A case series from a LMIC.",
+  "42316283": "Therapeutic drug monitoring of lacosamide as add-on treatment in a neonate with therapy-resistant epilepsy due to SCN2A mutation: a case report.",
+  "42357809": "The Bright Side of the Spectrum: Self-Limited Infantile Epilepsy-Related SCN8A Gof Variant.",
+  "42358368": "Cenobamate in pediatric Dravet syndrome: two responder cases highlighting the limits of simple \"sodium-channel blocker\" labeling.",
+  "42485940": "Epilepsy of infancy with migrating focal seizures: A scoping review of clinical features, diagnostic testing including genetics, long-term outcomes, mortality, and current and emerging therapeutic strategies.",
+  "42498321": "Fenfluramine in refractory SCN1A-related 'genetic epilepsy with febrile seizures plus'.",
+  "42651828": "Antiseizure Medications in Development: Novel Mechanisms, Precision Therapy, and the Move Towards Disease Modification.",
+  "42744406": "Clobazam and Valproate, but Lamotrigine, a Sodium Channel Inhibitor, Reduce the Incidence of Hyperthermia-Induced Clonic Seizures in Dravet Syndrome Mice: Assessment of Anti-Seizure Effects in Mice Using a Stabilized Ambient Temperature System.",
+  "42774767": "Functional and pharmacological characterization of the SCN2A variant p.C258R with mixed gain and loss of function causing developmental and epileptic encephalopathy type 11.",
+  "42800573": "Differential effects of sodium channel blockers on SCN8A gain-of-function variants associated with drug-responsive or -resistant epilepsy.",
+  "6206322": "Myocardial uptake of encainide and its two major metabolites, O-demethyl encainide and 3-methoxy-O-demethyl encainide, in the dog.",
+  "6247638": "Calcium-regulated modulator protein interacting agents inhibit smooth muscle calcium-stimulated protein kinase and ATPase.",
+  "6319406": "The sodium channel from rat brain. Reconstitution of neurotoxin-activated ion flux and scorpion toxin binding from purified components.",
+  "6780234": "Antiarrhythmic efficacy of encainide in patients with refractory recurrent ventricular tachycardia.",
+  "8391120": "Specific binding of the novel Na+ channel blocker PD85,639 to the alpha subunit of rat brain Na+ channels.",
+  "8581044": "[The effect of inhibitors of sodium permeability (novocaine and tetrodotoxin) on the trace depolarization of myelinated nerve fibers].",
+  "8788072": "Orphenadrine is an uncompetitive N-methyl-D-aspartate (NMDA) receptor antagonist: binding and patch clamp studies.",
+  "8798723": "Structural effects of neutral and anionic lipids on the nicotinic acetylcholine receptor. An infrared difference spectroscopy study.",
+  "8799190": "Common molecular determinants of local anesthetic, antiarrhythmic, and anticonvulsant block of voltage-gated Na+ channels.",
+  "9262334": "Differential action of riluzole on tetrodotoxin-sensitive and tetrodotoxin-resistant sodium channels.",
+  "9742684": "Carboxyl groups at the membrane interface as molecular targets for local anesthetics.",
+  "9768788": "Fundamental properties of local anesthetics: half-maximal blocking concentrations for tonic block of Na+ and K+ channels in peripheral nerve."
+ }
+}

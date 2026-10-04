@@ -1,0 +1,38 @@
+# Written by make caches from data/raw/manifest.json: what was downloaded and when.
+sources:
+- key: pubmed
+  name: PubMed (NLM)
+  release: efetch
+  retrieved: '2026-10-04'
+  url: https://pubmed.ncbi.nlm.nih.gov/
+  licence: NLM terms; abstracts not redistributed
+- key: ctgov
+  name: ClinicalTrials.gov (NLM)
+  release: api v2
+  retrieved: '2026-10-04'
+  url: https://clinicaltrials.gov/
+  licence: public domain, no endorsement implied
+- key: hpo
+  name: Human Phenotype Ontology
+  release: v2026-09-01 (hpoa 2026-09-02)
+  retrieved: '2026-10-04'
+  url: https://hpo.jax.org/
+  licence: HPO licence (attribution)
+- key: orphadata
+  name: Orphadata (Orphanet)
+  release: 1.3.42 / 4.1.8 [2025-03-03], data dated 2026-06-23
+  retrieved: '2026-10-04'
+  url: https://www.orpha.net/
+  licence: CC BY 4.0
+- key: g2p
+  name: Gene2Phenotype (EMBL-EBI)
+  release: api, undated
+  retrieved: '2026-10-04'
+  url: https://www.ebi.ac.uk/gene2phenotype/
+  licence: CC0 / EMBL-EBI terms
+esearch_term: SCN2A[Title/Abstract] AND ("gain of function"[Title/Abstract] OR "loss
+  of function"[Title/Abstract] OR gain-of-function[Title/Abstract] OR loss-of-function[Title/Abstract])
+  AND (patch-clamp[Title/Abstract] OR electrophysiolog*[Title/Abstract] OR "whole-cell"[Title/Abstract]
+  OR HEK[Title/Abstract] OR oocytes[Title/Abstract] OR biophysical[Title/Abstract]
+  OR "functional characterization"[Title/Abstract] OR "functional analysis"[Title/Abstract])
+  AND hasabstract[text] NOT review[Publication Type]
