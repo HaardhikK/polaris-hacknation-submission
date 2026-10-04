@@ -7,7 +7,7 @@ Hack-Nation 7, Challenge 05 (OpenAI × Buffalo Initiative), Dresden hub, 3 to 4 
 
 | | |
 |---|---|
-| Live site | https://hacknation-ivory.vercel.app/ |
+| Live site | https://polaris-hacknation.vercel.app/ |
 | Demo video (1 minute) | _link added at submission_ |
 | Technical video (how the dataset was made) | _link added at submission_ |
 | Team video | _link added at submission_ |
